@@ -1,124 +1,203 @@
 # pstack-codex
 
-Original pstack with the pinned pstack-claude updates, written directly for Codex
-and local worktrees. The native package preserves upstream workflow scope,
-stages, roles, panels, review requirements, and verification procedures. Version 0.4.0 adds the explicitly approved combined
-PR review workflow described below.
+**Understand the code. Make a plan. Build it. Prove it works.**
 
-The package is `src/pstack-codex`: **55 top-level skills, all 23 playbooks, and
-3 nested Benny skills**. Hstack is not an input. Version 0.4.0 is the first public source release.
-Installed behavior and live forge publication by the skills have not yet been validated.
+pstack-codex gives Codex a set of engineering workflows for taking a task from an
+idea to a change you can review. Start with **poteto-mode**: it chooses the right
+playbook and brings in the other skills as needed.
 
-## Sources
+This is a Codex adaptation of [Lauren Tan's pstack](https://github.com/cursor/plugins/tree/ecc249f1e306fc64ddf83c7bed16cacf7c2239db/pstack),
+with the pinned [pstack-claude updates](https://github.com/michael-denyer/pstack-claude/tree/c02fd4922b25ee005f42042463d741d236c2c35e/plugins/pstack).
+It keeps their engineering workflows and review requirements, adapts them to
+Codex and local worktrees, and adds a combined visual PR workflow.
 
-| Source | Pinned revision | Composition |
-| --- | --- | --- |
-| [Original pstack](https://github.com/cursor/plugins/tree/ecc249f1e306fc64ddf83c7bed16cacf7c2239db/pstack) | `ecc249f1e306fc64ddf83c7bed16cacf7c2239db` | Complete pstack subtree |
-| [pstack-claude](https://github.com/michael-denyer/pstack-claude/tree/c02fd4922b25ee005f42042463d741d236c2c35e/plugins/pstack) | `c02fd4922b25ee005f42042463d741d236c2c35e` | Overlay shared paths; preserve original-only files |
-| [HumanLayer skills](https://github.com/humanlayer/skills/tree/ca7c8088db69e315a8b2deea43820270457f8f3c) | `ca7c8088db69e315a8b2deea43820270457f8f3c` | Approved show-me/visual-pr composition and MIT license only |
+[Set it up](#set-it-up) · [Try it](#start-with-poteto-mode) · [Visual PRs](#prs-you-can-follow) · [Full guide](src/pstack-codex/docs/guide/README.md)
 
-The Claude port's upstream pin matches original pstack's subtree revision
-`12d587d`. The 254-file package contains 109 byte-identical imported files,
-134 declared native/approved edits, and 11 generated Codex files. The source
-hashes stay pinned; fidelity validation reverses each declared edit to prove the
-original content remains accounted for.
+## What you get
 
-## Combined PR review workflow
+- **A starting point for the whole task.** Poteto-mode routes investigation, design, implementation, review and delivery through the relevant playbooks.
+- **Parallel work with clear ownership.** Concurrent coding agents work in separate local worktrees. Design and review workflows retain their independent perspectives.
+- **Evidence you can inspect.** Decisions, checks, outcomes and gaps stay visible, including during long or unattended work.
+- **PRs you can follow.** A short explanation, useful diagrams or code outlines, a reading order and a linked evidence trail.
 
-[`make-pr-easy-to-review`](src/pstack-codex/skills/make-pr-easy-to-review/SKILL.md)
-is the single entry point for a short PR briefing, a compact visual change
-outline and reading order, and a linked appendix with decisions, tested revisions,
-evidence and review flags. It starts the canonical trail when PR work starts;
-existing PRs disclose missing history. Early PRs mark unfinished proof pending
-and refresh the same appendix before handoff.
+The package contains **55 top-level skills, 23 playbooks and 3 nested Benny skills**.
+You can use poteto-mode for the overall workflow or choose a specific skill.
 
-This is the extension approved in decision 12, adapting HumanLayer
-[show-me and visual-pr](https://github.com/humanlayer/skills/tree/ca7c8088db69e315a8b2deea43820270457f8f3c)
-with pstack show-me-your-work. Their plugins need not be installed. The standalone
-trail skill, code-review requirements, forge choice, history-rewrite consent,
-readiness and merge rules remain. See the [source notice](src/pstack-codex/skills/make-pr-easy-to-review/references/source-notice.md)
-and bundled [HumanLayer MIT license](src/pstack-codex/THIRD_PARTY_LICENSES/HumanLayer.txt).
+## Set it up
 
-## Native Codex behavior
+Paste this into a Codex chat with access to your local files and terminal:
 
-Skills now state Codex instructions directly. Small references cover delegation,
-local worktrees, scheduled wakeups, and transcript evidence only where needed.
-There is no required general platform-mapping read before executing a skill.
+```text
+Install https://github.com/huankoh/pstack-codex as a Codex plugin on this machine.
+Use a Git checkout of tag v0.4.0. Read its README and use the built-in
+plugin-creator skill if available, checking the installation commands supported
+by my Codex host.
 
-The approved audit corrections restore original Autopilot-full owner merges under
-the full-autonomy grant and a clean root verdict, retaining stronger shipping
-checks and operator-reserved/review-gated items. Native authoring, delegate reuse,
-optional prompt entry points, scheduler shutdown and plan merge authority are
-corrected. See [AUDIT-CORRECTIONS.md](AUDIT-CORRECTIONS.md).
+The plugin is at src/pstack-codex inside the repository. Its manifest is
+src/pstack-codex/.codex-plugin/plugin.json. Install the whole plugin, including
+its skills, references, helpers and hooks; do not install the skills separately.
 
-The existing 17-role Markdown model sheet remains. Sol handles ordinary work and
-conclusions, Astra handles strongest roles, and the existing explicit panels use
-Astra/Sol/Luna. Existing How explorers and per-feature source readers use Luna at
-`max`; Sol checks decisive evidence. Every Luna assignment requests `max`.
-Unavailable requested models or efforts require a user choice before that step.
-No provider routing layer or project JSON model configuration was added.
+This repository has no marketplace catalog. Register the existing plugin in my
+personal marketplace. For a local copy, use ~/plugins/pstack-codex and an entry
+in ~/.agents/plugins/marketplace.json whose source.path is ./plugins/pstack-codex.
+Preserve the marketplace's actual name and other entries. Inspect any existing
+installation first, preserve local changes, and avoid duplicate registrations.
+Keep the supplied plugin files unchanged; do not scaffold over them.
 
-Concurrent repository writers receive separate physical checkouts and explicit
-absolute paths. Managed worktree tooling is preferred where available. Unused
-managed worktrees may be recoverably archived after needed work is preserved,
-without another confirmation, as explicitly approved. Primary, pinned, shared,
-and in-use worktrees remain protected.
-
-History workflows use scoped Codex transcript evidence. The reader retains raw
-records, tool calls/results, source lines, and evidence gaps. A summary is not
-proof of exact actions. Reflect keeps its existing digest fallback.
-
-The SessionStart hook retains startup/resume/clear/compact routing and the
-`session hook: off` setting. It uses native `PLUGIN_ROOT` and Codex home. Actual
-activation requires a supporting host, installation, and trust.
-
-See [NATIVE-PORT-DECISIONS.md](NATIVE-PORT-DECISIONS.md) for the approvals and
-[ADAPTATIONS.md](ADAPTATIONS.md) for every changed file. The exact reconstruction
-patch is [patches/codex-compatibility.patch](patches/codex-compatibility.patch).
-
-## Download and use
-
-Download [pstack-codex-0.4.0.zip](https://github.com/huankoh/pstack-codex/releases/download/v0.4.0/pstack-codex-0.4.0.zip)
-from the [v0.4.0 release](https://github.com/huankoh/pstack-codex/releases/tag/v0.4.0)
-and extract it, or clone this repository:
-
-```sh
-git clone https://github.com/huankoh/pstack-codex.git
-cd pstack-codex
+Use the supported install flow. If the CLI supports it, install with
+codex plugin add pstack-codex@<actual-marketplace-name> and verify with
+codex plugin list. Otherwise, guide me through the app's Plugins Directory.
+Report what is installed and any remaining manual step. Tell me when to refresh
+or restart the app and start a new chat to confirm the skills are available.
+Do not claim the session hook is active without checking support and trust.
 ```
 
-Ask Codex to read `src/pstack-codex/skills/poteto-mode/SKILL.md` and apply it to
-your task. For the standalone ZIP, the corresponding path is
-`pstack-codex/skills/poteto-mode/SKILL.md`. The plugin manifest lives at
-`src/pstack-codex/.codex-plugin/plugin.json` in this repository.
-A checkout or ZIP extraction does not install the plugin or activate its hook.
+This uses a personal marketplace because the repository currently ships plugin
+source rather than its own marketplace catalog. The installation approach follows
+[OpenAI's plugin setup guidance](https://developers.openai.com/plugins/build/plugins).
+The prompt asks Codex to perform the setup; cloning or downloading alone does not
+install the plugin.
 
-For the combined visual PR workflow, use
-[`make-pr-easy-to-review`](src/pstack-codex/skills/make-pr-easy-to-review/SKILL.md).
-See the [local example PR](outputs/combined-pr-example/pr-body.md) and its evidence appendix.
+Once it is installed, start a **new chat** and paste:
 
-## Use and limits
+```text
+Use pstack-codex's setup-pstack skill to configure it with me.
+Check the models and reasoning levels available for subagents on this host.
+Preserve my existing choices, explain the configuration scope, and ask before
+changing them. Walk me through the session-hook choice and confirm what is
+supported and trusted here. If a requested model is unavailable, let me choose
+its replacement.
+```
 
-For source testing, give Codex the absolute path to a named skill's `SKILL.md`.
-Start with `src/pstack-codex/skills/poteto-mode/SKILL.md` or a specific skill.
-Source execution does not establish installed plugin discovery or hook activation.
-[The package guide](src/pstack-codex/docs/guide/README.md) describes the workflows.
+[Setup-pstack](src/pstack-codex/skills/setup-pstack/SKILL.md) handles model choices,
+reasoning effort and the session-hook setting. The model sheet is shared across
+projects; setup explains where its instructions will load before you confirm.
 
-Desktop, CLI, and cloud are support targets, with actual capabilities checked at
-the affected step. Identical tools, model controls, transcript access, scheduling,
-or worktree features are not assumed. Grok Bot UI and Benny retain their original
-external integration contracts and explicit prerequisites; their native webhook
-and secret-handoff replacements are not approved. Benny remains dormant.
+Prefer to download the files yourself? Get the
+[v0.4.0 ZIP and checksum](https://github.com/huankoh/pstack-codex/releases/tag/v0.4.0).
+The extracted plugin folder is `pstack-codex/`. From a repository clone, it is
+`src/pstack-codex/`.
 
-[VALIDATION.md](VALIDATION.md) separates completed checks from installation,
-managed-worktree, all-host, and live PR/CI/shipping validation gaps.
+## Start with poteto-mode
 
-## Development and reconstruction
+Describe the task and ask for poteto-mode. For example:
 
-Use Python with PyYAML, Bun, Node.js, Git, jq, and rg. Put Bun, Node, and rg on PATH
+```text
+Use pstack-codex's poteto-mode to fix this bug. Reproduce it first, make the
+change, and show me the evidence that it works.
+```
+
+```text
+Use poteto-mode to add this feature. Work in a local worktree, verify the result,
+and open a PR with a visual explanation and evidence trail.
+```
+
+```text
+Use poteto-mode to explain how this subsystem works before we change it.
+```
+
+Poteto-mode brings in the relevant skills as the work progresses. You can also
+ask for one directly:
+
+| When you want to… | Ask for… |
+| --- | --- |
+| Understand how the code works | [how](src/pstack-codex/skills/how/SKILL.md) |
+| Investigate why it was built that way | [why](src/pstack-codex/skills/why/SKILL.md) |
+| Explore a design before implementing it | [architect](src/pstack-codex/skills/architect/SKILL.md) |
+| Compare multiple implementation attempts | [arena](src/pstack-codex/skills/arena/SKILL.md) |
+| Have independent models challenge a change | [interrogate](src/pstack-codex/skills/interrogate/SKILL.md) |
+| Prepare a PR with visual context and evidence | [make-pr-easy-to-review](src/pstack-codex/skills/make-pr-easy-to-review/SKILL.md) |
+| Keep a decision trail for longer work | [show-me-your-work](src/pstack-codex/skills/show-me-your-work/SKILL.md) |
+| Get a plain explanation of the last response | [bro](src/pstack-codex/skills/bro/SKILL.md) |
+
+For PR status or follow-up work, ask **poteto-mode to babysit the PR**. For ordinary
+tasks, opening a PR does not automatically start babysitting or authorize a merge.
+
+## PRs you can follow
+
+The combined **make-pr-easy-to-review** skill brings together HumanLayer's
+**show-me** and **visual-pr** conventions with pstack's **show-me-your-work** trail.
+You do not need to install those other plugins or invoke three separate skills.
+
+When poteto-mode works toward a PR, it starts recording meaningful decisions.
+At PR creation and final handoff, the combined skill prepares:
+
+| In the PR body | In the linked review appendix |
+| --- | --- |
+| Why the change exists and what it touches | Decisions, reasons and outcomes |
+| A compact visual outline and where to start reading | Test results and the revisions they actually tested |
+| Tradeoffs, risks and a short verification result | Evidence links, review flags and missing proof |
+
+The visual can be a **call tree, control-flow sketch, Mermaid diagram, component
+tree, code snippet or before/after diff**. The skill chooses the view that makes
+the change easiest to understand.
+
+Early PRs show unfinished checks as pending. Existing PRs with missing history
+say what could be recovered and what could not. The same appendix is refreshed
+as verification finishes or the relevant code changes.
+
+[See an example PR body](outputs/combined-pr-example/pr-body.md) and its
+[review appendix](outputs/combined-pr-example/review-appendix.md). These are local
+fixture outputs, with real test receipts and explicitly recorded evidence gaps.
+
+## Longer tasks and autonomous work
+
+The existing playbooks still control how far the work goes:
+
+- **Ordinary tasks:** use the relevant playbook, verify the work and prepare the PR. Ask separately for babysitting or shipping when needed.
+- **Autopilot-full:** build and land independent PRs under your full-autonomy grant, after the required independent verification. Items reserved for you and explicit review gates still wait for you.
+- **Autopilot-stack:** build and verify a sequence of PRs, then hand you the stack to review and land.
+
+The visual PR workflow keeps the explanation and evidence current throughout.
+It does not replace code review or change who may merge.
+
+## Models and host support
+
+The defaults use **Sol** for ordinary implementation and conclusions, **Astra**
+for the strongest judgment roles, and **Luna at max effort** for selected context
+retrieval. Existing multi-model panels use all three. Setup preserves user
+overrides and checks actual availability before using a requested model or effort.
+
+Local worktrees isolate concurrent writers. History-based skills use transcripts
+scoped to the relevant work. Scheduled wakeups and the SessionStart hook require
+host support; the hook also requires the host's trust. Grok Bot UI and the nested
+Benny pack retain their separate integration prerequisites. Benny is dormant.
+
+**Current status:** the source package, provenance and local fixtures have been
+validated. Installed plugin discovery, host-specific behavior and live PR
+publication by the combined skill have not yet been validated. See
+[the validation record](VALIDATION.md) for what was checked and what remains.
+
+## Where it comes from
+
+The aim is a faithful Codex port. Upstream procedures, roles, panel sizes, review
+requirements and helper behavior are preserved except for explicitly recorded
+adaptations and approved changes.
+
+| Source | Pinned version | Contribution |
+| --- | --- | --- |
+| [Original pstack](https://github.com/cursor/plugins/tree/ecc249f1e306fc64ddf83c7bed16cacf7c2239db/pstack) | `ecc249f` | The full pstack foundation |
+| [pstack-claude](https://github.com/michael-denyer/pstack-claude/tree/c02fd4922b25ee005f42042463d741d236c2c35e/plugins/pstack) | `c02fd49` | Updates to shared files, retaining original-only material |
+| [HumanLayer skills](https://github.com/humanlayer/skills/tree/ca7c8088db69e315a8b2deea43820270457f8f3c) | `ca7c808` | The approved show-me and visual-pr contribution |
+
+For the exact changes, see [ADAPTATIONS.md](ADAPTATIONS.md),
+[the decision record](NATIVE-PORT-DECISIONS.md), and
+[the combined PR source notice](src/pstack-codex/skills/make-pr-easy-to-review/references/source-notice.md).
+The [source lock](sources.lock.json) and [reconstruction patch](patches/codex-compatibility.patch)
+account for every package file. Hstack is not an input.
+
+<details>
+<summary>For contributors: validation and reconstruction</summary>
+
+The 254-file package contains 109 byte-identical imports, 134 declared
+adaptations and 11 generated files. Validation reverses the declared edits back
+to the pinned source, then checks package contents, permissions and links.
+
+Use Python with PyYAML, Bun, Node.js, Git, jq and rg. Put Bun, Node and rg on PATH
 because helper tests launch subprocesses.
 
 ```sh
+python3 -m pip install -r requirements-dev.txt
 python3 tools/validate.py
 python3 tools/provenance.py
 python3 -m unittest discover -s tests -p 'test_*.py' -v
@@ -131,26 +210,21 @@ python3 tools/build.py --output dist/pstack-codex-0.4.0.zip
 
 For independent reconstruction, place the pinned repositories at
 `work/repo-comparison/cursor-plugins`, `work/repo-comparison/pstack-claude`, and
-`work/repo-comparison/humanlayer-skills-ca7c808`, then:
+`work/repo-comparison/humanlayer-skills-ca7c808`, then run:
 
 ```sh
 python3 tools/restore_baseline.py --output work/reconstructed-native-pstack-codex
 ```
 
-The output must not exist. Reconstruction reads pinned Git objects, verifies their
-hashes, applies the exact patch, and validates the result without overwriting the
-active source or regenerating provenance from edited bytes.
+The destination must not exist. Reconstruction verifies the pinned Git objects,
+applies the recorded patch and validates the result without changing the source.
 
-## Change policy and history
+[AGENTS.md](AGENTS.md) requires a concrete proposal, rationale and approval for
+changes beyond the faithful baseline. Unapproved proposals stay in
+[PROPOSALS.md](PROPOSALS.md). The public history begins with the approved 0.4.0
+snapshot; earlier local experiments are not part of this repository.
 
-[AGENTS.md](AGENTS.md) requires a concrete proposal, rationale, and explicit
-approval for changes beyond faithful Codex compatibility. Remaining proposals are
-in [PROPOSALS.md](PROPOSALS.md). Prompt simplifications are not part of this port.
-
-The public Git history begins with this approved 0.4.0 snapshot. Earlier local
-experiments and research checkouts are not part of the published repository.
-Pinned upstream revisions, exact approval deltas and reconstruction instructions
-preserve the source history without publishing abandoned local work.
+</details>
 
 ## License and attribution
 
