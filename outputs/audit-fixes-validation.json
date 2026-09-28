@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-28",
+  "version": "0.3.1",
+  "package_files": 250,
+  "imported_unchanged": 109,
+  "imported_modified": 132,
+  "generated_files": 9,
+  "approved_delta_files": 44,
+  "artifact": "outputs/pstack-codex-0.3.1.zip",
+  "sha256": "2f672d33ac7221aff02f8758a0b82efb6e5e52d6a5b17c427f3920c917f86271",
+  "fidelity": "passed",
+  "python_tests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "targeted_bun_tests": {
+    "passed": 21,
+    "failed": 0,
+    "assertions": 54
+  },
+  "modified_official_skill_validations": {
+    "passed": 3,
+    "failed": 0
+  },
+  "reconstruction": {
+    "validated": true,
+    "zip_byte_identical": true,
+    "fresh_extraction_validated": true,
+    "delta_reverses_to_030_zip": true
+  },
+  "static_review": {
+    "agent": "restore_autonomy_review",
+    "model": "gpt-6-astra",
+    "findings": []
+  },
+  "independent_forward_exercise": {
+    "agent": "audit_fixes_forward_test",
+    "model": "gpt-6-sol",
+    "method": "Read-only action-selection exercise over 7 merge cases and 9 scheduler cases. Actual service calls were not exercised.",
+    "merge_cases": [
+      {
+        "id": "ordinary",
+        "observed": "PR owner merges under existing authority and clean evidence",
+        "passed": true
+      },
+      {
+        "id": "reserved",
+        "observed": "wait for operator merge",
+        "passed": true
+      },
+      {
+        "id": "interaction",
+        "observed": "wait for operator review gate",
+        "passed": true
+      },
+      {
+        "id": "missing-verdict",
+        "observed": "root verifies; withhold merge",
+        "passed": true
+      },
+      {
+        "id": "stack",
+        "observed": "append verified work; operator lands",
+        "passed": true
+      },
+      {
+        "id": "rebased",
+        "observed": "recheck base applicability, CI and mergeability",
+        "passed": true
+      },
+      {
+        "id": "state-plan",
+        "observed": "state plan and wait for go",
+        "passed": true
+      }
+    ],
+    "scheduling_cases": [
+      {
+        "id": "first-arm",
+        "observed": "create workflow heartbeat",
+        "passed": true
+      },
+      {
+        "id": "rearm",
+        "observed": "update same heartbeat identity",
+        "passed": true
+      },
+      {
+        "id": "ready",
+        "observed": "stop watcher, pause/delete heartbeat and confirm inactive",
+        "passed": true
+      },
+      {
+        "id": "stop",
+        "observed": "stop watcher, pause/delete heartbeat and confirm inactive",
+        "passed": true
+      },
+      {
+        "id": "hold",
+        "observed": "pause heartbeat and work",
+        "passed": true
+      },
+      {
+        "id": "release",
+        "observed": "resume same heartbeat after explicit release",
+        "passed": true
+      },
+      {
+        "id": "dead-end",
+        "observed": "stop watcher, pause/delete heartbeat and confirm inactive",
+        "passed": true
+      },
+      {
+        "id": "plateau",
+        "observed": "continue and pivot; keep heartbeat",
+        "passed": true
+      },
+      {
+        "id": "unsupported",
+        "observed": "report future scheduling unavailable",
+        "passed": true
+      }
+    ],
+    "unrelated_schedules": "preserved in every case"
+  },
+  "limits": [
+    "No installed discovery or trusted hook execution",
+    "No live merge, CI service, or recurring automation exercised",
+    "No new managed worktree lifecycle or CLI/cloud end-to-end proof",
+    "Inherited verification setup offer and invocation policies unchanged"
+  ]
+}

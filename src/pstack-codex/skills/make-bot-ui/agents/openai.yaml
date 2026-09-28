@@ -1,0 +1,5 @@
+interface:
+  display_name: "Make Bot UI"
+  short_description: "Set up the upstream Grok Bot webhook interface"
+policy:
+  allow_implicit_invocation: false

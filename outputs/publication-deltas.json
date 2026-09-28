@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-28",
+  "approval_record": "NATIVE-PORT-DECISIONS.md decision 13",
+  "prior_artifact": "Unpublished 0.4.0 source ZIP, retained locally",
+  "prior_zip_sha256": "bbbef4abf0e1c1cb43a2b6a7a820cd72b6717331e92fbf8739ce0521afccd9a4",
+  "files": {
+    ".codex-plugin/plugin.json": {
+      "before_sha256": "4b137767e6f0b75d60002d19d2c15bf91eb08f6eb8ca6eb4fb4633c6b1edea20",
+      "after_sha256": "0d250832b5f92a98aab4d756d9e3851d9b1f899c41eea92cd0a443ffa98b3997",
+      "reason": "Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
+      "edits": [
+        {
+          "start": 280,
+          "before": "  \"homepage\": \"https://github.com/michael-denyer/pstack-claude\",\n  \"repository\": \"https://github.com/michael-denyer/pstack-claude\",\n",
+          "after": "  \"homepage\": \"https://github.com/huankoh/pstack-codex\",\n  \"repository\": \"https://github.com/huankoh/pstack-codex\",\n",
+          "reason": "Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
+          "approval": "publication"
+        },
+        {
+          "start": 1392,
+          "before": "    \"websiteURL\": \"https://github.com/michael-denyer/pstack-claude\",\n",
+          "after": "    \"websiteURL\": \"https://github.com/huankoh/pstack-codex\",\n",
+          "reason": "Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
+          "approval": "publication"
+        }
+      ]
+    }
+  }
+}

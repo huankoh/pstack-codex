@@ -1,0 +1,90 @@
+{
+  "version": "0.4.0",
+  "date": "2026-09-28",
+  "artifact": {
+    "path": "outputs/pstack-codex-0.4.0.zip",
+    "files": 254,
+    "sha256": "24eb8faf906df077d2311452728f7b52f6c9b0edeffdeaa7f6a736ff0c2b7894"
+  },
+  "inventory": {
+    "identical_imports": 109,
+    "modified_imports": 134,
+    "generated": 11,
+    "top_level_skills": 55,
+    "additional_nested_skills": 3,
+    "playbooks": 23
+  },
+  "python_tests": 21,
+  "targeted_bun_tests": 21,
+  "targeted_bun_assertions": 54,
+  "edited_skill_schemas": 2,
+  "plugin_schema": "passed",
+  "independent_static_review": "gpt-6-astra: no actionable workflow findings; release doc version finding corrected",
+  "forward_test": {
+    "reviewer": "gpt-6-sol",
+    "type": "simulated action selection; no live forge tools",
+    "cases": [
+      {
+        "id": "early-ready",
+        "observed_action": "Open early ready PR with tests/audits pending; refresh after completion.",
+        "root_assessment": "pass"
+      },
+      {
+        "id": "owned-refresh",
+        "observed_action": "Verify repo, PR, author, marker and ID 44; preserve human edits; update same comment and read back.",
+        "root_assessment": "pass"
+      },
+      {
+        "id": "ambiguous-identity",
+        "observed_action": "Two owned marked comments and lost ID: resolve before any edit or duplicate creation.",
+        "root_assessment": "pass"
+      },
+      {
+        "id": "wrong-identity",
+        "observed_action": "Saved ID belongs to different PR/author: do not edit; reconcile and recover verified target.",
+        "root_assessment": "pass"
+      },
+      {
+        "id": "stale-receipts",
+        "observed_action": "H1 receipt remains historical at H2/B2; inspect applicability and rerun affected checks.",
+        "root_assessment": "pass"
+      },
+      {
+        "id": "unknown-write-outcome",
+        "observed_action": "After timed-out comment create, read back complete comments before retrying.",
+        "root_assessment": "pass"
+      },
+      {
+        "id": "forge-limitation",
+        "observed_action": "Origin cannot post: preserve forge, return local appendix and disclose publication gap.",
+        "root_assessment": "pass"
+      },
+      {
+        "id": "explanation-only",
+        "observed_action": "No PR request: local visual only; preserve dirty work; no commit/push/create.",
+        "root_assessment": "pass"
+      },
+      {
+        "id": "new-trail-rows",
+        "observed_action": "Review covers rows 1-8 only; audit/review new correction rows 9-10 before complete claim.",
+        "root_assessment": "pass"
+      }
+    ],
+    "draft_artifacts": "outputs/combined-pr-example"
+  },
+  "reconstruction": "passed; ZIP byte-identical; extracted source passes",
+  "approved_delta": "11 existing files reverse exactly to 0.3.1; 4 declared additions; all other bytes unchanged",
+  "local_example": "24-line body; links and actual baseline-fail/head-pass receipts checked",
+  "limitations": [
+    "No live PR/comment or installed-plugin trial",
+    "Publication action choices tested with fixtures, not remote services",
+    "Scoped transcript and all-host limits from 0.3.0/0.3.1 remain",
+    "No raw-log helper or code-verification implementation changed"
+  ],
+  "prepublication_artifact": {
+    "path": "outputs/pstack-codex-0.4.0.zip",
+    "files": 254,
+    "sha256": "bbbef4abf0e1c1cb43a2b6a7a820cd72b6717331e92fbf8739ce0521afccd9a4"
+  },
+  "publication_metadata": "Only three manifest repository URL fields updated under decision 13; fidelity and plugin schema rechecked."
+}

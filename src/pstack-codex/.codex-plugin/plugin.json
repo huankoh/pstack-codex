@@ -1,0 +1,44 @@
+{
+  "name": "pstack-codex",
+  "version": "0.4.0",
+  "description": "Faithful pstack workflows with pinned pstack-claude updates, native Codex tools, local worktrees, and the approved combined visual PR review workflow.",
+  "author": {
+    "name": "pstack-codex contributors"
+  },
+  "homepage": "https://github.com/huankoh/pstack-codex",
+  "repository": "https://github.com/huankoh/pstack-codex",
+  "license": "MIT",
+  "keywords": [
+    "pstack",
+    "poteto-mode",
+    "workflow",
+    "principles",
+    "agent-style",
+    "subagents",
+    "unslop",
+    "skills",
+    "tdd",
+    "code-review",
+    "parallel-agents",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "pstack-codex",
+    "shortDescription": "Rigorous, parallelizable agent workflows: go deep first, write less, verify everything",
+    "longDescription": "Preserves upstream procedures, roles, design and review panels, and all playbooks. Skills directly use Codex tools, configured native models, scoped transcript evidence, and isolated local worktrees.",
+    "developerName": "pstack-codex adaptation of Lauren Tan and Michael Denyer\u2019s work",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Work on this in poteto-mode.",
+      "Interrogate this diff with multiple models."
+    ],
+    "websiteURL": "https://github.com/huankoh/pstack-codex",
+    "brandColor": "#7C3AED"
+  }
+}

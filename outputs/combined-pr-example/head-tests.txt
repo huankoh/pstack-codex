@@ -1,0 +1,8 @@
+test_changed_value_persists (test_cache.CacheTest) ... ok
+test_identical_value_skips_storage (test_cache.CacheTest) ... ok
+test_missing_none_is_persisted (test_cache.CacheTest) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

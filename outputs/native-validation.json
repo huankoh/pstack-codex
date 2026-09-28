@@ -1,0 +1,33 @@
+{
+  "version": "0.3.0",
+  "package_files": 250,
+  "artifact": "outputs/pstack-codex-0.3.0.zip",
+  "sha256": "d8f4b6c5088692be0307eb421c533cbb060137e9093bdbf45f84edd1f9e5e255",
+  "source_validation": "pass",
+  "reconstructed_package_validation": "pass",
+  "reconstructed_zip_identical": true,
+  "fresh_zip_extraction_validation": "pass",
+  "bun": {
+    "tests": 181,
+    "failures": 0,
+    "assertions": 457,
+    "files": 17
+  },
+  "python_tests": 21,
+  "skill_schemas": 58,
+  "plugin_schema": "pass",
+  "typecheck": "pass",
+  "luna_max_dispatch": "pass on read-only source retrieval",
+  "sol_native_how": "pass on simple path with one fresh explainer",
+  "astra_review": "completed; native subagent-source filter defect repaired and regression tested",
+  "manual_worktrees": "used for isolated native edits; managed tool unavailable for repository",
+  "limitations": [
+    "No installed discovery or trusted hook activation",
+    "No managed archive/restore lifecycle proof",
+    "No cloud/CLI workflow end-to-end execution",
+    "No complete Arena/Architect/Interrogate panel workflow exercise",
+    "No live PR/CI/shipping or recurring automation exercise",
+    "No real private transcript corpus inspected",
+    "Grok Bot UI/Benny replacements remain unapproved"
+  ]
+}

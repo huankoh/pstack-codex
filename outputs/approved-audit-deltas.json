@@ -1,0 +1,752 @@
+{
+  "date": "2026-09-28",
+  "prior_zip": "outputs/pstack-codex-0.3.0.zip",
+  "prior_zip_sha256": "d8f4b6c5088692be0307eb421c533cbb060137e9093bdbf45f84edd1f9e5e255",
+  "approval_record": "NATIVE-PORT-DECISIONS.md decisions 10-11",
+  "files": {
+    ".codex-plugin/plugin.json": {
+      "before_sha256": "344ff6199f26048ceedcc39c378e9283dc934668f8848da044d9e69608a79d01",
+      "after_sha256": "df7717190e6917dfc2148badd82ea397000436a63fd8600381736c96a0b9a0b0",
+      "reason": "Version the corrected source artifact as 0.3.1.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 28,
+          "before": "  \"version\": \"0.3.0\",\n",
+          "after": "  \"version\": \"0.3.1\",\n",
+          "reason": "Version the corrected source artifact as 0.3.1.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/architect.md": {
+      "before_sha256": "14ac280517d53478d866d52d12be440adbbfaacfd8fd38dee1509642cc01b374",
+      "after_sha256": "ef22d0841378810fbed9a7cc6657c432b39ad02c64a84e38fbea8869aa9f94e6",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 152,
+          "before": "Invoke the `architect` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `architect` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/arena.md": {
+      "before_sha256": "90cd4ef5dcf61c96f4abd72c8d659b2781d50faa5ada48124c99a865c0cb557d",
+      "after_sha256": "14de96685e41348fa329d833a84b94d0f7c10dea48c1a3623cac4b3b49e520ba",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 130,
+          "before": "Invoke the `arena` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `arena` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/automate-me.md": {
+      "before_sha256": "4a589afb768bc2cfddbf5a49d6e41c938dd4410fbdc19f2c0c1436d8a7eabe7a",
+      "after_sha256": "e0106b63943a2a231cf2bd37aa4b8fdf7de08b1460053b2b0d4f1fd898f43be6",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 131,
+          "before": "Invoke the `automate-me` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `automate-me` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/babysit.md": {
+      "before_sha256": "f2a7f3615448c8adeb3f4ec299d2750575526dc710e8f438336509d073ed9dd4",
+      "after_sha256": "3a7948af991d6210d319af152d5a8e9f9fc1a7757a339f8824a3e6dc57162c35",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 124,
+          "before": "Invoke the `babysit` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `babysit` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/blast-radius.md": {
+      "before_sha256": "df68277f5797c534ce279f580ce538b14ccfc863b09edb89d5635b91bf2e555e",
+      "after_sha256": "402ba463fe3dc5949cc726fcda8e7e82d688c90e9a0e3e988c167ccf3c7c6b96",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 152,
+          "before": "Invoke the `blast-radius` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `blast-radius` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/bro.md": {
+      "before_sha256": "f84dafa301b65ace966da597af230c5504f595c32f90440bdcf618ff421e4b5d",
+      "after_sha256": "d68d5d86b052eb131250be9385ddb2c44f32c49ed6b72a7604425c10b7238c48",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 123,
+          "before": "Invoke the `bro` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `bro` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/create-verification-skill.md": {
+      "before_sha256": "b239bed0e8f7607f2d960cf73d5a170b3172c4f6f50a3c4f186c81c23a4f5ce7",
+      "after_sha256": "40e9987f1c2ac1d06c109e88ab75c9c853e7b4541e9722e8b8e59c8f4656f10e",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 145,
+          "before": "Invoke the `create-verification-skill` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `create-verification-skill` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/deslop.md": {
+      "before_sha256": "556489fc35eaa9b1d686ffc78195632eb78026ee9d8d0c97b4eca96592527540",
+      "after_sha256": "b40507979e74c5d58d9910c9b01c40060198945c78dfaf53735143d65ba56898",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 94,
+          "before": "Invoke the `deslop` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `deslop` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/figure-it-out.md": {
+      "before_sha256": "f94e26db898355705fec4552e5d9e2e075851312f9204b2fec6a89cbecd2e8b6",
+      "after_sha256": "f7e8d42f697773556b95a43629efbddac725132873cb6db8c7d8c7dde5e72ce5",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 147,
+          "before": "Invoke the `figure-it-out` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `figure-it-out` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/fix-ci.md": {
+      "before_sha256": "d911e20a491f372a535a2aa6bd1f5a8dbfa4f9ee5d756cb714ddc4607fa63c9c",
+      "after_sha256": "1cf08c4c733bd836f7a2cfbb3ce40234282b60260ebecc471239caddb0613763",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 124,
+          "before": "Invoke the `fix-ci` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `fix-ci` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/fix-merge-conflicts.md": {
+      "before_sha256": "b8dbe568604e1734647a2fbf0b24a5e39d80775beec995dbacee74485a66e92a",
+      "after_sha256": "b7dba70ca9a1ea01f477f940e28681fcff350791d040c71310de7b95fe68163c",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 141,
+          "before": "Invoke the `fix-merge-conflicts` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `fix-merge-conflicts` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/get-pr-comments.md": {
+      "before_sha256": "320efd22ca2afe8de3fda271904e82addda2245b7b45fc7fd242df054c114a49",
+      "after_sha256": "d99a231c25c7323a26fba8c83c69f3d145aac10e2148d9e3eaf3ec54878122b3",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 130,
+          "before": "Invoke the `get-pr-comments` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `get-pr-comments` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/how.md": {
+      "before_sha256": "d48f237b2feffb38db178f09fc98a50f16d17a45c1067a3fec482ee507e6717a",
+      "after_sha256": "ecefed38dde1b7773343a075cbc89b48b3c077ef01e51858259f1fbb727cfb77",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 98,
+          "before": "Invoke the `how` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `how` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/interrogate.md": {
+      "before_sha256": "76efa8ee334ef5fde70e842a81b2bb79719e156e9ae4a66b7189249bff7d3ff4",
+      "after_sha256": "c995cbab58bb12070ca3f535b81d3b17c0526019ec3897d664ce83203843b6e3",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 119,
+          "before": "Invoke the `interrogate` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `interrogate` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/maintain-verification-skill.md": {
+      "before_sha256": "e84619e5496e6335ab01427bd148aed1be5042fd66926a6e962dc0336af264cd",
+      "after_sha256": "34abc3327c08d9cb66cd599ae889b24e4f868737f389a0f6fff246580883effd",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 144,
+          "before": "Invoke the `maintain-verification-skill` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `maintain-verification-skill` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/make-pr-easy-to-review.md": {
+      "before_sha256": "13bf0f3272cc627e5bd4fc00ddd7d2e7fbdb255c70970474e3e9a41d758222f6",
+      "after_sha256": "d677344407335554efe4eba15a010706a553efff4a00bd578fd6c87f5695a66b",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 143,
+          "before": "Invoke the `make-pr-easy-to-review` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `make-pr-easy-to-review` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/no-comments.md": {
+      "before_sha256": "813f56abdf2f6162b148f0fb49f37f336fbfb32ef63f2497443fadfe0730ea67",
+      "after_sha256": "b7560d619444fe69b40331610dff68232e72f0a90b1287f20fdda3457290221c",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 155,
+          "before": "Invoke the `no-comments` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `no-comments` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/poteto-mode.md": {
+      "before_sha256": "8ac4c66ee833c97c5444cabd72f018d80ef43babed87e64043865e492e6af92d",
+      "after_sha256": "0f8db9234186b9b0de6521a745d3dd363be30abd589a7ebf0ce6bb3f2bcb9251",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 116,
+          "before": "Invoke the `poteto-mode` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `poteto-mode` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/recall.md": {
+      "before_sha256": "a097c1cdf30297c36983f9464dd9d56d9957f5a6618cc22d460468b642d6c5fc",
+      "after_sha256": "429b82234f822589ee81f68e21234ae4301b643111ffb81df67b51171fd69a50",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 154,
+          "before": "Invoke the `recall` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `recall` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/reflect.md": {
+      "before_sha256": "94eafe2af79faf4bf2eab77d3d9676886a3a7767afce316a0b20c94459495a6f",
+      "after_sha256": "602b80a8a5fd12ecb2a88bc2ad487a292d6f2090121b277780d0c620b2da06cb",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 113,
+          "before": "Invoke the `reflect` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `reflect` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/setup-pstack.md": {
+      "before_sha256": "3471b814061bff6f05bf803e7a36dc41ce151a238d8a5d2efce920ab71f3d10e",
+      "after_sha256": "ef8ae88eb3de8ff121140b83cde10d58fecf52dfb67cb6200d67d86668a3c07b",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 112,
+          "before": "Invoke the `setup-pstack` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `setup-pstack` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/show-me-your-work.md": {
+      "before_sha256": "c1cf576265a56a722f8ae59fd95a15552bb172ab53ab22b77e79f1e0485be04b",
+      "after_sha256": "5786ad248b290df596d0c07d9cb1cad654d72d2a1f378d207c3e6b4ec8065867",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 126,
+          "before": "Invoke the `show-me-your-work` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `show-me-your-work` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/swarm.md": {
+      "before_sha256": "05da1c9fc536c44fd9c7baa68ca23bb2013ddc635c2cfe71c3222b949922a0a2",
+      "after_sha256": "8b347e5c76015c10d2d93a1edb0251fc36bfacb1f2371762f24422772fbe58a3",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 150,
+          "before": "Invoke the `swarm` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `swarm` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/tdd.md": {
+      "before_sha256": "e299862efe956df819844b6bce2fc15c83a7523f9570e2a93516621cff209b47",
+      "after_sha256": "247c5ce00bc6b3fa7cc2aa30e2607dd2ffc1e36ebccdaefcbcf4ba866ab4636e",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 121,
+          "before": "Invoke the `tdd` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `tdd` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/teach.md": {
+      "before_sha256": "7975d63075f422595ed7bf0316e77b8fb9f6e3cfad7dbf7eb746ae4f8d2aa9b4",
+      "after_sha256": "0ddfe9633d59d47cde17eedd1ad9ee59ecf01aa5de3450f852b7ab34d0112189",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 116,
+          "before": "Invoke the `teach` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `teach` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/technical-writing.md": {
+      "before_sha256": "a7d090a22fb9052ef235149b1a2f7a135512f4a277fa17cd06c7e99f643cf3ed",
+      "after_sha256": "e89398a75659eb3766c49bb9e69e26826658c0fdd4261b37139a487a0947a82f",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 165,
+          "before": "Invoke the `technical-writing` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `technical-writing` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/thermo-nuclear-code-quality-review.md": {
+      "before_sha256": "5256b48f53e9699e3a8e4db52ace150caf627905a62741da1219862ea7fac44c",
+      "after_sha256": "3074d311cedfce11a82caddcf70ded1458262e853457eba69213346a752c0f58",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 133,
+          "before": "Invoke the `thermo-nuclear-code-quality-review` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `thermo-nuclear-code-quality-review` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/typescript-best-practices.md": {
+      "before_sha256": "69a2e949d3c07759cf1b977f7fd470cfd7e001f41c0634dbd35b32650e749846",
+      "after_sha256": "43bd6d9133eda947d88046c380307adadab55e465b9ba1610b617b6d5dce52b3",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 136,
+          "before": "Invoke the `typescript-best-practices` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `typescript-best-practices` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/unslop.md": {
+      "before_sha256": "3edadd352946b33418d6e6ac1fd275168a4d30785e1cc9328853f12b12ea044c",
+      "after_sha256": "f1e2843e08722e09636a9873c0d00d07414b7cf0e417d1b9c3801919065ab6b6",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 104,
+          "before": "Invoke the `unslop` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `unslop` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/what-did-i-get-done.md": {
+      "before_sha256": "7cc3eb4fc419136194fddc2956b855bf986f72cd30c94befcc91588f9489fcaa",
+      "after_sha256": "fade700606db6eaa8b8ce7704a4438125e49987bf0ef1b46f3cfef1a61a0f8fa",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 132,
+          "before": "Invoke the `what-did-i-get-done` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `what-did-i-get-done` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/why.md": {
+      "before_sha256": "166ae8161d66d230172cf0940e5e5dba5c01f33b53701227646d650eeb8291b9",
+      "after_sha256": "5cfc2808e548ba6b280148b25231cbb7f6e8d0a51b656e5b7fdad6e10e7aa67e",
+      "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 138,
+          "before": "Invoke the `why` skill and follow it. Resolve Claude tool names, Claude model names, and Claude built-in skills through `poteto-mode/references/codex-tools.md`, including its Per-skill notes.\n",
+          "after": "Invoke the `why` skill and follow it.\n",
+          "reason": "Remove the obsolete platform-mapping detour while retaining the native skill invocation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    "README.md": {
+      "before_sha256": "1dbd78abbc83f09917cb845d3bcf1af92cf6e153e7f5dca0f02172f0f629c84e",
+      "after_sha256": "87ebaa2bd17a692257bdef4a630c2eed9f000d8e07d28623dac14aeb896bdae7",
+      "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+      "approval": "original-merge-authority",
+      "edits": [
+        {
+          "start": 6028,
+          "before": "| [autopilot-full](./skills/poteto-mode/playbooks/autopilot-full.md) | run independent prs to merge-ready with one owner per pr and a root swarm verdict on each round, from the code-ready head on. the operator decides and performs each merge. |\n",
+          "after": "| [autopilot-full](./skills/poteto-mode/playbooks/autopilot-full.md) | build and merge independent prs under a full-autonomy grant, with one owner per pr and a root swarm verdict on each round. operator-named items and explicit operator review gates still wait for the operator. |\n",
+          "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+          "approval": "original-merge-authority"
+        }
+      ]
+    },
+    "agents/poteto-agent.md": {
+      "before_sha256": "92576b46d99f928b1278bbc3790cf179224995545a0409639c4a1e8020db21e3",
+      "after_sha256": "f486705df9d1c28013f89688846d3551c5787927845cd65a106032beeefb8d14",
+      "reason": "Restore original and Claude delegate continuity through the native follow-up operation.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 23,
+          "before": "description: Prompt for a Codex poteto-mode delegate. Include this file path in the `spawn_agent` brief. Read the `poteto-mode` skill in full before work, including its Principles index.\n",
+          "after": "description: Prompt for a Codex poteto-mode delegate. Resume an existing poteto delegate for this conversation through the native follow-up operation rather than spawning a sibling. For a new delegate, include this file path in the `spawn_agent` brief. Read the `poteto-mode` skill in full before work, including its Principles index.\n",
+          "reason": "Restore original and Claude delegate continuity through the native follow-up operation.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    "docs/guide/07-overnight.md": {
+      "before_sha256": "6bb7b96aadbbeed7f41fc5c9fa6bcabc6163a69ddef215b9f4c738a1af48c361",
+      "after_sha256": "8a9287e32404c519a979d7e82dda105fc7f5e65ca77d70c9533cd2f047f7bf0c",
+      "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+      "approval": "original-merge-authority",
+      "edits": [
+        {
+          "start": 3736,
+          "before": "[Autopilot-full](../../skills/poteto-mode/playbooks/autopilot-full.md) runs a queue of independent PRs to merge-ready. Each PR gets one owner agent that carries it from build through verification and stops before merge. The operator makes each merge decision. A swarm of fresh verifiers starts a round at the owner's code-ready head and again at every later push that changes the patch. Only a clean verdict on the current patch makes it merge-ready:\n",
+          "after": "[Autopilot-full](../../skills/poteto-mode/playbooks/autopilot-full.md) builds and merges a queue of independent PRs under your full-autonomy grant. Each PR gets one owner agent that carries it from build through verification and merge. A swarm of fresh verifiers starts a round at the owner's code-ready head and again at every later push that changes the patch. The owner can merge only with the root's clean verdict and the shipping checks satisfied. Items you reserve and PRs with an explicit operator review gate still stop at merge-ready for your click:\n",
+          "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+          "approval": "original-merge-authority"
+        },
+        {
+          "start": 4196,
+          "before": "/poteto-mode full autopilot on this queue. each item is independent. get each PR merge-ready by morning; I will merge them.\n",
+          "after": "/poteto-mode full autopilot on this queue. each item is independent. build, verify, and merge them by morning. reserve PR 3 for my review and merge.\n",
+          "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+          "approval": "original-merge-authority"
+        }
+      ]
+    },
+    "skills/automate-me/SKILL.md": {
+      "before_sha256": "20c9356598d2fb020c8b248c6405f1b8e3010d55fc04beceebc6c7794977b4f7",
+      "after_sha256": "7ae04a7b78ff57a031876778d44af020847294618a114913cd4ad6bf939f8b49",
+      "reason": "Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 22,
+          "before": "description: \"Use for \\\"automate me\\\", \\\"create/update/refresh my -mode skill\\\", \\\"turn/capture my preferences or working style into a skill\\\", or wanting agents to follow how the user works. Drafts or revises a personal -mode skill via plugin-dev:skill-development + unslop, optionally pulling fresh evidence from recent transcripts.\"\n",
+          "after": "description: \"Use for \\\"automate me\\\", \\\"create/update/refresh my -mode skill\\\", \\\"turn/capture my preferences or working style into a skill\\\", or wanting agents to follow how the user works. Drafts or revises a personal -mode skill via skill-creator + unslop, optionally pulling fresh evidence from recent transcripts.\"\n",
+          "reason": "Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts.",
+          "approval": "audit-corrections"
+        },
+        {
+          "start": 551,
+          "before": "This skill orchestrates three others: an inline mining pass (see step 1), the `plugin-dev:skill-development` skill (authoring), and the **unslop** skill (prose discipline). It sequences them. It doesn't replace them.\n",
+          "after": "This skill orchestrates three others: an inline mining pass (see step 1), the `skill-creator` skill (authoring), and the **unslop** skill (prose discipline). It sequences them. It doesn't replace them.\n",
+          "reason": "Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts.",
+          "approval": "audit-corrections"
+        },
+        {
+          "start": 4740,
+          "before": "Use the **plugin-dev:skill-development** skill to author the skill. Placement:\n",
+          "after": "Use the available Codex **skill-creator** skill to author the skill. If it is unavailable, report the authoring step as unavailable and ask for a replacement. Placement:\n",
+          "reason": "Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts.",
+          "approval": "audit-corrections"
+        },
+        {
+          "start": 5399,
+          "before": "- Frontmatter formatting: follow `plugin-dev:skill-development`'s YAML rules. Keep `description` as one YAML scalar. Quote it or use `description: >-` with indented continuation lines when punctuation or wrapping requires it.\n",
+          "after": "- Frontmatter formatting: follow `skill-creator`'s YAML rules. Keep `description` as one YAML scalar. Quote it or use `description: >-` with indented continuation lines when punctuation or wrapping requires it.\n",
+          "reason": "Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts.",
+          "approval": "audit-corrections"
+        },
+        {
+          "start": 5888,
+          "before": "Apply the **unslop** skill and `plugin-dev:skill-development`'s writing guidelines to every line.\n",
+          "after": "Apply the **unslop** skill and `skill-creator`'s writing guidelines to every line.\n",
+          "reason": "Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts.",
+          "approval": "audit-corrections"
+        },
+        {
+          "start": 7195,
+          "before": "A `-mode` skill is subjective output. A `plugin-dev:skill-development`-style test/iterate benchmark loop isn't useful here. Vibe-check with the user: does it read like them? Did it miss anything? Then ship.\n",
+          "after": "A `-mode` skill is subjective output. A test/iterate benchmark loop isn't useful here. Vibe-check with the user: does it read like them? Did it miss anything? Then ship.\n",
+          "reason": "Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts.",
+          "approval": "audit-corrections"
+        },
+        {
+          "start": 7403,
+          "before": "Run a description-optimization loop only if the skill's trigger accuracy turns out to be a problem in practice.\n",
+          "after": "Run a description-optimization loop only if the skill's trigger accuracy turns out to be a problem in practice: use `skill-creator` to refine the description, test representative requests that should and should not trigger it, and iterate on observed misrouting.\n",
+          "reason": "Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts.",
+          "approval": "audit-corrections"
+        },
+        {
+          "start": 7536,
+          "before": "- User wants a task-specific skill (not working conventions): `plugin-dev:skill-development` alone, no mining required.\n",
+          "after": "- User wants a task-specific skill (not working conventions): `skill-creator` alone, no mining required.\n",
+          "reason": "Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    "skills/poteto-mode/SKILL.md": {
+      "before_sha256": "a8a397f0cb9c3a57b9e3aeb4ac91b8542c9626a8426bc88debc0a7a1a1434527",
+      "after_sha256": "a751dc62458a04084e74ea076aa584581a6bee8d951ae0591b05738b36842675",
+      "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+      "approval": "original-merge-authority",
+      "edits": [
+        {
+          "start": 19310,
+          "before": "- **Autopilot-full.** A queue of independent PRs driven to merge-ready with full autonomy. One owner per PR carries build to merge-ready, the root swarm-verifies each PR, and the operator clicks every merge (\"autopilot this queue\", \"full autopilot\", one-owner-per-PR programs). `playbooks/autopilot-full.md`.\n",
+          "after": "- **Autopilot-full.** A queue of independent PRs built and merged under the operator's full-autonomy grant. One owner per PR carries build through merge after the root's clean swarm verdict; operator-named items and explicit operator review gates still stop at merge-ready (\"autopilot this queue\", \"full autopilot\", one-owner-per-PR programs). `playbooks/autopilot-full.md`.\n",
+          "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+          "approval": "original-merge-authority"
+        }
+      ]
+    },
+    "skills/poteto-mode/playbooks/autopilot-full.md": {
+      "before_sha256": "4bc20417f2ca91194588837b1508508aec935b581f4b96101dc15d91386517f4",
+      "after_sha256": "105ebbc5ade987ad4abd412e995b08d61e2c768c6c06cfe3485a76a9e78dff03",
+      "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+      "approval": "original-merge-authority",
+      "edits": [
+        {
+          "start": 116,
+          "before": "**You own the verdicts, never the PRs. One owner runs each PR from build to merge-ready, and nothing merges without both your clean swarm verdict and the operator's explicit merge click.** For \"autopilot this queue\", \"full autopilot\", and one-owner-per-PR programs. Orchestrate runs a standing program whose coordinator lands verified work itself and whose workers never merge. Here each PR's owner carries the whole lifecycle up to merge-ready, the operator clicks the merge, and the root keeps only verification, countersigns, and audits.\n",
+          "after": "**You own the verdicts, never the PRs. One owner runs each PR from build to merge, and nothing merges without your clean swarm verdict.** For \"autopilot this queue\", \"full autopilot\", and one-owner-per-PR programs. Orchestrate runs a standing program whose coordinator lands verified work itself and whose workers never merge. Here each PR's owner carries the whole lifecycle through the merge, and the root keeps only verification, countersigns, and audits.\n",
+          "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+          "approval": "original-merge-authority"
+        },
+        {
+          "start": 1139,
+          "before": "2. **Spawn one owner per PR with the full lifecycle and an early trail.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One background subagent per PR, in its own worktree, owns build, the first push, a ready PR, self-proof on the real artifact (the **prove-it-works** principle skill), skeptical review-bot triage per `../references/bugbot-triage.md`, a slop-strip (the **deslop** skill, `/deslop`), `/no-comments` (the **no-comments** skill), a rebase onto current trunk, and the babysit loop to green (`playbooks/babysit.md`). Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Open the PR before self-proof so the URL, decisions, and checks form a durable trail. Keep `decisions.tsv` uncommitted and return it with the reports. As soon as a subagent starts, the owner adds its ID, expected runtime (at least the longest past run of that kind), and state to a `children.tsv` kept the same way. The owner does the first rebase before the code-ready report and babysit, whether or not trunk has drifted. In fix rounds, the owner keeps that merge base. The owner rebases again only at merge prep (step 5), on a `git merge-tree` conflict with trunk, or on a CI failure that comes from a change on trunk. When the shipped code is final, after the slop-strip and `/no-comments`, it reports the code-ready head SHA. It also reports the SHA of each later push that changes the patch. Self-proof, CI, and babysit then run in parallel with the swarm. The owner reports merge-ready with the head SHA when self-proof, CI, and babysit finish. Before a push that starts a round, run the pre-review checks that the repo's AGENTS.md files and rules name for the touched paths. Run them on the committed head. A hook pass is not proof. To publish each rebase, push the owner's own branch with `git push --force-with-lease` after an `ls-remote` check. Never force-push a shared branch. The owner drives to merge-ready and stops there. No owner runs the merge. Step 4 gates the verdict and step 5 hands the merge to the operator.\n",
+          "after": "2. **Spawn one owner per PR with the full lifecycle and an early trail.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One background subagent per PR, in its own worktree, owns build, the first push, a ready PR, self-proof on the real artifact (the **prove-it-works** principle skill), skeptical review-bot triage per `../references/bugbot-triage.md`, a slop-strip (the **deslop** skill, `/deslop`), `/no-comments` (the **no-comments** skill), a rebase onto current trunk, the babysit loop to green (`playbooks/babysit.md`), and the merge itself. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Open the PR before self-proof so the URL, decisions, and checks form a durable trail. Keep `decisions.tsv` uncommitted and return it with the reports. As soon as a subagent starts, the owner adds its ID, expected runtime (at least the longest past run of that kind), and state to a `children.tsv` kept the same way. The owner does the first rebase before the code-ready report and babysit, whether or not trunk has drifted. In fix rounds, the owner keeps that merge base. The owner rebases again only at merge prep (step 5), on a `git merge-tree` conflict with trunk, or on a CI failure that comes from a change on trunk. When the shipped code is final, after the slop-strip and `/no-comments`, it reports the code-ready head SHA. It also reports the SHA of each later push that changes the patch. Self-proof, CI, and babysit then run in parallel with the swarm. The owner reports merge-ready with the head SHA when self-proof, CI, and babysit finish. Before a push that starts a round, run the pre-review checks that the repo's AGENTS.md files and rules name for the touched paths. Run them on the committed head. A hook pass is not proof. To publish each rebase, push the owner's own branch with `git push --force-with-lease` after an `ls-remote` check. Never force-push a shared branch. The merge is the one step an owner may not take alone. Step 4 gates it.\n",
+          "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+          "approval": "original-merge-authority"
+        },
+        {
+          "start": 5595,
+          "before": "5. **On a clean verdict the owner hands off and takes the next item.** The merge-ready head must be freshly rebased onto trunk. Merge prep never comes before a round's lanes start, and it ends with a rebase onto current trunk right before the hand-off. After the merge-prep rebase, the owner reports the new head SHA. CI must pass on that head before the hand-off, and the patch-id rule decides whether the round's verdict still holds. If trunk moves again before the operator merges, the patch-id rule in `playbooks/shipping.md` governs re-verification. A new head invalidates readiness. An unchanged patch-id may preserve substantive review only after checking its applicability to the new base and context. Rerun checks and mergeability. The owner presents the verified merge-ready PR to the operator, with its swarm verdict and pinned SHA, then picks up its next self-contained item from the queue. The operator reviews and squash-merges. No owner runs the merge itself. Every item waits for the operator's click, the gate operator-named items always had. The root's clean verdict is a precondition for that click, never a substitute for it.\n",
+          "after": "5. **On a clean verdict the owner merges and takes the next item.** The owner merges only from a head freshly rebased onto trunk. Merge prep never comes before a round's lanes start, and it ends with a rebase onto current trunk right before the merge. After the merge-prep rebase, the owner reports the new head SHA. CI must pass on that head before the merge, and the patch-id rule decides whether the round's verdict still holds. If trunk moves again before the merge, the patch-id rule in `playbooks/shipping.md` governs re-verification. A new head invalidates readiness. An unchanged patch-id may preserve substantive review only after checking its applicability to the new base and context. Rerun checks and mergeability. The owner squash-merges its own PR through the resolved forge under the head, destination, pending-merge, and durable-verification requirements in `playbooks/shipping.md`, then picks up its next self-contained item from the queue. The operator's full-autonomy grant plus the root's clean verdict is the merge authorization that babysitting alone never has. Operator-named items and PRs with an explicit operator review gate stop at merge-ready and wait for the operator's click.\n",
+          "reason": "Restore original Autopilot-full owner-merge authority under its full-autonomy grant and clean root verdict; retain stronger Claude shipping checks, operator-named items, interaction review gates and Autopilot-stack semantics.",
+          "approval": "original-merge-authority"
+        }
+      ]
+    },
+    "skills/poteto-mode/playbooks/multi-phase-plan.md": {
+      "before_sha256": "fac49a75b6d1c459cf3bcb2c031739b9cda8c65be7f6686ead9f2d0b062f83bc",
+      "after_sha256": "d70fe6a89ae065205b28218bc8f4e5dc39a7693110a19abc9a89297ae2d0009c",
+      "reason": "Defer template merge authority to the selected execution playbook and preserve operator-item and review gates.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 12461,
+          "before": "- [ ] <The owner squash-merges its own PR, or the root appends it to the base-branch stack and the operator lands it bottom-up.>\n",
+          "after": "- [ ] <The merge action and authorized owner from the selected execution playbook, preserving this PR's operator-item and review gates.>\n",
+          "reason": "Defer template merge authority to the selected execution playbook and preserve operator-item and review gates.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    "skills/poteto-mode/references/agents/poteto-agent.md": {
+      "before_sha256": "92576b46d99f928b1278bbc3790cf179224995545a0409639c4a1e8020db21e3",
+      "after_sha256": "f486705df9d1c28013f89688846d3551c5787927845cd65a106032beeefb8d14",
+      "reason": "Restore delegate continuity in the vendored persona copy.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 23,
+          "before": "description: Prompt for a Codex poteto-mode delegate. Include this file path in the `spawn_agent` brief. Read the `poteto-mode` skill in full before work, including its Principles index.\n",
+          "after": "description: Prompt for a Codex poteto-mode delegate. Resume an existing poteto delegate for this conversation through the native follow-up operation rather than spawning a sibling. For a new delegate, include this file path in the `spawn_agent` brief. Read the `poteto-mode` skill in full before work, including its Principles index.\n",
+          "reason": "Restore delegate continuity in the vendored persona copy.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    "skills/poteto-mode/references/delegation.md": {
+      "before_sha256": "44493f68f8c1cf0775894bc84500a6b2b9cf8cca04463b08470971d2273ab3cf",
+      "after_sha256": "7d1832793383533ded43bb7e9143103eb75ecc6e470d0a7819079226df9ad536",
+      "reason": "Reuse the existing poteto delegate while preserving required fresh independent reviews.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 804,
+          "before": "",
+          "after": "\nFor a follow-up in the same conversation, reuse the existing poteto delegate through `followup_task` or the host's equivalent resume operation instead of spawning a sibling. If that delegate is no longer resumable, say so and carry its working context into the replacement brief. This continuity rule does not replace a required fresh independent reviewer with an existing writer.\n",
+          "reason": "Reuse the existing poteto delegate while preserving required fresh independent reviews.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    "skills/poteto-mode/references/scheduling.md": {
+      "before_sha256": "a6d097a58601e0c82de6ef55c19d13207020ed12756f034f544266fe109f0c05",
+      "after_sha256": "11f8fcc8f870f3922d27041a7549086d93c9ebc491dc4c48b9715f9c396ea5ca",
+      "reason": "Carry existing workflow stop and hold conditions into the persistent scheduler lifecycle; reuse schedule identity.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 756,
+          "before": "",
+          "after": "\n\nKeep the schedule tied to this workflow. Before creating one, inspect the host's existing automations for this chat and objective; reuse a matching schedule. Retain its returned identity in the workflow's standing notes. Re-arming updates that schedule with the same playbook cadence, predicate and prompt; it does not create another heartbeat. Include the workflow's existing stop conditions in the scheduled prompt, and check whether the workflow has completed or is on hold before a wakeup performs work.\n\nWhen the playbook's completion predicate is met, the user stops the workflow, or the playbook reaches a terminal dead end, stop its watcher and pause or delete its recurring automation through the host's automation controls. Confirm the schedule is inactive before reporting monitoring stopped. On a temporary operator hold, pause it and resume only when the operator releases the hold. A plateau, ordinary retriable failure, or unanswered status question is not a new stop condition. End only this workflow's schedule; preserve unrelated automations. If the host cannot confirm cancellation, report that future wakeups may still occur rather than claiming the loop has stopped.\n",
+          "reason": "Carry existing workflow stop and hold conditions into the persistent scheduler lifecycle; reuse schedule identity.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    "skills/reflect/SKILL.md": {
+      "before_sha256": "41d97185e2c777afb09598af66b9889e034d9be54946b11a170f47d850f08f05",
+      "after_sha256": "c28979751a03faca604d2e9faeb9c348f1ada9f6e7bd87408fc80c71c9e68a9f",
+      "reason": "Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 3752,
+          "before": "For each approved Accepted item, follow the Routing field exactly:\n",
+          "after": "For each approved Accepted item, follow the Routing field exactly. Use the available Codex `skill-creator`; if it is unavailable, report the affected authoring step as unavailable and ask for a replacement:\n",
+          "reason": "Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements.",
+          "approval": "audit-corrections"
+        },
+        {
+          "start": 3939,
+          "before": "- Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to the **plugin-dev:skill-development** skill and run its draft / test / iterate loop.\n- `tune description: <skill path>` (the skill exists but didn't trigger when it should have): hand to `plugin-dev:skill-development` and run its description-optimization loop.\n- `new skill via plugin-dev:skill-development: <kebab-name>`: hand creation to `plugin-dev:skill-development`. Do not invent the shape ad hoc.\n",
+          "after": "- Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to the **skill-creator** skill to draft, validate, test the relevant behavior, and iterate on observed failures.\n- `tune description: <skill path>` (the skill exists but didn't trigger when it should have): use `skill-creator` to refine the description, test representative requests that should and should not trigger it, and iterate on observed misrouting.\n- `new skill via skill-creator: <kebab-name>`: hand creation to `skill-creator`. Do not invent the shape ad hoc.\n",
+          "reason": "Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements.",
+          "approval": "audit-corrections"
+        }
+      ]
+    },
+    "skills/reflect/references/synthesizer.md": {
+      "before_sha256": "2de436a8109173095e3b96695ecc545986ed1903726e7d4941352517a8240de0",
+      "after_sha256": "f03039b234eaeb0eeaa75d8020c0ec80f70706c4e809295f7b73808fc16d4d87",
+      "reason": "Keep authoring routing labels aligned with the native skill-creator dependency.",
+      "approval": "audit-corrections",
+      "edits": [
+        {
+          "start": 1265,
+          "before": "- Existing-skill-first: propose `new skill via plugin-dev:skill-development:` only when no existing skill is a real home, the pattern recurs, and the topic deserves its own skill.\n",
+          "after": "- Existing-skill-first: propose `new skill via skill-creator:` only when no existing skill is a real home, the pattern recurs, and the topic deserves its own skill.\n",
+          "reason": "Keep authoring routing labels aligned with the native skill-creator dependency.",
+          "approval": "audit-corrections"
+        },
+        {
+          "start": 3603,
+          "before": "| <new pattern, no existing skill is a real home> | <draft a new skill via plugin-dev:skill-development> | <new skill via plugin-dev:skill-development: <kebab-name>> |\n",
+          "after": "| <new pattern, no existing skill is a real home> | <draft a new skill via skill-creator> | <new skill via skill-creator: <kebab-name>> |\n",
+          "reason": "Keep authoring routing labels aligned with the native skill-creator dependency.",
+          "approval": "audit-corrections"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reproduce and Fix Issues"
+  short_description: "Reproduce and repair issues in the Benny workflow"
+policy:
+  allow_implicit_invocation: false

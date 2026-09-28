@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+sheet="${CODEX_HOME:-$HOME/.codex}/pstack-models.md"
+
+if grep -qs '^session hook: off$' "$sheet"; then
+  exit 0
+fi
+
+cat "$(dirname "$0")/session-start-context.md"

@@ -1,0 +1,4692 @@
+{
+  "date": "2026-09-27",
+  "scope": "Read-only audit of pinned Git trees versus uncommitted native 0.3.0 package",
+  "pins": {
+    "pstack": [
+      "work/repo-comparison/cursor-plugins",
+      "ecc249f1e306fc64ddf83c7bed16cacf7c2239db",
+      "pstack"
+    ],
+    "claude": [
+      "work/repo-comparison/pstack-claude",
+      "c02fd4922b25ee005f42042463d741d236c2c35e",
+      "plugins/pstack"
+    ]
+  },
+  "counts": {
+    "original": {
+      "files": 158,
+      "top_level_skills": 47,
+      "all_SKILL_files": 50,
+      "playbooks": 23
+    },
+    "claude": {
+      "files": 202,
+      "top_level_skills": 54,
+      "all_SKILL_files": 54,
+      "playbooks": 23
+    },
+    "selected_union": {
+      "files": 237,
+      "top_level_skills": 55,
+      "all_SKILL_files": 58,
+      "playbooks": 23
+    },
+    "codex": {
+      "files": 250,
+      "top_level_skills": 55,
+      "all_SKILL_files": 58,
+      "playbooks": 23
+    }
+  },
+  "skill_additions_vs_original": [
+    "babysit",
+    "deslop",
+    "fix-ci",
+    "fix-merge-conflicts",
+    "get-pr-comments",
+    "make-pr-easy-to-review",
+    "thermo-nuclear-code-quality-review",
+    "what-did-i-get-done"
+  ],
+  "missing_from_codex": [],
+  "extra_to_union": [
+    "CHANGES.md",
+    "LICENSE-cursor-team-kit",
+    "NOTICE-pstack-claude.md",
+    "NOTICE-skills.md",
+    "automations/benny/skills/reproduce-and-fix-issues/agents/openai.yaml",
+    "automations/benny/skills/setup-benny/agents/openai.yaml",
+    "automations/benny/skills/triage-issue-reports/agents/openai.yaml",
+    "skills/make-bot-ui/agents/openai.yaml",
+    "skills/poteto-mode/references/delegation.md",
+    "skills/poteto-mode/references/local-worktrees.md",
+    "skills/poteto-mode/references/scheduling.md",
+    "skills/reflect/references/codex-transcripts.md",
+    "skills/reflect/scripts/read-transcript.mjs"
+  ],
+  "source_tree_overlap": {
+    "identical": 28,
+    "changed": 95,
+    "original_only": 35,
+    "claude_only": 79
+  },
+  "codex_vs_selected": {
+    "identical": 138,
+    "changed": 99,
+    "missing": 0,
+    "extra": 13
+  },
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "d4f836e56175ffe939c3661c7bfab23a20c9b568",
+        "sha256": "5b9d93cb53b0f12799fe0cae6e1a66ee76b98ede310a4f57358934dd7cb37934"
+      },
+      "codex": {
+        "sha256": "5b9d93cb53b0f12799fe0cae6e1a66ee76b98ede310a4f57358934dd7cb37934",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "f8ebd740c12b76c400f1d0cc774bbd34627413bc",
+        "sha256": "d14218f55853897961648205b6944a0813ab5dd46cb9243f6aae7b7d5c7f3b77"
+      },
+      "codex": {
+        "sha256": "344ff6199f26048ceedcc39c378e9283dc934668f8848da044d9e69608a79d01",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": ".codex-plugin/prompts/architect.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "1b79833931127c65945993bcc192894e65868c18",
+        "sha256": "14ac280517d53478d866d52d12be440adbbfaacfd8fd38dee1509642cc01b374"
+      },
+      "codex": {
+        "sha256": "14ac280517d53478d866d52d12be440adbbfaacfd8fd38dee1509642cc01b374",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/arena.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "9d137a1dec6d30c879139ae80966ab4c93812b36",
+        "sha256": "90cd4ef5dcf61c96f4abd72c8d659b2781d50faa5ada48124c99a865c0cb557d"
+      },
+      "codex": {
+        "sha256": "90cd4ef5dcf61c96f4abd72c8d659b2781d50faa5ada48124c99a865c0cb557d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/automate-me.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "6792bca37388efe33c3156296028f72bf98fdc05",
+        "sha256": "4a589afb768bc2cfddbf5a49d6e41c938dd4410fbdc19f2c0c1436d8a7eabe7a"
+      },
+      "codex": {
+        "sha256": "4a589afb768bc2cfddbf5a49d6e41c938dd4410fbdc19f2c0c1436d8a7eabe7a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/babysit.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "1c87c7985497f63f69008255a069134fa0cebb28",
+        "sha256": "f2a7f3615448c8adeb3f4ec299d2750575526dc710e8f438336509d073ed9dd4"
+      },
+      "codex": {
+        "sha256": "f2a7f3615448c8adeb3f4ec299d2750575526dc710e8f438336509d073ed9dd4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/blast-radius.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "09a16234fef995f4afd27740bb02d1393a460c74",
+        "sha256": "df68277f5797c534ce279f580ce538b14ccfc863b09edb89d5635b91bf2e555e"
+      },
+      "codex": {
+        "sha256": "df68277f5797c534ce279f580ce538b14ccfc863b09edb89d5635b91bf2e555e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/bro.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "445112e61505d86629e2012b77bddad8573b64ae",
+        "sha256": "f84dafa301b65ace966da597af230c5504f595c32f90440bdcf618ff421e4b5d"
+      },
+      "codex": {
+        "sha256": "f84dafa301b65ace966da597af230c5504f595c32f90440bdcf618ff421e4b5d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/create-verification-skill.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "a26cf52047336a36b36e5d64cf2fd1762e5fb252",
+        "sha256": "b239bed0e8f7607f2d960cf73d5a170b3172c4f6f50a3c4f186c81c23a4f5ce7"
+      },
+      "codex": {
+        "sha256": "b239bed0e8f7607f2d960cf73d5a170b3172c4f6f50a3c4f186c81c23a4f5ce7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/deslop.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "0e6ae9e97dba49c9c8da87b86b69dc87d4a372cf",
+        "sha256": "556489fc35eaa9b1d686ffc78195632eb78026ee9d8d0c97b4eca96592527540"
+      },
+      "codex": {
+        "sha256": "556489fc35eaa9b1d686ffc78195632eb78026ee9d8d0c97b4eca96592527540",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/figure-it-out.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "fa385e06e607eeba830a77b6da6799722ddcbe20",
+        "sha256": "f94e26db898355705fec4552e5d9e2e075851312f9204b2fec6a89cbecd2e8b6"
+      },
+      "codex": {
+        "sha256": "f94e26db898355705fec4552e5d9e2e075851312f9204b2fec6a89cbecd2e8b6",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/fix-ci.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "08d2b2c36f71b5bc17f5a4811493a17073b48b15",
+        "sha256": "d911e20a491f372a535a2aa6bd1f5a8dbfa4f9ee5d756cb714ddc4607fa63c9c"
+      },
+      "codex": {
+        "sha256": "d911e20a491f372a535a2aa6bd1f5a8dbfa4f9ee5d756cb714ddc4607fa63c9c",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/fix-merge-conflicts.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "b23273cd50a1051d0f86ea41b35edd6bb7782b17",
+        "sha256": "b8dbe568604e1734647a2fbf0b24a5e39d80775beec995dbacee74485a66e92a"
+      },
+      "codex": {
+        "sha256": "b8dbe568604e1734647a2fbf0b24a5e39d80775beec995dbacee74485a66e92a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/get-pr-comments.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "802111b0e3b05c90f68a45cc93d98901b0420d2d",
+        "sha256": "320efd22ca2afe8de3fda271904e82addda2245b7b45fc7fd242df054c114a49"
+      },
+      "codex": {
+        "sha256": "320efd22ca2afe8de3fda271904e82addda2245b7b45fc7fd242df054c114a49",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/how.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "851ed14b4f969416b1aad908eeed5043898bb505",
+        "sha256": "d48f237b2feffb38db178f09fc98a50f16d17a45c1067a3fec482ee507e6717a"
+      },
+      "codex": {
+        "sha256": "d48f237b2feffb38db178f09fc98a50f16d17a45c1067a3fec482ee507e6717a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/interrogate.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "4a1524b354c6bcc979796d5b65d00180b558b993",
+        "sha256": "76efa8ee334ef5fde70e842a81b2bb79719e156e9ae4a66b7189249bff7d3ff4"
+      },
+      "codex": {
+        "sha256": "76efa8ee334ef5fde70e842a81b2bb79719e156e9ae4a66b7189249bff7d3ff4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/maintain-verification-skill.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "e8795bf00672d125cd49866bbe210af0f6ddd0a9",
+        "sha256": "e84619e5496e6335ab01427bd148aed1be5042fd66926a6e962dc0336af264cd"
+      },
+      "codex": {
+        "sha256": "e84619e5496e6335ab01427bd148aed1be5042fd66926a6e962dc0336af264cd",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/make-pr-easy-to-review.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "a98af79685a96f8c58d2673b2daadca97b8d8f25",
+        "sha256": "13bf0f3272cc627e5bd4fc00ddd7d2e7fbdb255c70970474e3e9a41d758222f6"
+      },
+      "codex": {
+        "sha256": "13bf0f3272cc627e5bd4fc00ddd7d2e7fbdb255c70970474e3e9a41d758222f6",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/no-comments.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "4e7c67ebfc64d37dd037ac295fb6cc7809f78e3b",
+        "sha256": "813f56abdf2f6162b148f0fb49f37f336fbfb32ef63f2497443fadfe0730ea67"
+      },
+      "codex": {
+        "sha256": "813f56abdf2f6162b148f0fb49f37f336fbfb32ef63f2497443fadfe0730ea67",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/poteto-mode.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "687fa60dba326a28fa98d09cdc1638da3279cbf8",
+        "sha256": "8ac4c66ee833c97c5444cabd72f018d80ef43babed87e64043865e492e6af92d"
+      },
+      "codex": {
+        "sha256": "8ac4c66ee833c97c5444cabd72f018d80ef43babed87e64043865e492e6af92d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/recall.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "25667f66aa1ed7686830d80cfc71d23b416ba1e4",
+        "sha256": "a097c1cdf30297c36983f9464dd9d56d9957f5a6618cc22d460468b642d6c5fc"
+      },
+      "codex": {
+        "sha256": "a097c1cdf30297c36983f9464dd9d56d9957f5a6618cc22d460468b642d6c5fc",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/reflect.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "6bbb5599f7ddd1924da14a6c5123dede92d875c4",
+        "sha256": "94eafe2af79faf4bf2eab77d3d9676886a3a7767afce316a0b20c94459495a6f"
+      },
+      "codex": {
+        "sha256": "94eafe2af79faf4bf2eab77d3d9676886a3a7767afce316a0b20c94459495a6f",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/setup-pstack.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "8d6e30e95e642a80f2ea254464f0d24fb9c4a675",
+        "sha256": "3471b814061bff6f05bf803e7a36dc41ce151a238d8a5d2efce920ab71f3d10e"
+      },
+      "codex": {
+        "sha256": "3471b814061bff6f05bf803e7a36dc41ce151a238d8a5d2efce920ab71f3d10e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/show-me-your-work.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "040e92bb6c97d3b15e556988e1d7493da8bc42d7",
+        "sha256": "c1cf576265a56a722f8ae59fd95a15552bb172ab53ab22b77e79f1e0485be04b"
+      },
+      "codex": {
+        "sha256": "c1cf576265a56a722f8ae59fd95a15552bb172ab53ab22b77e79f1e0485be04b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/swarm.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "8d48126ad50dd261d2f2c35feeae111f9d0f3059",
+        "sha256": "05da1c9fc536c44fd9c7baa68ca23bb2013ddc635c2cfe71c3222b949922a0a2"
+      },
+      "codex": {
+        "sha256": "05da1c9fc536c44fd9c7baa68ca23bb2013ddc635c2cfe71c3222b949922a0a2",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/tdd.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "58259e8702c0c51c334d66fea8d8b7b261909d3c",
+        "sha256": "e299862efe956df819844b6bce2fc15c83a7523f9570e2a93516621cff209b47"
+      },
+      "codex": {
+        "sha256": "e299862efe956df819844b6bce2fc15c83a7523f9570e2a93516621cff209b47",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/teach.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "f6a8b10ccb8ef1301fdf05af5b6b78bc86ddf0cb",
+        "sha256": "7975d63075f422595ed7bf0316e77b8fb9f6e3cfad7dbf7eb746ae4f8d2aa9b4"
+      },
+      "codex": {
+        "sha256": "7975d63075f422595ed7bf0316e77b8fb9f6e3cfad7dbf7eb746ae4f8d2aa9b4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/technical-writing.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "98d2221f41fb17e163cd32e4192367b899382014",
+        "sha256": "a7d090a22fb9052ef235149b1a2f7a135512f4a277fa17cd06c7e99f643cf3ed"
+      },
+      "codex": {
+        "sha256": "a7d090a22fb9052ef235149b1a2f7a135512f4a277fa17cd06c7e99f643cf3ed",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/thermo-nuclear-code-quality-review.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "1c0cd6bf2be66fe513bbf9e64ab1a35ee8562d9c",
+        "sha256": "5256b48f53e9699e3a8e4db52ace150caf627905a62741da1219862ea7fac44c"
+      },
+      "codex": {
+        "sha256": "5256b48f53e9699e3a8e4db52ace150caf627905a62741da1219862ea7fac44c",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/typescript-best-practices.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "bb7a319196381e2eadde536041d034d7f488b3e8",
+        "sha256": "69a2e949d3c07759cf1b977f7fd470cfd7e001f41c0634dbd35b32650e749846"
+      },
+      "codex": {
+        "sha256": "69a2e949d3c07759cf1b977f7fd470cfd7e001f41c0634dbd35b32650e749846",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/unslop.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "21905d444b22010ede0b0892487aa4cc1ab13378",
+        "sha256": "3edadd352946b33418d6e6ac1fd275168a4d30785e1cc9328853f12b12ea044c"
+      },
+      "codex": {
+        "sha256": "3edadd352946b33418d6e6ac1fd275168a4d30785e1cc9328853f12b12ea044c",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/what-did-i-get-done.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "a0fdf74a763daba762b2717f5c718af1678633d5",
+        "sha256": "7cc3eb4fc419136194fddc2956b855bf986f72cd30c94befcc91588f9489fcaa"
+      },
+      "codex": {
+        "sha256": "7cc3eb4fc419136194fddc2956b855bf986f72cd30c94befcc91588f9489fcaa",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".codex-plugin/prompts/why.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "51066915feda04d917d1b2b16072ee2d0d97468f",
+        "sha256": "166ae8161d66d230172cf0940e5e5dba5c01f33b53701227646d650eeb8291b9"
+      },
+      "codex": {
+        "sha256": "166ae8161d66d230172cf0940e5e5dba5c01f33b53701227646d650eeb8291b9",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".cursor-plugin/plugin.json",
+      "original": {
+        "mode": "100644",
+        "git_blob": "6ebc34b96f65088d695e3c3038eb412d750c8bdb",
+        "sha256": "0fc91a08dab312d166a11f2c2cb8b699f19627415f001e641fcfa7aea9ba5836"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "0fc91a08dab312d166a11f2c2cb8b699f19627415f001e641fcfa7aea9ba5836",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": ".gitignore",
+      "original": {
+        "mode": "100644",
+        "git_blob": "aafcb345668bd80cbb256b066898d4df8988da0e",
+        "sha256": "8ffe9de56bd30c1a95cd945262d6e3ac355ada4111551dde41f67851b9f1fc55"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "8ffe9de56bd30c1a95cd945262d6e3ac355ada4111551dde41f67851b9f1fc55",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "CHANGES.md",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "3f611e92cc28ab93465a6d0fbbac0ca354d7d6f01bc487a369d2cd9f63b350c3",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "claude",
+      "codex_vs_selected": "extra",
+      "additional_import": {
+        "path": "CHANGES.md",
+        "source": "claude",
+        "source_path": "CHANGES.md",
+        "sha256": "e436af9f56c689f7d8b79c54f2a8b0e1751a276a5186253f1e98c28b9430df2b",
+        "codex_vs_import": "changed"
+      }
+    },
+    {
+      "path": "LICENSE",
+      "original": {
+        "mode": "100644",
+        "git_blob": "6b5400237fdf6545be0b8fae370d6f2fcff8fb25",
+        "sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "LICENSE-cursor-team-kit",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "702f5f331b56aff0e33d8c7826df5202559f894145eb70355c6477b55b5bb8a0",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "claude",
+      "codex_vs_selected": "extra",
+      "additional_import": {
+        "path": "LICENSE-cursor-team-kit",
+        "source": "claude",
+        "source_path": "LICENSE-cursor-team-kit",
+        "sha256": "702f5f331b56aff0e33d8c7826df5202559f894145eb70355c6477b55b5bb8a0",
+        "codex_vs_import": "identical"
+      }
+    },
+    {
+      "path": "NOTICE-pstack-claude.md",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "f2482b91816e3c40b15ec0cda29e91357d2b570cac6afab9bb5c85cfb817782c",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "claude",
+      "codex_vs_selected": "extra",
+      "additional_import": {
+        "path": "NOTICE-pstack-claude.md",
+        "source": "claude",
+        "source_path": "NOTICE.md",
+        "sha256": "f2482b91816e3c40b15ec0cda29e91357d2b570cac6afab9bb5c85cfb817782c",
+        "codex_vs_import": "identical"
+      }
+    },
+    {
+      "path": "NOTICE-skills.md",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "97074e1c045b57c33139d2789f79563f5ac1185d18fa731ed6491ad6127308a9",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "claude",
+      "codex_vs_selected": "extra",
+      "additional_import": {
+        "path": "NOTICE-skills.md",
+        "source": "claude",
+        "source_path": "NOTICE-skills.md",
+        "sha256": "97074e1c045b57c33139d2789f79563f5ac1185d18fa731ed6491ad6127308a9",
+        "codex_vs_import": "identical"
+      }
+    },
+    {
+      "path": "README.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "b7cdef8aeb15da88a8f9cdd82904d884552395b7",
+        "sha256": "16262f32aa041d857f2936f3ad6c589648f8e7b5d23e03c3c0a8c76ef99fd08c"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "1dbd78abbc83f09917cb845d3bcf1af92cf6e153e7f5dca0f02172f0f629c84e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "agents/comment-sicko.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "9a688b8c5b5734ee80f782d4616a78c4c59b0946",
+        "sha256": "c0fd0383008da45fc78cfac17b9007d62c42f87ad1c8d5c2fb658b1fd01f7c82"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "209e3704dfa75022060c936bd3f3362fa3bbe254",
+        "sha256": "3e239e40b7b4b9beb2cf7f3ccc57f2388eb8b69bd1ba8ae888ef87ef6e0e2116"
+      },
+      "codex": {
+        "sha256": "36532abe0abb6131e1305b1430c2c555c076aad0ec2bf88e979944b9dbb6645a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "agents/poteto-agent.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "91d53b85918f842c703758e66352b956ee80feb7",
+        "sha256": "c3850be1b97bc97cec0568ed8b26d04e7693c4e07868137c58fe546d37f288e9"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "838a0cdab1b3579379964a8cf3ba7f0b1d995885",
+        "sha256": "31c7ea4c51a865168ca3cf66a16dd067afea35bc4ae635615372d1d6a4baefd4"
+      },
+      "codex": {
+        "sha256": "92576b46d99f928b1278bbc3790cf179224995545a0409639c4a1e8020db21e3",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "assets/logo.png",
+      "original": {
+        "mode": "100644",
+        "git_blob": "3754e87cb0e1362f17428bc84c661166ee145156",
+        "sha256": "672f6791589ef758b0ced2c4c477913fa2758623c438e265639a0d539ce90695"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "672f6791589ef758b0ced2c4c477913fa2758623c438e265639a0d539ce90695",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "automations/benny/FOR_AGENTS.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "e732156e9b88b463e4a40c0f51596bca4aedcdb4",
+        "sha256": "a125e317dec1b8731fdc71f404c669f1127a73af932f7a7b8b8744a5542328a7"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "0e8c7f40592efbca580785791345624cf3cdd3e5d22c0a04c22cffd057f1376c",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "automations/benny/README.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "76804c8c566aae1a70734725416ae2f251a7ae30",
+        "sha256": "ca3c42cbb7f0bf7068f7407eb355815e6c234d5c2786942f3cbe751a3690024b"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "992837ed394c71110f6b3c42f4747bb355ed06b6b0d703732e7bf3e893eda65a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "effa5f0a38d2cfe7d948a71ff51827e2e2017257",
+        "sha256": "1363cc07343fe86aab42853b1bd4563288cbcbdf12f1c265b3b3b1afa25c09cb"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "4fb3d19bd734553d84761cd693fa6331e7aade0bc08f1a06db4e3b7318b536ff",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/agents/openai.yaml",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "65ea27bcad4ec1b3e467c715767892d5cf9808eb86eca077e6e246d4aecb7fee",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "generated",
+      "codex_vs_selected": "extra"
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/references/control-adapter.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "3399491eddbc458f3a7ceb6fd62b8f89266b07ef",
+        "sha256": "58b0615d2fca895f9a20df83266e280042b0d585b5f2fd324e2094a682fd846b"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "58b0615d2fca895f9a20df83266e280042b0d585b5f2fd324e2094a682fd846b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "620ddedba3c13d603974b1d78754e36946dacf81",
+        "sha256": "1e5c7c8522daec3e43fcc2e73ceb97289ded65b552949ce65a11cc8eb3d2b6ee"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "1e5c7c8522daec3e43fcc2e73ceb97289ded65b552949ce65a11cc8eb3d2b6ee",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "e3cda3c06a48432fd932b32318ade4e6178ef4ed",
+        "sha256": "c90eae00abcdec71a58fa8d60f2c495b082a526ad50b8e8e494837609129bf29"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "c90eae00abcdec71a58fa8d60f2c495b082a526ad50b8e8e494837609129bf29",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "automations/benny/skills/setup-benny/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "b05c26f4d4a39c16559f5ef2bbdd380adc923fda",
+        "sha256": "5a3cbe63360c9f6373b6cb6c79a1eaf7e0eba181bfaa1577e2e6431af3407282"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "dd782c150f0b10abe2d922b38ffac262b57234213ce252b227b8c880499bfcfe",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "automations/benny/skills/setup-benny/agents/openai.yaml",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "8c5e80fe97c175b7ffeb8d8739efbb2a18047b198643bc82f53751a72ad6850d",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "generated",
+      "codex_vs_selected": "extra"
+    },
+    {
+      "path": "automations/benny/skills/triage-issue-reports/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d691672d00fb8f8f07fc17290d00ae49d1fd119b",
+        "sha256": "216a758b8711e64d19a55e6032c496527daac6364d010611040f3c04ef1a448f"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "6ea3ac73802c2da6fb5f065d74b986be8cf683e8d591df2cf02ad13f01f1f777",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "automations/benny/skills/triage-issue-reports/agents/openai.yaml",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "766f6c81a6efd4bb9b88a11ef8db5f9c30de582bfcb1ba793b7e581c8469bdcb",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "generated",
+      "codex_vs_selected": "extra"
+    },
+    {
+      "path": "automations/benny/skills/triage-issue-reports/references/routing.example.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d71aea768c7d9452270ca4f11091a47e5750038c",
+        "sha256": "e5e53013692568cf69da8e8b302fff929fe2fbc9aec1a4651fd7997e2c7a4025"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "e5e53013692568cf69da8e8b302fff929fe2fbc9aec1a4651fd7997e2c7a4025",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "automations/benny/templates/configuration.example.yaml",
+      "original": {
+        "mode": "100644",
+        "git_blob": "8616f5fcced0ac57964467dd537a6ba80560a271",
+        "sha256": "13e24b4ce9b9a0913916e85fe3b080b88d45f8e55dccfe8ae38e0751a997b6f5"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "13e24b4ce9b9a0913916e85fe3b080b88d45f8e55dccfe8ae38e0751a997b6f5",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "automations/benny/templates/reproduce-automation-prompt.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "5c66c922d69f7323d0c78461480baaf45d7b1284",
+        "sha256": "71ec574f1844e379394ae4ef14c48d7df10afbaa319d395c788d7f856f0e6899"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "71ec574f1844e379394ae4ef14c48d7df10afbaa319d395c788d7f856f0e6899",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "automations/benny/templates/triage-automation-prompt.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "939e5e15c09f57d17cee00c9ed58b3679a268e0f",
+        "sha256": "e0bba594547834f013ec805915610eb597e7929efe3ffbe85ae00339ee16d474"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "e0bba594547834f013ec805915610eb597e7929efe3ffbe85ae00339ee16d474",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "docs/guide/01-setup.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "1e602f61c81eb1902150b849682b92b8e583fa7c",
+        "sha256": "bbac20e25fb097029e2676ecf3212f4a72f566eaf2b1031b56317aa1e4fdf490"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "56bd599aaa5b1a7ab27a048362259113c153100c308b90cc58b56526403ef62a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "docs/guide/02-poteto-mode.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "403cbe8cc9dbc5204c6f9399abcced228f8e76f7",
+        "sha256": "379a1b2c9cd2ba54032b2b142563328d0f3d65039f067863d19b1d4c008737f5"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "a373251036155bd2578930d14ba60ff3720f2bae127564de3a712e9f626e0937",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "docs/guide/03-understand.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "af985988c2ac9babbabf6e9b4447c2f22a346ee7",
+        "sha256": "16f3fe0f7df092a5c69dac90971ef57e63a8a9ae926eed851285c7bfddc0f3fd"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "16f3fe0f7df092a5c69dac90971ef57e63a8a9ae926eed851285c7bfddc0f3fd",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "docs/guide/04-design.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "681d39cff22438b4feb3d40a8d97017af026bc3d",
+        "sha256": "21e820ff73c0b70682aa570a967ede446b4d7caf62e8f391d0dd733ccb74874c"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "882021bf135b6ccac2b76fa656deee419bb7957998784167e42b3e3cfa7f6e60",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "docs/guide/05-build-and-clean.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "c38bc44a39fe5e6ace2cd228f631c7eb57ecccf3",
+        "sha256": "6bd421b43a3cf9fec3cd201fd40ce65fd8c657264eac48b0c9a175b6afd7c252"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "a4b90dfce98a23977f24d8a8095b6ba099ab3056c979aa16309e9e6896c4c988",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "docs/guide/06-verify-and-ship.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d96c76612c647bfd33270d510440991946c508ed",
+        "sha256": "c93cd50c0359ce875a82b3f7d64eab102a4b0815dbbecdb8e0e5e910bd2d18e9"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "7c883eea9d8234060b0945b0c72d711a5aeaa4587a69cd9f739003c7357e2fc5",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "docs/guide/07-overnight.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "9ff66b7706041179ff3661213939a961eb196212",
+        "sha256": "5033d61e8b4b6fb0b2304b2132f26bf0b6aee685aa4ed53a76a73cf0ac1c3557"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "6bb7b96aadbbeed7f41fc5c9fa6bcabc6163a69ddef215b9f4c738a1af48c361",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "docs/guide/08-principles.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "be1102d678a9748b396f829e29fb3dfdd60ba205",
+        "sha256": "3ede7c9cf74d9631142aec016a01843d97c1e20469387144b70c2660d50fa96f"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "3ede7c9cf74d9631142aec016a01843d97c1e20469387144b70c2660d50fa96f",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "6723069b5108f586575fe5353272ee6567a49b02",
+        "sha256": "b98588a232a38ca7acebbeecb95ac771df1981aed662dcb45c96b4b66ed20ec0"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "0349cb87cd446f38628880fdc20958d025dae142d7736fed5008a28c39ab1a48",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "da0af5e6f7984d24818ef1cd28f518d0014da788",
+        "sha256": "a4662cd98870f08c6abe117a832abe37670ee84f8ed25dcbe7e99ef4eb8e05e0"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "1f2fea3863aa38bca357f1186fb82c8be446c3a51bbc43ec5af4fd6aa5806272",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "docs/guide/README.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "b8b1b079456d6f2b2c536937d21180ba5c21f733",
+        "sha256": "0db8dd72e832c06638ca2f43489e8597d44dc0ea8da3b5088e4382ea26d904c5"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "30cb92bfb71e087bd0b692738e0788822c6ed9a924055d103085a6b67cd6b248",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "docs/guide/images/design.jpg",
+      "original": {
+        "mode": "100644",
+        "git_blob": "f86909437f8b5a83da3cba7bc35a018c9d4887c8",
+        "sha256": "b8ed07427f6a0c37dd8ba97961fc0eb5071efeee6c4a230648bdb7547f6f2a8f"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "b8ed07427f6a0c37dd8ba97961fc0eb5071efeee6c4a230648bdb7547f6f2a8f",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "docs/guide/images/overnight.jpg",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d64e1c63066c9f088da909160f5e136049e9a512",
+        "sha256": "4b4405e4df8925c5b3abbe702f681af0f3b1f5f32271b599f95717f578f1a0c8"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "4b4405e4df8925c5b3abbe702f681af0f3b1f5f32271b599f95717f578f1a0c8",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "docs/guide/images/recipes.jpg",
+      "original": {
+        "mode": "100644",
+        "git_blob": "69fe992fdb9fb8e7baacc144ea140f9c93b262fb",
+        "sha256": "9fa2d51b476635712737795ddef81806efaa0086bb3bfa9f9f45695d9ab0f8e8"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "9fa2d51b476635712737795ddef81806efaa0086bb3bfa9f9f45695d9ab0f8e8",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "docs/guide/images/router.jpg",
+      "original": {
+        "mode": "100644",
+        "git_blob": "c8fba6a266505caf406d5185d7a4cc6e34be98a4",
+        "sha256": "525843055a4efd2b10acc50a8652fd02b0834ea733a8a2f895c1eb89036017da"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "525843055a4efd2b10acc50a8652fd02b0834ea733a8a2f895c1eb89036017da",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "docs/guide/images/understanding.jpg",
+      "original": {
+        "mode": "100644",
+        "git_blob": "bb1b1ac15dd11da9ad047d203049a1a24abb2b46",
+        "sha256": "b60587e9a9bbe2550e93be9819cf0cd4acf77d90fac769a0c43d82bd8e34e279"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "b60587e9a9bbe2550e93be9819cf0cd4acf77d90fac769a0c43d82bd8e34e279",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "docs/guide/images/verification.jpg",
+      "original": {
+        "mode": "100644",
+        "git_blob": "a252ae0b5e14cb6fcef2e3b806bbd66316242446",
+        "sha256": "2a76b52007a1cd2866ba67fd47d7d9ef3e1118bb5a09c4665eee8c3f161bd09a"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "2a76b52007a1cd2866ba67fd47d7d9ef3e1118bb5a09c4665eee8c3f161bd09a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "effort-agents/effort-high.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "dafa7fd0fd9ceb26cb6679470b0aedb0a1d14422",
+        "sha256": "74f334a1aa32bde9ab0b0a6db1ab9701528e2ecbb2fcd8620ef37258848094bb"
+      },
+      "codex": {
+        "sha256": "8e7c700d89b7405a73894f44c2f4bfcbbf5423389af746bd3e0506c848b9a2f9",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "effort-agents/effort-low.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "bb76008f5b5758d90b151733a9b9c185922cec05",
+        "sha256": "803a4e954cd905b14371eca5485ad74bcf3de8041790f3d6f93b890363c73961"
+      },
+      "codex": {
+        "sha256": "1ace98cf1c0dab8ea6f467d4a29f21577ce578bcf3e4c06624a6460e3d0fdbfb",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "effort-agents/effort-max.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "04c01fd127d0dfd3c4b2e9b45915fc354078d50e",
+        "sha256": "33ce3ae087cdca5a5bebdc51f07d132d676888bd75ff451dc5db8660a7eabb00"
+      },
+      "codex": {
+        "sha256": "b276057030296df713cd052db172e549116894a3aa7fb7b6b8f286bb7ee02359",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "effort-agents/effort-medium.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "99a9bd54f0bffef53ce084b0a40c7a115d5b9d21",
+        "sha256": "c8e7de45e06ba7c2dc8469b12e7b5d0d30a9744e982fe8030ca43a4a2d316e2f"
+      },
+      "codex": {
+        "sha256": "af2d5bd42487d50f808fec9bb1f4c69b8e630e6ea10b163a1d1094b8f3d9458d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "effort-agents/effort-xhigh.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "4e666e259e43d11acba2488f9b8201b30a1c5fff",
+        "sha256": "cc8942c329f321ec3133dae26202a60a0be0230c97b06307864d28af6b91584b"
+      },
+      "codex": {
+        "sha256": "9fa1dd8083ee080a3954176025dabd4dbaa4bd8179e5f6df3a2eb27a88b14403",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "effort-agents/poteto-agent-high.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "4b7844620735813fde30187cccd19acc08c338d0",
+        "sha256": "658c9838e9e7802ed0a484a3dcc327229a017b470c20deee517bdc73b6090a11"
+      },
+      "codex": {
+        "sha256": "c18638cb60102e07ea1dbf35fd7d30f70e51cab7a4788372aac52dfa701d342d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "effort-agents/poteto-agent-low.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "d4aa585d797a32c12401b669af69d22cf8a1f02c",
+        "sha256": "9ec0028424de40b70d7e7186b899cb67743d0f85d96158905071775e42498c5a"
+      },
+      "codex": {
+        "sha256": "5f873dcfce70769a1f2e6d9f9742e4d31d5b0af38ac67626137bd44f0e924b76",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "effort-agents/poteto-agent-max.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "f455064b3545cc4c9daa6cbbd4d07dba6e66bca8",
+        "sha256": "2a3692a591c93d1cb5d98850fdaa547078cd4cd77a5a6c63ebb0257ab1b6375e"
+      },
+      "codex": {
+        "sha256": "6e3119b13d5de762eb0d3e403cf10d2c92c4b47652b7774c796f91347c26c104",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "effort-agents/poteto-agent-medium.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "221c955ff8f28acd8bb4a89cb38dc99ff1fb37c0",
+        "sha256": "7ab2a70ab5db9bb702f2aa18aff946b60a5e01026c20e9fc6691dfbe005dc089"
+      },
+      "codex": {
+        "sha256": "b1896b35fbf5493c9ffcfa98632139e966f7d4509c22a7d447a142dc0eea2762",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "effort-agents/poteto-agent-xhigh.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "6736ee8f97a6b6a8e4d62d09f0dda4da0bfa49c0",
+        "sha256": "45694e5cf5649896266d4beb961f4e5f10830f14ff397ec5e266184c79f3664b"
+      },
+      "codex": {
+        "sha256": "c8d93e9525cf5f6fa3302ac9c7cb9dc6e30571e74f63f347d69d833efd17db23",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "hooks/hooks.json",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "fd49cf5f1b530d616567299a2d6b62460c12336a",
+        "sha256": "c6ef2c0efe3053a9470cec2cd6f38f992838a8112e60199859929b828cc9cb47"
+      },
+      "codex": {
+        "sha256": "d84a8530852373cc22a23875e315edc776fd479a2e9f739ff32b2a88d0a2098f",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "hooks/session-start",
+      "original": null,
+      "claude": {
+        "mode": "100755",
+        "git_blob": "be276f8d3d292853d22217c12152cd086944fd83",
+        "sha256": "0a4296bf588e5a0564e74e763bdafeaf42e7f846fcb85461c84c4c8a146963e9"
+      },
+      "codex": {
+        "sha256": "1ad5fa9697e67b4e33e09ba9424f55429ef9a512bd65080cec3c6eee4e3c321c",
+        "mode": "100755"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "hooks/session-start-context.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "9c622cf09081fc51e4a0fb8fe4d3de404f66fafe",
+        "sha256": "39dc6bebcc7b50e6add4b28d470b2faf9f34391fad1bf847039bbe76f26e84e4"
+      },
+      "codex": {
+        "sha256": "2d1d778fffeb17135101c770c1168b06d758ee9bb671aaaeb874643550f3105b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "models.json",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "ac0b255aaab98b43ecb7ac979d0350a0ee220644",
+        "sha256": "b89ce7939255ad60603988780ec1b1c7a56b31343e4756552f6651153f4d636a"
+      },
+      "codex": {
+        "sha256": "f2964628f97c3fe4cfd01e49b2ca0a8e49c22f99a772e6da68a0106d8bd0a8f2",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/architect/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "afa6eead878d2a7b8d22b8eb99e6cf0c6ee0ad69",
+        "sha256": "691cd39f52c7b613866e6baf9ea0b05451ffa21a6a9b4102f166418b89178fde"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "117940c1de2710d79360a5140adaa2b6a288683f",
+        "sha256": "bcba651eb9178785302cc0942107ba1958c4772d580cbaefd67ac0f38266fd51"
+      },
+      "codex": {
+        "sha256": "a78fbf8f9dc7a67c7d2c373aa511b0ff45163f68abd5fe7ad5a10c8f5d5728c7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/architect/references/design-red-flags.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "32cb24083f308fd67ab4c431b44e1d7d3563435a",
+        "sha256": "905066f9bbac81c573c2b325be47751d2c0f9325e0a0772bd4384e82dafe9336"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "32cb24083f308fd67ab4c431b44e1d7d3563435a",
+        "sha256": "905066f9bbac81c573c2b325be47751d2c0f9325e0a0772bd4384e82dafe9336"
+      },
+      "codex": {
+        "sha256": "905066f9bbac81c573c2b325be47751d2c0f9325e0a0772bd4384e82dafe9336",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/architect/references/rationale-template.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "a10f77f59510c532cd909faaf3bfeee5ffbfd588",
+        "sha256": "0cedfccdc7b47fc881febd5a8293eecbc542c20f8df825639904a8102d2eb5d3"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "9ccea423df568bbedeea0c371b9ca6990f1d6b07",
+        "sha256": "3bd76d4286a288b55a195cf786f9a25632b9f5e362271c006e8ce16e66bdc97b"
+      },
+      "codex": {
+        "sha256": "3bd76d4286a288b55a195cf786f9a25632b9f5e362271c006e8ce16e66bdc97b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/architect/references/runner-prompt.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "580ec47a5df4259a6a9ace5c452e33092053bb90",
+        "sha256": "983bf2820cc14ed8ecab6e448e1033e5cfe6031967d0a9287b48c7fa9c33d925"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "580ec47a5df4259a6a9ace5c452e33092053bb90",
+        "sha256": "983bf2820cc14ed8ecab6e448e1033e5cfe6031967d0a9287b48c7fa9c33d925"
+      },
+      "codex": {
+        "sha256": "7da10a53ee7aa0673506ca87d520ca147b92907cc51988ad43e25fee24aa142f",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/arena/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "e50356e2f97608dbb48d9c1cd75af6d70b3f7059",
+        "sha256": "e3a1f6c49a08b7e0b92134e53300d146f1f22ba83386d2019926e736df421851"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "11f5dcd2ff0556676c62eed431499fd70389dc19",
+        "sha256": "f59c0e268fef13151418710d934e41679f0b06ac2db2e041053d5879c8a53bfa"
+      },
+      "codex": {
+        "sha256": "28f42d7f9b8949bab9f5f09dac59e16b04aca236bd5486d07d28877bd1ba8920",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/automate-me/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "cd3636e9a53c7c782cf15254204dccfc854086b5",
+        "sha256": "1510979b0b71b54284427a19c09918f8b1fdfc168f9b7f9e30098793a5ec88ef"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "8b7cf3881b7d11916c9c7e3253c74b88a8163cba",
+        "sha256": "6f72a304fb7de89365a31c92c41a2e098a011386616192f09658dc74f00bdcdf"
+      },
+      "codex": {
+        "sha256": "20c9356598d2fb020c8b248c6405f1b8e3010d55fc04beceebc6c7794977b4f7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/babysit/SKILL.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "92854bbcdfb29ae6f04d8ed9f46daa2a6fc36c71",
+        "sha256": "97ec7c67a833ff79331e86e8f3276abb6f7fa9a452f30b4034f77741237be527"
+      },
+      "codex": {
+        "sha256": "f6f22f1486257dde1fd0dcad36c30418d224f3fcd011172b1e792fd40494604d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/blast-radius/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "1713b283d477530be64e925ede2bdbe5ce2d6e31",
+        "sha256": "5f02db9101ccf26c20254718f0fcd5c2c7ac5d4292b0e0923d0944ac47237aff"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "b44b5e81399469b0f7b7a957e7af2e027bb44b3d",
+        "sha256": "5ae00d4f1ba5abcbdef1eadd3109c1a721b6766b506d3c8c7d11e84c6001c0df"
+      },
+      "codex": {
+        "sha256": "5ae00d4f1ba5abcbdef1eadd3109c1a721b6766b506d3c8c7d11e84c6001c0df",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/bro/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "b1701b778639c08bfc306291d70170c525c66a68",
+        "sha256": "aa329d0ceeeecb6822a7174ad76bb07a7826a3c52ceb6a588dec4138815084bb"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "c21e6a4070325a7540f4c1ef4b3b8aac43676138",
+        "sha256": "18acb10aae040eb78058cb07f2f1e0ae607886b64c692082fc804cc6ce86f469"
+      },
+      "codex": {
+        "sha256": "18acb10aae040eb78058cb07f2f1e0ae607886b64c692082fc804cc6ce86f469",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/create-verification-skill/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "f869e26122991252373d5b8f6357e5b9ff195a00",
+        "sha256": "644f2551403c1bca01a2855b34611b6e7be0ce0dc5b204514c376c0f6a6e6ac4"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "0848c80738e818802757bcd56f6870e448100c60",
+        "sha256": "f07c103bd5b623e2835b5df1936000fc501c24bcc6c2e4974447fb0340657f59"
+      },
+      "codex": {
+        "sha256": "ca161d370659e1185846b7c026111acd4132c0bc389180feafe6ded778b653c1",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/create-verification-skill/references/feature-map-example/README.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "fb64570cfab3bbe672fe80925651933ebd57aa33",
+        "sha256": "cb7bd782cf89968a4ba3d58a5151db837430db92d19a6f52a906973b77b516ba"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "fb64570cfab3bbe672fe80925651933ebd57aa33",
+        "sha256": "cb7bd782cf89968a4ba3d58a5151db837430db92d19a6f52a906973b77b516ba"
+      },
+      "codex": {
+        "sha256": "cb7bd782cf89968a4ba3d58a5151db837430db92d19a6f52a906973b77b516ba",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/create-verification-skill/references/feature-map-example/create-note.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "21357566b69223a503d6780a04fb90ce540eae22",
+        "sha256": "644a44c74f35d38c2feb7cd05a0121fdebbb623e8dc376c185b565a581d1ccf7"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "21357566b69223a503d6780a04fb90ce540eae22",
+        "sha256": "644a44c74f35d38c2feb7cd05a0121fdebbb623e8dc376c185b565a581d1ccf7"
+      },
+      "codex": {
+        "sha256": "644a44c74f35d38c2feb7cd05a0121fdebbb623e8dc376c185b565a581d1ccf7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/create-verification-skill/references/feature-map-example/search.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "1f8e57d3aaf19cf27a9464d55fa72e46bcbc8b0f",
+        "sha256": "6e87b9e7f2791a7776ba1bb83f371cd285c306c67f19d245cc4dd6ca3015c823"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "1f8e57d3aaf19cf27a9464d55fa72e46bcbc8b0f",
+        "sha256": "6e87b9e7f2791a7776ba1bb83f371cd285c306c67f19d245cc4dd6ca3015c823"
+      },
+      "codex": {
+        "sha256": "6e87b9e7f2791a7776ba1bb83f371cd285c306c67f19d245cc4dd6ca3015c823",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/deslop/SKILL.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "1b3827c7f991182149a7abda696af43ff8f17a12",
+        "sha256": "2f7b7def74af7ed11f5b44b4d32f0f91fca8c5d1f92bf2171e8d12fd33a0f810"
+      },
+      "codex": {
+        "sha256": "2f7b7def74af7ed11f5b44b4d32f0f91fca8c5d1f92bf2171e8d12fd33a0f810",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/figure-it-out/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "fbf3fb122cab127d71d3c41e84711e61cc5dec4c",
+        "sha256": "0eb9485f0e7d84fee56b5d0f0af0faf4635e3ca87c8cba3970c01293b76ecc19"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "30cc95c71ebc44c0054617fa6545a7861c9f270e",
+        "sha256": "88ae794a0addb5c034af77d1d02fd7538ad49386647e1a5ea4b9664c7120b635"
+      },
+      "codex": {
+        "sha256": "2104495f9d11e95813588d60bbf67a698b2c730b92d18dd5a62de95efd7b6e6c",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/fix-ci/SKILL.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "60adbdde5b63ee95cea8180df8080498680e338d",
+        "sha256": "925f8c3e11de8bcc0cd015ec907f4d00b12cde6714246554ed3a52e096536522"
+      },
+      "codex": {
+        "sha256": "925f8c3e11de8bcc0cd015ec907f4d00b12cde6714246554ed3a52e096536522",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/fix-merge-conflicts/SKILL.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "2940fe4c7f2ada9c119b5726bf276b834e6754b6",
+        "sha256": "738b251281b30fd33e3892d0679cf94249e9c9e29e1bed40bcdde4a6aca98a76"
+      },
+      "codex": {
+        "sha256": "738b251281b30fd33e3892d0679cf94249e9c9e29e1bed40bcdde4a6aca98a76",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/get-pr-comments/SKILL.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "396aad5ff7cbe981124e9540ae786a120af77149",
+        "sha256": "8bf292736cab922276feb4d8377edc2fc4102a7beb62bcd1f3f5cf72a79b16cc"
+      },
+      "codex": {
+        "sha256": "8bf292736cab922276feb4d8377edc2fc4102a7beb62bcd1f3f5cf72a79b16cc",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/how/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "cd22fff659f14822ad2f485f711a355b6da0668d",
+        "sha256": "d31805589c7f6a63a6db6c9fadebbd79fb9660682cf1654e9b2e5e1e7cd30bc0"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "35dd767c534c83376c7c77a8507822486a481906",
+        "sha256": "b603d6c34f981454d08d261650b8ae0ce16633e85b606d1c849c5487fee1d598"
+      },
+      "codex": {
+        "sha256": "fd5b04ccc13c86130966edbde4995aa6191f744c32e483edfde692f286ce00df",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/how/references/explainer-prompt.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "3a36fb6736c5b74ac2774350841e332a019dec94",
+        "sha256": "ddb89cebefc24e2b54517a331aedfe045b6971e101f45c71b8cef4cccff45bff"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "3a36fb6736c5b74ac2774350841e332a019dec94",
+        "sha256": "ddb89cebefc24e2b54517a331aedfe045b6971e101f45c71b8cef4cccff45bff"
+      },
+      "codex": {
+        "sha256": "f0442967cc1e9d14dacffbeb88b2dcbfca51c7110f037e0af9a696314cce2f1e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/how/references/explorer-prompt.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "9b4b0594bfd779015616e9d280369aba939583b4",
+        "sha256": "a3b44a6e5bb16a6d4d1cac19db8ed5322ffd5f5f5d45baca4e73990ca096f8be"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "9b4b0594bfd779015616e9d280369aba939583b4",
+        "sha256": "a3b44a6e5bb16a6d4d1cac19db8ed5322ffd5f5f5d45baca4e73990ca096f8be"
+      },
+      "codex": {
+        "sha256": "a3b44a6e5bb16a6d4d1cac19db8ed5322ffd5f5f5d45baca4e73990ca096f8be",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/interrogate/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "bd82e5b179f186e1cd7913dd112db9f8b07b4846",
+        "sha256": "59d498c3e9848a24b2d105eb3f05b808aa4152adf4cb1de7bbb6aff4f4cd9b68"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "c14e491b2eef6a3d738f90b3208abe7ec91ad570",
+        "sha256": "d726b839d3746f658574c296f91f2b3b714559e64d4d1ead4bcc579721f39129"
+      },
+      "codex": {
+        "sha256": "75bd8e15330e3a21350d253a5f765c2056841a2f8ce6f9acb79b3e4804318197",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/interrogate/references/code-quality-review.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "16581250d81044c7e80fe234c4970a3f7b7fc98a",
+        "sha256": "79162fda183eafd40d51661fbb5e151c7ba250f89e506ba17f5bd135dcbd50a8"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "16581250d81044c7e80fe234c4970a3f7b7fc98a",
+        "sha256": "79162fda183eafd40d51661fbb5e151c7ba250f89e506ba17f5bd135dcbd50a8"
+      },
+      "codex": {
+        "sha256": "79162fda183eafd40d51661fbb5e151c7ba250f89e506ba17f5bd135dcbd50a8",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/interrogate/references/lead-judgment.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "5ce526097fdd3dfeaf4cd3b126a3f486c3ee36ae",
+        "sha256": "6e5bdf5670eb34017692e9b6c546f36ac7552e6bb9f3f2f3429164fcc46a9361"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "5ce526097fdd3dfeaf4cd3b126a3f486c3ee36ae",
+        "sha256": "6e5bdf5670eb34017692e9b6c546f36ac7552e6bb9f3f2f3429164fcc46a9361"
+      },
+      "codex": {
+        "sha256": "6e5bdf5670eb34017692e9b6c546f36ac7552e6bb9f3f2f3429164fcc46a9361",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/interrogate/references/reviewer-prompt.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "13a252b2c3cd18522d4c8dc39a7030477037b249",
+        "sha256": "e0598e254792b56de39bb16b1e6db559b03a522fdc54b98f942d254090920ae6"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "13a252b2c3cd18522d4c8dc39a7030477037b249",
+        "sha256": "e0598e254792b56de39bb16b1e6db559b03a522fdc54b98f942d254090920ae6"
+      },
+      "codex": {
+        "sha256": "e0598e254792b56de39bb16b1e6db559b03a522fdc54b98f942d254090920ae6",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/interrogate/references/rubric.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "2d92f1b83e13be03fb10f20cba12639a1406a2da",
+        "sha256": "a85aa801abbaf14434f00579440abc0d8e2723227ba8bf57de7cca8d6e7d2f25"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "2d92f1b83e13be03fb10f20cba12639a1406a2da",
+        "sha256": "a85aa801abbaf14434f00579440abc0d8e2723227ba8bf57de7cca8d6e7d2f25"
+      },
+      "codex": {
+        "sha256": "a85aa801abbaf14434f00579440abc0d8e2723227ba8bf57de7cca8d6e7d2f25",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/maintain-verification-skill/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "a2680b91fead45a0b4963d8c367a854956bea59d",
+        "sha256": "515c0eaa054b3f6be1b1fb06f2c2f173c80fddb58bbcac57576f89c479bc68e8"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "0eef40b6660f3c993aff48e636e7d4ca443f435e",
+        "sha256": "161ffef475e7d412fe34bc9baf4b97699e0fe99e7d5c499faac28846f1436766"
+      },
+      "codex": {
+        "sha256": "fe517ab53a905782dd3b12f5cad53db81d202da53b9d2edb0a5bd1754ed79cf1",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/make-bot-ui/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "285df7569758a70e62e9f3596a1f829a5b6ba80e",
+        "sha256": "3624c8ef16cf2e48deb2a4049e72c6962a9431c8d6c6af90e7bd7ea0375224ec"
+      },
+      "claude": null,
+      "codex": {
+        "sha256": "34a594ba4b0519dc149c744c4a2913e546595dd362f277d0cb8704c2de54b806",
+        "mode": "100644"
+      },
+      "claude_vs_original": "original_only",
+      "selected_source": "pstack",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/make-bot-ui/agents/openai.yaml",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "349ee01f6d17902acf4995e105af48441952d022ea7670eca2bec4a8983092cc",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "generated",
+      "codex_vs_selected": "extra"
+    },
+    {
+      "path": "skills/make-pr-easy-to-review/SKILL.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "f5343c095b6a2196b1474aa5013d82b8ceaa2120",
+        "sha256": "e8da0d4a85b7c04823698f539251617389f827fd9137100ef7eaea5dcc992fe7"
+      },
+      "codex": {
+        "sha256": "e8da0d4a85b7c04823698f539251617389f827fd9137100ef7eaea5dcc992fe7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/no-comments/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "3b3e76295a7ad66806dcc683e4de92fb25690f8b",
+        "sha256": "5c5b0882297d704c3a9720c52b7a793c68b013eaf717989f0945624efdfe2b05"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "bc94d6d6317a17979a88f5bebb12a73041a2b630",
+        "sha256": "6de3c00a2a773ac982ad96fa74b10032133a7ca455d6902defeaf237105bfbad"
+      },
+      "codex": {
+        "sha256": "1fb6cdbd7ba4340cf4eaa6c09c65f3a519c5d00b6b4b862773b06b8ccc319780",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "f8ddcae379007d61aefcae39b18bd836a488ee21",
+        "sha256": "7645c9ee27ef9798c48a84060b6df409f8593d1058c7c25cbec28dce976195f9"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "e7a40008ceb50a2c07b119fac6b0883a77800a19",
+        "sha256": "016a6654b969626fa95e969b951c5981ce4f6bd7d5971a6267f431dd0bfcd80a"
+      },
+      "codex": {
+        "sha256": "a8a397f0cb9c3a57b9e3aeb4ac91b8542c9626a8426bc88debc0a7a1a1434527",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/authoring-a-skill.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "8c5a55a44f5e95bba92f652da0ac87e941c49538",
+        "sha256": "f6a13a445c360b48d6cd72780ac01955f45b82826476efe0e67c7559329407aa"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "5d3367952d1ab6cad2c46dd247c32ec245338d48",
+        "sha256": "712c47f47c02708475ba7872bd9f2f3364c1666d9f85e46ead6dd8302e8b433e"
+      },
+      "codex": {
+        "sha256": "f0603dee7246e1787d8fef9b911e5c29799960fe2e9d9c79711e72298a0afba9",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/autonomous-run.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "12c3a7d84effcacf3550cb893be67498d7b28a4a",
+        "sha256": "15e54ad3ac92565613980772d8708de6e19cc4690bfd4bb3fb8836522407377b"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "196f525d881ed8c3a258a7880bef7a4a36eb4c0c",
+        "sha256": "a60ad3a185a1b1ac7bd6cbe9d0767a3bb9ff7f7353b484d8ec5eb76a3e7bc9f2"
+      },
+      "codex": {
+        "sha256": "86544044d6e26f7588bbbc20d480f740202658af966f3507330fbba233c9361b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/autopilot-full.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "e92be88a8dfcb0a1f2745e0da7af42d31f1d6606",
+        "sha256": "975439613b9073b637a88c6df762b474dbd745f0e86150bb07d2121e32eb48e7"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "57c4f8aef87730f0ba785c7882dc21a30043f5cf",
+        "sha256": "003c891af0d8f3be3d3f74ede273adadf385184817f32f9f5ad72a0047887d23"
+      },
+      "codex": {
+        "sha256": "4bc20417f2ca91194588837b1508508aec935b581f4b96101dc15d91386517f4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "810a70fff72ae49a9387b5ea41dcb13f890c83c0",
+        "sha256": "f626f4ed17725de5ea96ac22597a1c298c46c36015e844bf86a68f6d38d57fbf"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "c8ca7c9bc4fc6b61df75fc44b52931e90e9cb3c1",
+        "sha256": "7f1ad274a3a2aad474cd7cc1f28bc83883df76ccd25eb38ba8b9447390016804"
+      },
+      "codex": {
+        "sha256": "724c14e7df8f9115bae7ec691bf73ddbe26aaf0409507db8179372c1966ed54d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/babysit.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "683cf0ba889789cbe2d880fce667c75349f9ed12",
+        "sha256": "a0346c37c2313f36a863b80f66ee7b98059c2242adf74fc7b3e48abdb9ec6f5a"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "221a2134e8dbe6d480532595e738cf7a5527f192",
+        "sha256": "fb4a3e617b55c6e9365d336f138759d55164625bc67643b680aa38d0570b7b05"
+      },
+      "codex": {
+        "sha256": "d841a91734570a7e32bfdfc28125d90c6f528a0a69715b82f0a4355f839ac773",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/bug-fix.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "eeebc42b7477d435d8ac61d631d84822f908f59c",
+        "sha256": "018bbc146ae19145caa6c7e70591fee081b64447dda1c1c4b681c9974d928b13"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "68c682f26460e968c6f3e66b356a6446c2335f6f",
+        "sha256": "01caf22c3d04ca3f38752c0ee50188972fd695907c87d4e2a60b459e42c44632"
+      },
+      "codex": {
+        "sha256": "c27f763b78a6748a1137a2b91d7e5d064b5b8f3884adacf007ddfea8a80fbe16",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/eval.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "3dae34e2ef0cbdd9bafa5ab372da5ea143d48452",
+        "sha256": "b862bfa2fae2399abf047a8e80d3e3dddb64003af96fb1cebb625216131e36bb"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "3435bfab3dafb0874e8c26a3e63eabe2cf22bda1",
+        "sha256": "3d69bdbc42e6a0f881965c7c9fc19bdfcc5c8fd18ed46a6bed60024491f02edb"
+      },
+      "codex": {
+        "sha256": "2020b24b674a60f381b43c3ee92d46ef29b026c860a3678f7b50a79e51e0cff0",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/feature.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "79a6bbbe0ce61c3b5ef9af1ee8e3ccdb0557edc6",
+        "sha256": "3a62cc4a8cbcf144bb9dd05f05420a15be0d38b784d3b141bb730a5852f50a62"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "dcb0ef48375a68a0f5a0f8fa508e1ad7a9aba2b9",
+        "sha256": "d7815319075e18874e33144e6177e8310bb7859c13c854157ba42e0d6dad9123"
+      },
+      "codex": {
+        "sha256": "ab7956de59cacb4861ff50b7a95ddc9faba9714b73e4d32cac0591f56508dbc7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/hillclimb.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "582555e826675068ceaea08e6134a44ba0ea4511",
+        "sha256": "41980da135de2579bb38570e4b3373e015029148734ab5dc7d6103417b499af6"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "efd0ef29e4b433931e0714871ed66295c4ba8b78",
+        "sha256": "2c82843ab010ab39391fdbe9a3825c9c06eabf8c537cf8ec8678af442d9385bf"
+      },
+      "codex": {
+        "sha256": "2c82843ab010ab39391fdbe9a3825c9c06eabf8c537cf8ec8678af442d9385bf",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/investigation.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "cd119f04f23e0b7acb3f8cc5ba13ce4ab7aa6c7d",
+        "sha256": "dc66bcf6af3a074fc7f67aa5e12b93ef571a4fb4d8e17f2f1af5ae5359f42e46"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "cd119f04f23e0b7acb3f8cc5ba13ce4ab7aa6c7d",
+        "sha256": "dc66bcf6af3a074fc7f67aa5e12b93ef571a4fb4d8e17f2f1af5ae5359f42e46"
+      },
+      "codex": {
+        "sha256": "dc66bcf6af3a074fc7f67aa5e12b93ef571a4fb4d8e17f2f1af5ae5359f42e46",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "fe006110f6005dcdb746d891e7901a1734a75538",
+        "sha256": "8f8603f97aa57bce07a4c29e83e24e84db62a1fbd1fa5b3f639e1e74ea3c9da9"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "cb7f5011863aad258f0299db885bd3ed69817159",
+        "sha256": "62faa7a72e82555d7f63b3748d4493591c11b22e7c10599a90f7bec4f86bcb39"
+      },
+      "codex": {
+        "sha256": "fac49a75b6d1c459cf3bcb2c031739b9cda8c65be7f6686ead9f2d0b062f83bc",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/opening-a-pr.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "626f376bd64e2e7b04c2575cb8b8f4ba70a6078d",
+        "sha256": "1c0281f84348aa5dc6f10defbcdd8357f4b0786d874f340ba34bfc169dc6c26f"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "f3d03b873b199b1f0d3cb656cbb40494779be362",
+        "sha256": "e1b3eff1ae007672c4808a4bede5a5097266f27992e99a4419567a67b2816712"
+      },
+      "codex": {
+        "sha256": "25b68b7e9ed34260917e934826e0b05821591ceaeb2bd2a36f6afaba13bab208",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/orchestrate.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d5b6d008026ff0177f52e22a6fb4b2edae5c87e2",
+        "sha256": "d42b4375f1bd4ce23da0b575a198571a2117df7eea10c3c9fc6d92ae1053f7be"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "2f7c2695d02d332fa1e83024e8b7bc8ff2c44dc9",
+        "sha256": "4f03379ca523aa3c339fac687e30b9fa060f05b1106d8d96aab660cba79003ee"
+      },
+      "codex": {
+        "sha256": "082c3cf0d896d1a18760a40ee8b0c956e20bec9df3c1c1c3b3d2d811901b84c5",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/pause-safely.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "9d1c5f8303976fff40de099f7f28185909430c11",
+        "sha256": "77968cfe5f4a71a8cd33e0ae8ffcdbd88dd693a212c240457773e6c40c96c21d"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "da90d0322b63f7a4c209d2d745c050c836fa8526",
+        "sha256": "2fa4812aebb034e8845752b014614b1a45331d1d380c07e9321b849cd520805b"
+      },
+      "codex": {
+        "sha256": "2fa4812aebb034e8845752b014614b1a45331d1d380c07e9321b849cd520805b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/perf-issue.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "688d483d4d4a6c58efa515558c822e11f621540f",
+        "sha256": "bb957907426666b7aa599aed3f6ddebf423364a1428f93790b5cb9e15c878e7e"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "d5c6f0250f0a9729507fe8a0e153287bf12a9955",
+        "sha256": "82e2fb7614416ecac926c44a86541733f5d36fbffe61b62812290c1e281dcd60"
+      },
+      "codex": {
+        "sha256": "82e2fb7614416ecac926c44a86541733f5d36fbffe61b62812290c1e281dcd60",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/prototype.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "18bedc7e9249d180f9198d5b4b13e3817d41d281",
+        "sha256": "7aa1f52c691c3d46d5afc527b23f90977fce869ce33573c73c81a4c7f0cde962"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "91c6e687fedfee906c8563c152f2a051e2bd39f3",
+        "sha256": "1eb3c6ef0a6db34d42eb9cf1064f988d21e0d11bddd1e7b606c765d3634a478b"
+      },
+      "codex": {
+        "sha256": "1eb3c6ef0a6db34d42eb9cf1064f988d21e0d11bddd1e7b606c765d3634a478b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/refactoring.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "df2a863b531906c64f92b9f9d8feb62f8c7a8665",
+        "sha256": "50f4f7d3d301551f8b8a57c3303c99958c5ca630ae0d0051823b6987c0eb5b96"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "9700d5877e3a20bddd16b25f4151a2facf3ee5f9",
+        "sha256": "3c42377601236e9eb7f43a69beb4bac807971810c327431b02120af18aa8fe8e"
+      },
+      "codex": {
+        "sha256": "3c42377601236e9eb7f43a69beb4bac807971810c327431b02120af18aa8fe8e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/runtime-forensics.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "ba659bfe1c4c2f956f3285974bfdc941120f9948",
+        "sha256": "594f02c40c243a346e1f57b688ecf2ed5e882f21b3d24ed2204d1ac6f1c24a8a"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "46efa97edbe01681a9ea75c0f601e861d748a95c",
+        "sha256": "5d660620a2791801567fa7922f387035fb47b0a4dd1fb2caebc665d120cdac89"
+      },
+      "codex": {
+        "sha256": "5d660620a2791801567fa7922f387035fb47b0a4dd1fb2caebc665d120cdac89",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/session-pickup.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "9b2ed06e0ff8b01bf03b7a0d6a4cbb8ba3a46720",
+        "sha256": "1604fb463f7c7410d43fa024ca76c1c1824c166a01fd69d61f073d06fdca2a47"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "9ac2af76c17ce018b6ee6079195ae983c7542d19",
+        "sha256": "1b2f58f40e4c60fdfadac12e97ebe9f4923241add1c06bcab3336f7fab110b8a"
+      },
+      "codex": {
+        "sha256": "86e417208bc2f6a91b39a1a32fb6846a6032856f555da739d081dd1f1fcc9e67",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/shipping.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "0f1d41f189222b991734015926a3b22607e1b92f",
+        "sha256": "19f3f6803a7bbe9ff04f624b03e3b55f07ac0a05e991aa00d5fe51239b920b2a"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "3c7373541fb54226c6ec35986dbfe140206950bc",
+        "sha256": "867e14b1ede7cd9dc7902078267c7fc9f5dece948c7bea6fb3964d86b17fc4f1"
+      },
+      "codex": {
+        "sha256": "2756355c9ddaecabb871b002afca96b91235d659d0450f5bc41156014f63c964",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/trace-forensics.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "48ed6b2f690215027eda96a1897ed98212bbd07a",
+        "sha256": "137ce3984fb96e45971fdff4d3c79fa4ccc647c5b30ae4945783b9fb23f8cec7"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "48ed6b2f690215027eda96a1897ed98212bbd07a",
+        "sha256": "137ce3984fb96e45971fdff4d3c79fa4ccc647c5b30ae4945783b9fb23f8cec7"
+      },
+      "codex": {
+        "sha256": "137ce3984fb96e45971fdff4d3c79fa4ccc647c5b30ae4945783b9fb23f8cec7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/visual-parity.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "248830ec74a593fc22143a842026388f92f1b9f4",
+        "sha256": "950ca51999a6454c98eee6bcbc3d1bbe501a4e3a5d5439b6f6ddc378991b256c"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "0d356e4ab982279663374e7051edd8dcaba58608",
+        "sha256": "6881b42014302942de137eabed12174c2ab935cc509f8268189f41983ef467a3"
+      },
+      "codex": {
+        "sha256": "340e8cfce07cd2179a0d4998b18a1841f2d16df42fd694e45855651d35721439",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/playbooks/worktree-cleanup.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "39c9ef9f368ac63b0e4245503302a4c174e846d6",
+        "sha256": "fc464dc4121926df1704f483c5feca83717c0a40b4651d3e11bd3aedd89441b6"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "34fa97c632430d8af7b7f16e103663435ee64b26",
+        "sha256": "d996b1ddb71e824e5996fefff0bdb5d87286078d3d10d4e7f2a3b97bbb3046fc"
+      },
+      "codex": {
+        "sha256": "7a376465e9852d52562923ee2fb85a9ecca3381eafef1fcb80a083c6e1ca41d8",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/references/agents/comment-sicko.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "209e3704dfa75022060c936bd3f3362fa3bbe254",
+        "sha256": "3e239e40b7b4b9beb2cf7f3ccc57f2388eb8b69bd1ba8ae888ef87ef6e0e2116"
+      },
+      "codex": {
+        "sha256": "36532abe0abb6131e1305b1430c2c555c076aad0ec2bf88e979944b9dbb6645a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/references/agents/poteto-agent.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "838a0cdab1b3579379964a8cf3ba7f0b1d995885",
+        "sha256": "31c7ea4c51a865168ca3cf66a16dd067afea35bc4ae635615372d1d6a4baefd4"
+      },
+      "codex": {
+        "sha256": "92576b46d99f928b1278bbc3790cf179224995545a0409639c4a1e8020db21e3",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/references/bugbot-triage.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "b2fc7d35712783707607cf2f39752885c8d5105c",
+        "sha256": "b2d146c770d8d3593e1ef3d77b668039b8e1f78093ea1a86f1d45d7f99614309"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "b2fc7d35712783707607cf2f39752885c8d5105c",
+        "sha256": "b2d146c770d8d3593e1ef3d77b668039b8e1f78093ea1a86f1d45d7f99614309"
+      },
+      "codex": {
+        "sha256": "b2d146c770d8d3593e1ef3d77b668039b8e1f78093ea1a86f1d45d7f99614309",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/references/codex-tools.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "898920efc4033220698d3931db07789a36728c04",
+        "sha256": "4825fe7e8b8ce93a31272e6cdeaa81c03cc7c0a9a311e372a5d855dae230526c"
+      },
+      "codex": {
+        "sha256": "d532d94c956ebc970f1adb5025e54c632558a46c549c4c8c1e11f9cda41451ae",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/poteto-mode/references/delegation.md",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "44493f68f8c1cf0775894bc84500a6b2b9cf8cca04463b08470971d2273ab3cf",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "generated",
+      "codex_vs_selected": "extra"
+    },
+    {
+      "path": "skills/poteto-mode/references/licenses/LICENSE",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "6b5400237fdf6545be0b8fae370d6f2fcff8fb25",
+        "sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e"
+      },
+      "codex": {
+        "sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/references/licenses/LICENSE-cursor-team-kit",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "ca2bba771cd39dbef6acf96b52481133983451f3",
+        "sha256": "702f5f331b56aff0e33d8c7826df5202559f894145eb70355c6477b55b5bb8a0"
+      },
+      "codex": {
+        "sha256": "702f5f331b56aff0e33d8c7826df5202559f894145eb70355c6477b55b5bb8a0",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/references/licenses/NOTICE.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "6595f264db3a317b955d28cc0779a10ef88fd8ae",
+        "sha256": "97074e1c045b57c33139d2789f79563f5ac1185d18fa731ed6491ad6127308a9"
+      },
+      "codex": {
+        "sha256": "97074e1c045b57c33139d2789f79563f5ac1185d18fa731ed6491ad6127308a9",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/references/local-worktrees.md",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "9116970c02d08caa7fa995195927427f150d14d0697f9023eb1286dfcfa75c97",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "generated",
+      "codex_vs_selected": "extra"
+    },
+    {
+      "path": "skills/poteto-mode/references/merge-safety.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "f6d81e03eb1f9c2d8f64b806d0979bb006814a5a",
+        "sha256": "277f7e43aa53ee8ab526dc322e16387eca6c120fdb203e58f183d360619ddcec"
+      },
+      "codex": {
+        "sha256": "277f7e43aa53ee8ab526dc322e16387eca6c120fdb203e58f183d360619ddcec",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/references/resume-storage.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "5ef353ae2161b49c8c1c6754b73d6121d9266896",
+        "sha256": "32bed7648e79adeeb6f197843d2962bc2e54157dc107351bc68729dd004ead31"
+      },
+      "codex": {
+        "sha256": "32bed7648e79adeeb6f197843d2962bc2e54157dc107351bc68729dd004ead31",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/references/scheduling.md",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "a6d097a58601e0c82de6ef55c19d13207020ed12756f034f544266fe109f0c05",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "generated",
+      "codex_vs_selected": "extra"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/bootstrap.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d9c63e2007449a80000abe75ecaf7f2a0bd5826b",
+        "sha256": "ccd2ed08fd9da9d0d942e5f2491cfc74bb92d8a08fa51755e0da1ac8de287361"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "ea4d5c491b1c4fa48b7b47a38d1386db92665a90",
+        "sha256": "020120f37f75ca776c3db8941b8a0d1407738012a534fe0651c83c907b0ea74d"
+      },
+      "codex": {
+        "sha256": "020120f37f75ca776c3db8941b8a0d1407738012a534fe0651c83c907b0ea74d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/bun.lock",
+      "original": {
+        "mode": "100644",
+        "git_blob": "65f0c662f300a0f72b319ca93ea18f56219c2581",
+        "sha256": "667d9cf7222e9aae3fa42a4be383e657784216e9df115da02227fbc5ac7bbe46"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "65f0c662f300a0f72b319ca93ea18f56219c2581",
+        "sha256": "667d9cf7222e9aae3fa42a4be383e657784216e9df115da02227fbc5ac7bbe46"
+      },
+      "codex": {
+        "sha256": "667d9cf7222e9aae3fa42a4be383e657784216e9df115da02227fbc5ac7bbe46",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/check-plan.mjs",
+      "original": {
+        "mode": "100755",
+        "git_blob": "6c07f4e903d10332702a2ac4602ada9273e71609",
+        "sha256": "1f9e788ce90a13a9973e35e8c3a52737857c375e057bdccc13c8510a9af30f04"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "148ad1545b1fa417919860ce3c39a02271855f3d",
+        "sha256": "594d206b50fa2871d1e8ccc3c0970bebfbffb13b845f20bbe841209e56afeef4"
+      },
+      "codex": {
+        "sha256": "594d206b50fa2871d1e8ccc3c0970bebfbffb13b845f20bbe841209e56afeef4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/orch/frontier.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "091a5cf4131bd7fcc26c549fafe67721fb410e67",
+        "sha256": "4bd3439db42afb6ddcff33217419c5e769a795e17ea7d5b5a578d00331cf76b3"
+      },
+      "codex": {
+        "sha256": "4bd3439db42afb6ddcff33217419c5e769a795e17ea7d5b5a578d00331cf76b3",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/orch/orch.test.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "9c234de724991083b4644e906a5f1358f8ef8dcc",
+        "sha256": "174b86d21ff51ccd28d1a8c938cb2e0c6fa287b209d4ca6c03932fcb1b53372e"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "d374994ac51b1e7f4ce6bcde32c0c10a333653e7",
+        "sha256": "2f7d3c841bbd2709cabc497739f9701cd57ea8890987d89977d060bb6479e04b"
+      },
+      "codex": {
+        "sha256": "2f7d3c841bbd2709cabc497739f9701cd57ea8890987d89977d060bb6479e04b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/orch/orch.ts",
+      "original": {
+        "mode": "100755",
+        "git_blob": "219ac17bd8805b45140eca7c429834be9ded1b7d",
+        "sha256": "f091687df627a0b75fabd54af58945a9cd6c7039ef0622012ac9ed60cd8ec434"
+      },
+      "claude": {
+        "mode": "100755",
+        "git_blob": "219ac17bd8805b45140eca7c429834be9ded1b7d",
+        "sha256": "f091687df627a0b75fabd54af58945a9cd6c7039ef0622012ac9ed60cd8ec434"
+      },
+      "codex": {
+        "sha256": "f091687df627a0b75fabd54af58945a9cd6c7039ef0622012ac9ed60cd8ec434",
+        "mode": "100755"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/orch/status.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "9cabe734027e9c232ca259b1ebefdc71733849ef",
+        "sha256": "d38f6d80b3af9870e30266ee7f04d690107e69e7a6fbfb4eeb2b71917c5695ea"
+      },
+      "codex": {
+        "sha256": "d38f6d80b3af9870e30266ee7f04d690107e69e7a6fbfb4eeb2b71917c5695ea",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/orch/store.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "5e6c602fb670a6b5598977f5bf85d717cf797ef7",
+        "sha256": "0eae7cf69282e827b1227166f2e32cee3560f2f3e65b3f1f2faf6fb83d3b4c5b"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "de99964b4fb3d5fd29f6aef1a4548828867dabb1",
+        "sha256": "ae80a992cc3b29f6a4de92097ea1c8171059451ab12c3d94d92edfacea19fbc9"
+      },
+      "codex": {
+        "sha256": "ae80a992cc3b29f6a4de92097ea1c8171059451ab12c3d94d92edfacea19fbc9",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/orch/types.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "2e129efb9fe274c70fce8a63482daa7255e51802",
+        "sha256": "d5d357cad1093fa5996a7abe56e8fc2fa057eb03a51644e2d4e00d31a6e6001a"
+      },
+      "codex": {
+        "sha256": "d5d357cad1093fa5996a7abe56e8fc2fa057eb03a51644e2d4e00d31a6e6001a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/package.json",
+      "original": {
+        "mode": "100644",
+        "git_blob": "8a3dfe27c2d0221a786e1ce61963d51c55260725",
+        "sha256": "d1f815091209d49763775cc188e8e06ff32d5fec648bffd2272bc25a165e87c3"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "8537ce4decade7cd9bff387caeff3858ceedd631",
+        "sha256": "4a4378578d69cce2795c4e219d0efae0fdcbe6d237da5deb2f94c6e761e560b3"
+      },
+      "codex": {
+        "sha256": "4a4378578d69cce2795c4e219d0efae0fdcbe6d237da5deb2f94c6e761e560b3",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/resume.mjs",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "8db927654a5e3aeb7979e91c8dd7ade7ed453700",
+        "sha256": "cb774862c766185c10180ce897788bf2513e71d083266191e4040f518523e3ef"
+      },
+      "codex": {
+        "sha256": "cb774862c766185c10180ce897788bf2513e71d083266191e4040f518523e3ef",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/tsconfig.json",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "cb05ede9c4f7b9150bceb544f631a7e4fccc1ffe",
+        "sha256": "151bdff404757dbc9363bd5756bbf0c816d45e013daf7cdf9b173c3e0f27b83d"
+      },
+      "codex": {
+        "sha256": "151bdff404757dbc9363bd5756bbf0c816d45e013daf7cdf9b173c3e0f27b83d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/cli.test.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "0656b413e6c180858ca42981105944c45caf9dca",
+        "sha256": "a35592b4c6da96caf8d47987e9cd503fab6c7774ab87d11a43f24b4b5df2a9d1"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "5a0fce606f38937d2036eb785b5ee2d54da9b1a3",
+        "sha256": "590718594dd6d97fd7496fd5bb2e218e8ef131efe266317f69d6cb4ebd21e2a9"
+      },
+      "codex": {
+        "sha256": "590718594dd6d97fd7496fd5bb2e218e8ef131efe266317f69d6cb4ebd21e2a9",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/cli.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "ec8a2f27c5ac24866b699e6395e7d1f32e595068",
+        "sha256": "89c08863089181a232be782c4b2ed90a1552f44aeecb0dcb7aac2c623620e680"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "6c1ddf0ac6d2dfeab2744d5bdb93cd14c7a6db21",
+        "sha256": "b114d0edb946ae8fe411647554e80796ebeaca087ec605e721ad2ac7aa291ab4"
+      },
+      "codex": {
+        "sha256": "b114d0edb946ae8fe411647554e80796ebeaca087ec605e721ad2ac7aa291ab4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/deadline.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "f502889baab9f3a207c635015ce7bc8498805cae",
+        "sha256": "3cba55d57bb3adc5cabb291d13884d3247170d581fe32ffe69aec12562d97e10"
+      },
+      "codex": {
+        "sha256": "3cba55d57bb3adc5cabb291d13884d3247170d581fe32ffe69aec12562d97e10",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/fakes.test-helper.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "2312522cd7399334115a5f39fd6438aab7fc5aa5",
+        "sha256": "e53e31b7f03068063f53a99a3591b052aaed66e4e2b196b3a364980f60324ab1"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "d72a52dd96cb6c6cd8710334bd3bffd5640bd764",
+        "sha256": "c4107cfd50aeb0c62f46d2063bd219446a292f6cee10634b7b52ba9758845d32"
+      },
+      "codex": {
+        "sha256": "c4107cfd50aeb0c62f46d2063bd219446a292f6cee10634b7b52ba9758845d32",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/github.test.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "87f4048f08a63a54975c4ef2de8065375e751683",
+        "sha256": "0cbce011050522938523e36bb42a260e92b812dcd2076930fa681672ad316b24"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "e26daa8bf11720e24afdd203b578a73ce9d96fd7",
+        "sha256": "37e42e134ddb18fe3cec1ffca097d4a61422d91eed1e52c78182f1ba9f5c16a4"
+      },
+      "codex": {
+        "sha256": "37e42e134ddb18fe3cec1ffca097d4a61422d91eed1e52c78182f1ba9f5c16a4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/github.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "79bc06fb682c5d99de7d48338b0a6ecd27a518da",
+        "sha256": "d1bbbafbe8e2c703c84da2029de7f2c4011412512f8cf65a42100f46bcb92c8a"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "660fd070b963481a71c160f94cba9a6e18a31869",
+        "sha256": "2978e5ac04c60c610d8bf4c8bd922064ebc0ecb37b59f82594d6be3f755d5402"
+      },
+      "codex": {
+        "sha256": "2978e5ac04c60c610d8bf4c8bd922064ebc0ecb37b59f82594d6be3f755d5402",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/integrity.test.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "f035321fdf7ef8bbd2a0fd53efd047cb111fb050",
+        "sha256": "944974f22da0846d227e851ce2cf09b1a21d5f16b74d0a6188abf2c078b9c532"
+      },
+      "codex": {
+        "sha256": "944974f22da0846d227e851ce2cf09b1a21d5f16b74d0a6188abf2c078b9c532",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/landing.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "3102f65d11d673440a9e2788718458f7ada452e5",
+        "sha256": "bd4cd2bed14f8ad03d354fcbe0369197b2ed5151bc2e2e5c51e8be8a4e597d8d"
+      },
+      "codex": {
+        "sha256": "bd4cd2bed14f8ad03d354fcbe0369197b2ed5151bc2e2e5c51e8be8a4e597d8d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/policy.test.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "0620ddedde46da8e763ab2a55ebceaad2aa6d0a7",
+        "sha256": "a9fedb25feefd1f57ef6a662f80c99018690170a3a8070773a08eaf694d1d3d9"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "89f260408b3683905d5e125ad25c3324dad8c540",
+        "sha256": "670b6af093a041d6e45e811958c92003a1342e87338838fecdf90cc2f03a2d2f"
+      },
+      "codex": {
+        "sha256": "670b6af093a041d6e45e811958c92003a1342e87338838fecdf90cc2f03a2d2f",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/policy.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "4665be37e8f9afff1c9e1f5dd60d98e0d70c8c6c",
+        "sha256": "68d240505852cf23c9b2dea463342e9e61243f486b3cc86c735d140f9ee7be49"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "19b7dab3bd8086870f64f626eeb5f719d059d786",
+        "sha256": "ac53d17be394e8fa3f5c0055e260d088a293c5e9516c9f6f6ae11214f24a979a"
+      },
+      "codex": {
+        "sha256": "ac53d17be394e8fa3f5c0055e260d088a293c5e9516c9f6f6ae11214f24a979a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/render.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "0e935839357335f24ab1bbc193d761495646ea99",
+        "sha256": "2b709e86628d5b8fdb61f860e60ababc342b0626c67576305442cf548283a604"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "2110207296fa785e1d33b740df8099a771eb123f",
+        "sha256": "062864f54f4bb6536f7e18203e563e2c5fa61567343e9a86fff79a644345a09e"
+      },
+      "codex": {
+        "sha256": "062864f54f4bb6536f7e18203e563e2c5fa61567343e9a86fff79a644345a09e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/ship-pr",
+      "original": null,
+      "claude": {
+        "mode": "100755",
+        "git_blob": "c0ad27c4611006893cd7b7293481ac0e9b440544",
+        "sha256": "16eebf752572625a559fe214c0463c0775d48233b4e5cec3c5af20de36926490"
+      },
+      "codex": {
+        "sha256": "16eebf752572625a559fe214c0463c0775d48233b4e5cec3c5af20de36926490",
+        "mode": "100755"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/shipping-cli.test.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "1ec6adec8affbcf2d526c840c70aea7dcb8d9445",
+        "sha256": "e4f950b8f9355613bea55f08bab662b2ff50aac4d8377f6010330ac52268000c"
+      },
+      "codex": {
+        "sha256": "e4f950b8f9355613bea55f08bab662b2ff50aac4d8377f6010330ac52268000c",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/shipping-cli.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "385e6a99892647f6d81c9549023931b59ffcf680",
+        "sha256": "e41941b7d5c7cc6c4e9eee245413db6046ef0f9cc6941ddc32fa4ca0dc2ff407"
+      },
+      "codex": {
+        "sha256": "e41941b7d5c7cc6c4e9eee245413db6046ef0f9cc6941ddc32fa4ca0dc2ff407",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/shipping.test.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "be5d1f484a7d98e5d2af9e45246e9041e8b59db4",
+        "sha256": "18a2415b06b89f8bac237870773e1d78b51a9d16c8a49f3173b002a07d308bf8"
+      },
+      "codex": {
+        "sha256": "18a2415b06b89f8bac237870773e1d78b51a9d16c8a49f3173b002a07d308bf8",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/shipping.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "1893c3412653c7cda9727276ded24157e61d3526",
+        "sha256": "01e4ca815cb8b6fe072a2f39120f64cbb49bf0f74dfff71cedf86a1df0b28e9a"
+      },
+      "codex": {
+        "sha256": "01e4ca815cb8b6fe072a2f39120f64cbb49bf0f74dfff71cedf86a1df0b28e9a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/transport.test.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "e6a9dd0678d88899ef0d82f6245733693645be8d",
+        "sha256": "cbf5c155f1dc9a8ca7f0e45e3f7ddee962cfcb6469a5d1f3b28c4e612ce7b6b0"
+      },
+      "codex": {
+        "sha256": "cbf5c155f1dc9a8ca7f0e45e3f7ddee962cfcb6469a5d1f3b28c4e612ce7b6b0",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/tsconfig.json",
+      "original": {
+        "mode": "100644",
+        "git_blob": "477af90b05cbd24fcf974fd73cf331d5ac7379cc",
+        "sha256": "1ecccc72320b086c63ce3f73c959896fd747363e63553b3b1136296ea4069e45"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "477af90b05cbd24fcf974fd73cf331d5ac7379cc",
+        "sha256": "1ecccc72320b086c63ce3f73c959896fd747363e63553b3b1136296ea4069e45"
+      },
+      "codex": {
+        "sha256": "1ecccc72320b086c63ce3f73c959896fd747363e63553b3b1136296ea4069e45",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/types.compile.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "1b53279c7f3e5da55703ed17d6ad0616254c5751",
+        "sha256": "621af4c9a664fbf699a9737efccdc248abb416df8819c9dc5f824beae2b9b1d6"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "252f9090a1fcfb40344311ba4b5323eb2aaa26d7",
+        "sha256": "92938aaf90f993c204b9dfdd1e5a072647baba78f42bcbaac04c12a9a2f02a85"
+      },
+      "codex": {
+        "sha256": "92938aaf90f993c204b9dfdd1e5a072647baba78f42bcbaac04c12a9a2f02a85",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/types.ts",
+      "original": {
+        "mode": "100644",
+        "git_blob": "b67144e0d757e0b61ff079f981ced0a98555ea9d",
+        "sha256": "64ba6221e3bfe61bbb292337d199cdec6309455477280efb060203dba34e0e91"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "fbf36c3e51ccae93244582b550c26ee493849306",
+        "sha256": "e1c544efc31e7683c5fbf1641c73bb7a38e31db4da2dc49f1d03d950bd4e9bea"
+      },
+      "codex": {
+        "sha256": "e1c544efc31e7683c5fbf1641c73bb7a38e31db4da2dc49f1d03d950bd4e9bea",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/watch-pr",
+      "original": {
+        "mode": "100755",
+        "git_blob": "99807d577c3b006cfe6ee9e149cf2914bfd4afd6",
+        "sha256": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4"
+      },
+      "claude": {
+        "mode": "100755",
+        "git_blob": "99807d577c3b006cfe6ee9e149cf2914bfd4afd6",
+        "sha256": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4"
+      },
+      "codex": {
+        "sha256": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4",
+        "mode": "100755"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/watch-pr/wrapper.test.ts",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "b7c3f98086a57e1cbf6501af49a1ad8bdfcbeae1",
+        "sha256": "ba3575c686cf1e29508afcfb525d950394e4d23b8b977e475ad5c8e111dc0fc3"
+      },
+      "codex": {
+        "sha256": "ba3575c686cf1e29508afcfb525d950394e4d23b8b977e475ad5c8e111dc0fc3",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/poteto-mode/scripts/worktree-audit.sh",
+      "original": {
+        "mode": "100755",
+        "git_blob": "b9af08160032aeb17143248f2a3648e98f5a75b3",
+        "sha256": "95b8530f3c0ccada8cabc4b0727c052fbc85c141531375aaace65c427af8aecc"
+      },
+      "claude": {
+        "mode": "100755",
+        "git_blob": "f37a80d889daa009ea816edba41158a2dbdab09f",
+        "sha256": "e491b8ddcb364995caa5cb2090689a382709b22541521288e839ace042b07237"
+      },
+      "codex": {
+        "sha256": "e491b8ddcb364995caa5cb2090689a382709b22541521288e839ace042b07237",
+        "mode": "100755"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-attack-the-premise/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "f9785ff9fdcf37d1c689e4468da7d611f3b76d4b",
+        "sha256": "c87bd7536f772f8a403ad8155535ee17a1bbec9a353156693eb3bb1520c87ae3"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "adb27766fba74dc5fda54fb29c7ebb0c7a354e02",
+        "sha256": "f5cd9d042e09899226904676bb0a79f47a62aafe730b140551363dd67c6dad8e"
+      },
+      "codex": {
+        "sha256": "eddbab884d68da0c47f8727ae7560eb991bccf464164a36ea7b0c3c45be7eb07",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-boundary-discipline/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "dfe9a6fb0e5acd6ae43a41437ee0951adfe839cb",
+        "sha256": "62ac2862c2caa22dd14531f51c9c6bb445ceb198ca98a687e25b4d47c1f10a28"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "de0c0f4196f64adc73a1e16f4b6d9cc9780c0529",
+        "sha256": "e59efe04ed66e3a403a50e70640daeb5c7b592598687a67b6e25ceed6251d19f"
+      },
+      "codex": {
+        "sha256": "52e43608742036082a845e277fcb456ad934053e53143a8a0d14e95eb02c8fc1",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-build-the-lever/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "277189a10b00fddc7cbb63fcf2323c7341abb0df",
+        "sha256": "458b269eab8e95a1573276955312f7d2a13ae8599879a9efc748248f6bc34b56"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "d1a28c69a8f66b398ab484069dc6c18d4bd998d1",
+        "sha256": "21bc68f769b9cc6eff2614f4a11c5760d37334eb1b59309df04278dabb49bccf"
+      },
+      "codex": {
+        "sha256": "fbec69b8863fd896400f33afbaddd14e62aec3e31b81e783e77b463fedcd4718",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-encode-lessons-in-structure/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "df9cd5ff2fb3c18267349cc6aecd8121848ef834",
+        "sha256": "77044c83a9ac6df78fc643887ea5f1f11f082adaf14b717c060cdaed03cce863"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "d92de93bfdde2f637f1d5c321207f144a1580201",
+        "sha256": "99755a1add54e0f721842a0505230bf608bc44bd2d859ac4d792ffd576b9eead"
+      },
+      "codex": {
+        "sha256": "435ecdfd742533e79a307e77344f96ce4d6ab2bab15d2de2ab7887d851123b3d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-exhaust-the-design-space/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "85dd16f1312f3427e2dddcfc8e7deb89e2555bb3",
+        "sha256": "8583310d7297b7823d75494faa57b003564d436807febecdecbd8321abe5cf6e"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "5e581cd701c9ddd880dc3cab0271ee126db5e740",
+        "sha256": "be8d01be643621e93feb2e94389b1311bd7aa8241bf417d63fed2692e52a2d28"
+      },
+      "codex": {
+        "sha256": "fe05a87c38d1a3d7922914fabed6958fdd67c0510ba054d045659bb6cef9d911",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-experience-first/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "5ea51741302cf3af4cc0b90ec70815bd3208dbf2",
+        "sha256": "58903529d733b1c1a7c9ccf127d45ef3c7d0d9f0b81164a4dc6b80efe6f2912b"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "ff4bf14d0ae6465d164fd5b0a92df8236934b823",
+        "sha256": "688917387e19da6a343fe657c726eb65998937da69ed7d29f1dfaadb53516a10"
+      },
+      "codex": {
+        "sha256": "d767ea200052ad1ebd16f9d7e67fb78a75fff08fad5d0accf4090098ccb77ae8",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-fix-root-causes/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "7e5a419aeec97b4076fa517865013677428a9fa3",
+        "sha256": "ba4cd38da1dcc8fe5432feb64457cba95594736a9b21b2ebf8f8c52aee068707"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "0597b15cecb75fdf2ccfed4271c721bd8ae7a0c1",
+        "sha256": "4c5fd0fb9eb4754dff9a6dd4d1de7a87dc927f5154ab3afd643bedb9b7f8b6b9"
+      },
+      "codex": {
+        "sha256": "c9626a529fe731da8e08218fdfc8049559b42be306b0476c832692049795d401",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-foundational-thinking/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "19cc6c0eaa6fcbc2863fb73d1d25ca196c6a46e0",
+        "sha256": "864b827e8199d946ce58beca0f89c4ed4099ed6e426fb698a3aaa45de2a9eea2"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "a6829c7884895d29b65de0ac33f20be14f59556f",
+        "sha256": "a3d9bf77ebb9ed5c5eb9ef6ae719f6eeecf5fda6122a134a89ce6856b14577ab"
+      },
+      "codex": {
+        "sha256": "c4b5ecd76acf3371cbb96df034b2592f8c2741c206582a8a8ab74a6505ce89b9",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-guard-the-context-window/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "c4db544909b26981c45eed9caa6591d32885f841",
+        "sha256": "d2cef147862576e3d709b7afc149d85196245e8338b9c7eef337c95fba412b3e"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "ab9e95078e7513ea7f8b0da025cf090131265d8f",
+        "sha256": "fa71b45013927d1ffb3cd9c2eed00c00606ee86080bb81b6ee4b9dd7eccfc593"
+      },
+      "codex": {
+        "sha256": "69d44f2f782386a3821cbf71f4f19b8e8c63d15b4b96c731196053f2eb2a68a9",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-laziness-protocol/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "e5bc77e62aa96ae13e482a84df61b3c711c5d828",
+        "sha256": "9006579e9e3f33955d17569733db688ae65f22577dc3b21803d219a5a8445aff"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "c9c65ffe68406d0186065b1408692bf6ebf09dc9",
+        "sha256": "3496d3bc0e8fd23980b6ac1a56f9ad4c904ec215b61aaf36bdae11baa71be79b"
+      },
+      "codex": {
+        "sha256": "8f64c856c95f283b3fdc370f47868172c43603a7c89d584ef1884beaec77eccc",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-make-operations-idempotent/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "a0834247ca99b09c11441747717a8034d4c22d7c",
+        "sha256": "540738217c3da7bf513b9886924ad6a2bc77e58be867f5bd2e1831c74bf2ce70"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "3caa9188593e4939ad35437d33fdf10782cabecf",
+        "sha256": "576260695df90ac979f01c03321d5a8cb7bd824bdbc5d3fbe6790ee1caa19ab4"
+      },
+      "codex": {
+        "sha256": "db0a53e5477a9ce3a5d0d585828936c38792145bb40d048bc1988d81a767fe4c",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "06c7cfd87becc62d614d0af075b792f8ec6eb21d",
+        "sha256": "09978915a4a11990cf0a9a02d9c08cc59e0b7a04c5c24b83aa560fbe4146f75b"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "ca19666a51eec027045c72d9de83899a1011421b",
+        "sha256": "8014f4eb04fe50474f7e3f9286bce2de276116b8b669cd2fe7b2100972efb68a"
+      },
+      "codex": {
+        "sha256": "82eece678ce001b66e4a463b593db6d25b316ed62bc79a06be98289f27b3c5b4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-minimize-reader-load/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "64541d963123e344078d82fd3977e857e76129df",
+        "sha256": "42551c5dc74cd578163c148da552db3ff67d29b78600ef216bfd311fb828fe69"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "ea8b29881953bb354c3c0c1bc23b452179c82806",
+        "sha256": "772bd55686c20d49e1220d0728de4587cd5608ae2968b7896c5477b3f8813dfc"
+      },
+      "codex": {
+        "sha256": "3962efb9c078551e1313d2c8c7d1a98c57a0aaa13f27b135e09551f4b8b72db7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-model-the-domain/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "e1d664a19243c90a84e5e7a816e9e05146c88720",
+        "sha256": "bbadbb9a723fac3f76e782ae45665eb94058ec10993e4bae36d4dc6b0e4eac07"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "047e493abe3509472a220149b809b36af238438d",
+        "sha256": "bc0b694b37b3311ca2f02660c1660769e0799af49cec9a2b12d349742349f1ff"
+      },
+      "codex": {
+        "sha256": "0cb35d0b2018b6cba4edf4439c6132d7067b58fc312a5056091254f483c47c01",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-never-block-on-the-human/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "11f08b6ef1fd93a3b3e47c57eb84716dc9acbff9",
+        "sha256": "f2764bb9338cbfc788c903cf4b9cd0a5f4042d3a04dd6d59cbd525d9beaadd0a"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "b9edb2c319723dd50e6a73ee712ad6433c28a98e",
+        "sha256": "eabfb043dc0a78b4cc7a5ae91f61085ba01516c245650814b03e24cd38194329"
+      },
+      "codex": {
+        "sha256": "343dbcf4bdcd16d8bd5e5c350761bc1ce9d59370d60ace780271a36c9b6c7e81",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/principle-outcome-oriented-execution/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "c49be0bc74783f0dee013101365ae09b2abb48a2",
+        "sha256": "10eb91633aa570355ba4bb37088fcade2b22e498df7a58edc749e65bc5a78e2d"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "935bc52122c27e7b5e5e8bb63bbb9697b220cc17",
+        "sha256": "55f1baeb9951f8584399bf82042e78f623e1f1dd560cb9b6413302bde43fd439"
+      },
+      "codex": {
+        "sha256": "c8204b38046ebf420803c775cc70f6c9bf0f10bade3c569d91865ec715f46fbd",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-prove-it-works/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "5dc14a3b06f9d579e5c17cd8a7242f432ddb3125",
+        "sha256": "ec79a15025bac8d33d62011c54f3b612733fd2a024e623b531b3637aa75070e2"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "3ba219579fc3febfc1a9d32bcd8d937d15d89050",
+        "sha256": "779a5955bfcff1bdd6274a3287ac527fa6b00246cd0d66d7cf8ffc354e4d76ce"
+      },
+      "codex": {
+        "sha256": "04d1cfd88f1b43229cadcdb7bbdce996101432bce5a435367e8dc3bab05d80b6",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-redesign-from-first-principles/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "090a4325f43a96080cce3895f0e932b62c39146a",
+        "sha256": "a1c7fd0a96b40e12a74bceb0e6bb20a9666dd844dcabfb624acb27da23b929fe"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "c3c55e96fc82e97b5d272e82d3990b725d9dce62",
+        "sha256": "418ec688036dadc8e14dbb967065a0e92b165c83417136de362e464d07c0795c"
+      },
+      "codex": {
+        "sha256": "6e0c7fb5bd3d0d419f6b4d1013c02be8880dca438f4db5f1398a11ab69d09712",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "ff93b4a2032c08e2232992a9a24f2891ee14e58f",
+        "sha256": "05294b40448e927c5da1c7b6f5c6b9fed3744637e3833d2d948b9154a9dd00bb"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "dd88c08e18ec613bb482bfc5354efd22ca98ee4a",
+        "sha256": "dd432081bc5664ce1a9513a6b58207d8e4685e0d0cb894278204bd08a637f601"
+      },
+      "codex": {
+        "sha256": "3f51f360cf3ff6d1211e912e90a3554533896797d26ac64e0d4addf8ed059154",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-sequence-verifiable-units/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "986371260ebccd9a5a6818c9561e88c1d270d0ee",
+        "sha256": "2ccbbacc56ace5afdfb8670cef19d7bd009fb2a0033b9a741cbdf2b6baf72187"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "583be9652613d490af0a1c14fd420255fdd5ccd7",
+        "sha256": "5bee6caf5abdf7b05b3e7c8d3e66549d108c2f798d8155c352a1764d030816d7"
+      },
+      "codex": {
+        "sha256": "9831a4166ed1e8036dc134665642fc17a61070db0a57db81ba2b6376f5563e47",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-subtract-before-you-add/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d28770cf47a5798d0250a25ad494aedfecad154e",
+        "sha256": "a983a50e732c1ed315eba7aaf47a61329e31c4794eb1ab9d25d9945265b31e03"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "1342dddf53610648cd622120e08580273dca4367",
+        "sha256": "84bfde4d3dc16360264e0cb944b2dfbd8d92a70624322e83b93432f8e35dc60e"
+      },
+      "codex": {
+        "sha256": "b9a51ec3e9a3e2912423e936482dd5d710d5162c4ebda36eb65919228ccc9bf4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "42de6f8f7cab01b9f67aa28bd59b128f7574fbab",
+        "sha256": "87e40efe4e486f7ea639d2ed1fc0abe6c93b8fd0e89a81218086909d2470a52e"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "9296ac0851448be0837c8c2b040bf515c28f9521",
+        "sha256": "9f6a2e492337348bcedb02c42c1b7046b8b1b9f48fbffde98e101f0168faa9ba"
+      },
+      "codex": {
+        "sha256": "a19df85dc0d6b619811b0ce4b4458ba2d1ce662d8904a4fdd1ec894281ed370d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/principle-type-system-discipline/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "6030f171bee0d1902cf7ca91f06225e09f0f5433",
+        "sha256": "c83da8031ffb4c86410030d3e261f659598fca2b7d8158fd9dc269d70a3a025e"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "b66c78dca83d48ebbaf58d1bd312fb9e38a36fbe",
+        "sha256": "adaa7a27c8794b24112fdaf73d11d7c59f0926c496fd5c9b0b5cb1c0ebbd3536"
+      },
+      "codex": {
+        "sha256": "6ccf5672874b248293d7910c1e547a6acdc7115aebe4f823544dd8f69b04ec5a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/recall/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "a70062a3f89a8d68b3391bc71fc4c6cc2dfcf6a4",
+        "sha256": "d265b0e5b6dc5b89c0407f3387d24462c988e1990a37d5359735137908128c5a"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "42bba7f9524a00a78fce861d999e1a0f20b08097",
+        "sha256": "4d33fecb67e8397ac1224ddb088ed7931e8ff2b7342fe752d2962ae223b8874f"
+      },
+      "codex": {
+        "sha256": "88000678c080df98a03925fe87b4fcd12f15f6bfab7ac8f605cb7b46b374e373",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/reflect/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "cb270acc507aeaeab7c37db11fc8130cbb2f93f4",
+        "sha256": "36efa48cc4ec2ba6f8131651aae24c6321682b098ed47a1069a7509462bf4a84"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "8443d8ad1c23490ee32b08a43ba92315648491cc",
+        "sha256": "644312eb29aaad196a565c3e0b206f205baea870e7f02a8419ff03e278790195"
+      },
+      "codex": {
+        "sha256": "41d97185e2c777afb09598af66b9889e034d9be54946b11a170f47d850f08f05",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/reflect/references/codex-transcripts.md",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "dd5220be1bc912a3a65292dff2ba8bdbf996bf4d91161b6a4c557e552241b730",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "generated",
+      "codex_vs_selected": "extra"
+    },
+    {
+      "path": "skills/reflect/references/divergent-reviewer.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "de95be3b9cc9c11052596249336dcc328473eb26",
+        "sha256": "221dfc0abf7cbcd25e1da3cd87323f5d1050fc3bf652e096d093584e183c98fb"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "ead10c17ea9aae02d2ec3930777efae94c2a8212",
+        "sha256": "6f69082f8d9b344b0a3a4ba3ec27880bce80c2edf71a63e3361fb99d50486dba"
+      },
+      "codex": {
+        "sha256": "5f986934aa92f35a223903575fdcb84e677a6a8f6632a7a055d896b4c5f0d233",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/reflect/references/judgment-reviewer.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "222f02b1c3c6eb3e700fa09a71bad108807d3485",
+        "sha256": "a40ecb9b28bd2a3491e11a541157fe58efe158e0eda7b61a5006c14590aabe61"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "24446aeae81752058808fd41b33df62c3e0caa11",
+        "sha256": "2e1c91bffb36dc614cbccf23425038ef523d4898364478e52726e79732f810e6"
+      },
+      "codex": {
+        "sha256": "5e6ebd6e8cffd73125c713cfd991c41a0992e064eb6ad849a7fa8becaf7de15b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/reflect/references/synthesizer.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d0e78195186c0dd6cfdc87ba19402ea8cd2aa385",
+        "sha256": "2f76c847eb45b182dc6fbcbf7d96c8ee7e2986ecfd9e0d640fec44e3cc5a617c"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "67788865ea96745486dd5719958e7ade0ed25bba",
+        "sha256": "2de436a8109173095e3b96695ecc545986ed1903726e7d4941352517a8240de0"
+      },
+      "codex": {
+        "sha256": "2de436a8109173095e3b96695ecc545986ed1903726e7d4941352517a8240de0",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/reflect/references/tooling-reviewer.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "a37e2009d6ef08f535df87e020e52426c6a5fa33",
+        "sha256": "bc49ced90fa81eaba3083b88aeb430d900a6d8f14ff40c1d6b52263bacfc77b6"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "ac0dd8f6c8117fb9130837b3fc60c075b7a4bba6",
+        "sha256": "c75bb4ebf1cfd03113517743df77f39f1bfab8d1424b5e90e5145f7366d2d9e4"
+      },
+      "codex": {
+        "sha256": "637a8c04cb560dde35237ff5b2a28f41b543e1169b1f58de96bb50b32e62b57e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/reflect/scripts/find-transcript.mjs",
+      "original": null,
+      "claude": {
+        "mode": "100755",
+        "git_blob": "fe6c1f4f2b6f1ee796ab3cb91e248af1a8bc8d98",
+        "sha256": "8e41e414aeb4c8712d32d0f25e52c209cef8da321afe2738f857209b21918c4d"
+      },
+      "codex": {
+        "sha256": "4738290534a4544a7b36851f6c2bec05cf64f8c37204eb2e51ca29d0465cd79c",
+        "mode": "100755"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed"
+    },
+    {
+      "path": "skills/reflect/scripts/read-transcript.mjs",
+      "original": null,
+      "claude": null,
+      "codex": {
+        "sha256": "d9e7b8fb41bed0954446d4b9ba27c885cba1024df5d0686049e0fe237fda06be",
+        "mode": "100644"
+      },
+      "claude_vs_original": null,
+      "selected_source": "generated",
+      "codex_vs_selected": "extra"
+    },
+    {
+      "path": "skills/setup-pstack/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "1009e73c6116c8f6c24b5870c8f0600ae144b631",
+        "sha256": "125dd0c8f588782cfb271efae8f97a0719e43e79f56b3495c095f460bcee6389"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "5835e924534e70786637588de77eb33be3336359",
+        "sha256": "a4c9b70d9fa4bf76c8eaa3620ca5f1e4777f7e35a9bb9079fe7b0457eeabed0a"
+      },
+      "codex": {
+        "sha256": "a0b6c8833354ffaa34cf64eda7a473de35e106530965c63b191f22602e6dc71d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/show-me-your-work/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d350a150c36ca16382b4aa6d4196b39e67454ad1",
+        "sha256": "bcff5f7f9fd23f92c12b251f9cd6b947e9485e1055cfacb6fdd9cae0789d7550"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "1b05c51efea2d80ebc7bd5fa9221f3999b0969a5",
+        "sha256": "45dddfe4d44e951482f4bdfb4b0692464d355cf9e4da668dbd903eec9abfc97e"
+      },
+      "codex": {
+        "sha256": "00b9e30f4901aa3b85a1cff717cc1224b6cc57aeec72e0485c11b75b23af3895",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/show-me-your-work/references/decision-log-template.tsv",
+      "original": {
+        "mode": "100644",
+        "git_blob": "db220376ecb8c582a6a4f6575a8f26469603a38d",
+        "sha256": "6779378006a2f5225e8c06deb84f1d913fb532041ebbb6e50d94600bfe3f4b76"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "db220376ecb8c582a6a4f6575a8f26469603a38d",
+        "sha256": "6779378006a2f5225e8c06deb84f1d913fb532041ebbb6e50d94600bfe3f4b76"
+      },
+      "codex": {
+        "sha256": "6779378006a2f5225e8c06deb84f1d913fb532041ebbb6e50d94600bfe3f4b76",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/show-me-your-work/scripts/log.sh",
+      "original": {
+        "mode": "100755",
+        "git_blob": "052e53b7e1090579eaec1d3d59f7a1cd2f2e452a",
+        "sha256": "a65a4bc5fb7cdeadbdb7b7ff1ca4682f4d9c42420942b2977cd17b46c4ac338e"
+      },
+      "claude": {
+        "mode": "100755",
+        "git_blob": "4fbf37925add958588edea5b5fd277cf16823503",
+        "sha256": "3de85b7a6759ec94a976ca6cd3b6a116cf6501cbd6d10ff905ee33f4f8ec6534"
+      },
+      "codex": {
+        "sha256": "3de85b7a6759ec94a976ca6cd3b6a116cf6501cbd6d10ff905ee33f4f8ec6534",
+        "mode": "100755"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/swarm/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "a63e09eda94558aa8c7ae6d0653951838a3abd3f",
+        "sha256": "e28057fbbd1113257b2e953c6e891c41f535dbb01400b6bfd3eb9a85a2ab861f"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "2c8176f6da8893be3bd16c9f8db3083660870221",
+        "sha256": "50b6ec27bc3a495ee2f923196e004ccb3deeee7deb2c3d2f63373e1226f923d8"
+      },
+      "codex": {
+        "sha256": "acba2e8a93d0c6a3049bb38e8c2b7c658f5f813084c2970ef7e14de0f44b91f2",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/tdd/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "ca6f24c963001d9d518db2936dfe3d12f29b4e94",
+        "sha256": "eeb868e2dfebee528d730a67d7b17498fac4bb85dec2e38bc5c5176aca4d5d2f"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "67d91899a44c094d999eda716fa9877de245e109",
+        "sha256": "276f883002b7a0b9be4ec982d0752fc68eaceed8e6db502316a87aa4600d152e"
+      },
+      "codex": {
+        "sha256": "276f883002b7a0b9be4ec982d0752fc68eaceed8e6db502316a87aa4600d152e",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/teach/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "25369f3f554ed6b5826340ae3eee688fac0bda80",
+        "sha256": "bd286e5a6290673be2cd28aef7af2ec7f1fb138e6bce156ea657368c7e7fc8a4"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "7c82be6a1361ad83a2217806a5f3e0c0ae97cb4b",
+        "sha256": "d1fa482c989784d8ead753876500cc95fa7f2d1f831ca84133ef6bca78ccd1ce"
+      },
+      "codex": {
+        "sha256": "5a85664f8cce57429af0d8c060a20d8740579867f0976f4981032e8855cab2b5",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/technical-writing/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "1cd44cf2595a5caeda1f702aacd4f8a25aa8166a",
+        "sha256": "10c74685e1639cc4f8ff096007e5405b25ca0e824b65aaa17105c238faf6a1e8"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "9a48f3338bf8a83dccf73114d8c219dc15ca45d5",
+        "sha256": "a450d685f477833640054828477fff97e1fd4ffb396a845b512d131b633c1919"
+      },
+      "codex": {
+        "sha256": "a450d685f477833640054828477fff97e1fd4ffb396a845b512d131b633c1919",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/thermo-nuclear-code-quality-review/SKILL.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "4d9176be4ac90728c24eb9b29125f45d8d8aecd1",
+        "sha256": "35f68c89a24f690eaba7f77c637d3b7dc1cb0fc7bf17670606ffd83f074fa626"
+      },
+      "codex": {
+        "sha256": "35f68c89a24f690eaba7f77c637d3b7dc1cb0fc7bf17670606ffd83f074fa626",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/typescript-best-practices/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "2c0279d9a5f800192605e47b55cae4e75a17ec27",
+        "sha256": "28f9e61710e205f6f3c5476f333483cff0e988f6a5b639e2faad536344b40c5e"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "2bf543fbc2991e9603f49dd224c38b6e574c93d7",
+        "sha256": "fd61fe218e2d08226a63533d344277ccacd6e92fd07a81ca663817594585221d"
+      },
+      "codex": {
+        "sha256": "3e79bf7a43ed0c307848e65ff1aa79b8e094a528fc293c8daa779b60047364f0",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/typescript-best-practices/references/patterns.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "f44d22ffe9130c5340d55a2fa57028c6959479cb",
+        "sha256": "62e9cd32d2fa066a35d0d1349aac22dce31a48ad7d5eaf142570770cfe707384"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "f44d22ffe9130c5340d55a2fa57028c6959479cb",
+        "sha256": "62e9cd32d2fa066a35d0d1349aac22dce31a48ad7d5eaf142570770cfe707384"
+      },
+      "codex": {
+        "sha256": "62e9cd32d2fa066a35d0d1349aac22dce31a48ad7d5eaf142570770cfe707384",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/unslop/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "229a090708710c36caa0017f8d33e90880dc6846",
+        "sha256": "195411d320b5b328f9f642baf59757ed19aaf0931c0838740e0aca273d538dc1"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "7d14d8c9ff4c63b96cda90aacd93b5fc752a58bc",
+        "sha256": "290a10a90e52f080fdf0f225f043088990b5cd8d8b8307c800a91cfeb1568aa4"
+      },
+      "codex": {
+        "sha256": "290a10a90e52f080fdf0f225f043088990b5cd8d8b8307c800a91cfeb1568aa4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/what-did-i-get-done/SKILL.md",
+      "original": null,
+      "claude": {
+        "mode": "100644",
+        "git_blob": "e6772b22b74998fc25cd8663981b6ac30cd91613",
+        "sha256": "479813c9abaacb5b6b0531f1de7dc5eb2f3bd9673707a992d1073335836e82f8"
+      },
+      "codex": {
+        "sha256": "479813c9abaacb5b6b0531f1de7dc5eb2f3bd9673707a992d1073335836e82f8",
+        "mode": "100644"
+      },
+      "claude_vs_original": "claude_only",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical",
+      "skill_body_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/SKILL.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "daac2c734a8f8fe43d30663054d694066f2b41ec",
+        "sha256": "2a852ec8680920109d2b56538b027c52867896a597250ac5d18a13e0b42e5b06"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "3f8b5f1a6db7acc8cbec8c4ee966394ee0bf487a",
+        "sha256": "2920a63da79381270eb47170bbabd6af19c3b50229613f3d1e2c52715db3e882"
+      },
+      "codex": {
+        "sha256": "a0d15f81fd814718bfb8d07cc3811fa412ca3d858444740b0366697d5ed6084d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "changed",
+      "skill_body_vs_selected": "changed"
+    },
+    {
+      "path": "skills/why/references/epistemics.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "3732bf6881b60d1337fa3498574452a85d33ba30",
+        "sha256": "fcc0f559c072832c869a5ada72434b4849320a637ae63c09e8ee14f7ad787059"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "2234bcde36f563c069225da98757c906a7783ca2",
+        "sha256": "aa02e6df7d58ff24ced550e06d485fd81d0e826c295df45d1d23066d70c53bd4"
+      },
+      "codex": {
+        "sha256": "aa02e6df7d58ff24ced550e06d485fd81d0e826c295df45d1d23066d70c53bd4",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/investigator-prompt.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "3b56af44c589833508f4605cfdd4432b39a16739",
+        "sha256": "6892956a7ab0b5ee6c4babaf4f793703abe89b350ea7cb9463b4a56eea1c8266"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "4ba432b74aca7dcb788242ef76d021988056c9aa",
+        "sha256": "642597988051fedb3cd8f5cbb53fb5a8ec2b8abd6cc72d2fe7b2f10b4d766d0d"
+      },
+      "codex": {
+        "sha256": "642597988051fedb3cd8f5cbb53fb5a8ec2b8abd6cc72d2fe7b2f10b4d766d0d",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/source-playbook.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "aa3d877cd539763ff05e266ae0a02dd811441e2b",
+        "sha256": "9ae9dcb9d09111c9facc68510331c5aba4aed9b1b057314ff1fc0e166ad3993a"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "aa3d877cd539763ff05e266ae0a02dd811441e2b",
+        "sha256": "9ae9dcb9d09111c9facc68510331c5aba4aed9b1b057314ff1fc0e166ad3993a"
+      },
+      "codex": {
+        "sha256": "9ae9dcb9d09111c9facc68510331c5aba4aed9b1b057314ff1fc0e166ad3993a",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/sources/code-archaeology.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "32d5f97f8d2d3974c668f5f0392737b7e8e25afd",
+        "sha256": "8c14aa382f0de40829b2668d43e3f54814480bb93a486c9282ada4003f6b9dbd"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "32d5f97f8d2d3974c668f5f0392737b7e8e25afd",
+        "sha256": "8c14aa382f0de40829b2668d43e3f54814480bb93a486c9282ada4003f6b9dbd"
+      },
+      "codex": {
+        "sha256": "8c14aa382f0de40829b2668d43e3f54814480bb93a486c9282ada4003f6b9dbd",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/sources/databricks.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "2770763ff5d0d1ad004abcc9a0138c9537ad1978",
+        "sha256": "236ede7aab6454662a992db088a5393537a5233a4c26719c93188f9e174488f6"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "8109f9d601abfe2348e44263d31e784cd4190e10",
+        "sha256": "0405eb29c17932b8e6c7db7c596d99c1a7c660dcc95adb2c43a033c6a936d0b1"
+      },
+      "codex": {
+        "sha256": "0405eb29c17932b8e6c7db7c596d99c1a7c660dcc95adb2c43a033c6a936d0b1",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/sources/datadog.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d8363b1c1d1c7eadb15d47abd83bf70537c39620",
+        "sha256": "ebe9c07bac28e47757ee7f16fb93b0c01d427a08c501957d047f395a2f37b7e7"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "d8363b1c1d1c7eadb15d47abd83bf70537c39620",
+        "sha256": "ebe9c07bac28e47757ee7f16fb93b0c01d427a08c501957d047f395a2f37b7e7"
+      },
+      "codex": {
+        "sha256": "ebe9c07bac28e47757ee7f16fb93b0c01d427a08c501957d047f395a2f37b7e7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/sources/incident-postmortem.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "450d6e52f25b1b41f741cb3e9c93e1c74ef858b4",
+        "sha256": "a899470f05f86029630a13a2696491cc708ca7b56a6e822a69ff6e954d6ff8cf"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "450d6e52f25b1b41f741cb3e9c93e1c74ef858b4",
+        "sha256": "a899470f05f86029630a13a2696491cc708ca7b56a6e822a69ff6e954d6ff8cf"
+      },
+      "codex": {
+        "sha256": "a899470f05f86029630a13a2696491cc708ca7b56a6e822a69ff6e954d6ff8cf",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/sources/linear.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "899c643c078f322afe6ae0ef78a007f8ffd356c1",
+        "sha256": "01304e7f1badfcfb78babbb0edcadeb3cc8dd3f713793420cdff24ba190f907c"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "899c643c078f322afe6ae0ef78a007f8ffd356c1",
+        "sha256": "01304e7f1badfcfb78babbb0edcadeb3cc8dd3f713793420cdff24ba190f907c"
+      },
+      "codex": {
+        "sha256": "01304e7f1badfcfb78babbb0edcadeb3cc8dd3f713793420cdff24ba190f907c",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/sources/notion.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "d16230a4105fd1dacf870da0950a38faeb9381e6",
+        "sha256": "3bcfa695c49dfad4ac036d5d7181c12585f55ac04f1936198d16ab75a2788997"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "d16230a4105fd1dacf870da0950a38faeb9381e6",
+        "sha256": "3bcfa695c49dfad4ac036d5d7181c12585f55ac04f1936198d16ab75a2788997"
+      },
+      "codex": {
+        "sha256": "3bcfa695c49dfad4ac036d5d7181c12585f55ac04f1936198d16ab75a2788997",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/sources/sentry.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "2b7cf6f3098ee868547dc4e69efacfe9c255246b",
+        "sha256": "6f292bc4fb1548e956f95e1900b9481abf5134254419f1cd9edec95428c82d73"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "2b7cf6f3098ee868547dc4e69efacfe9c255246b",
+        "sha256": "6f292bc4fb1548e956f95e1900b9481abf5134254419f1cd9edec95428c82d73"
+      },
+      "codex": {
+        "sha256": "6f292bc4fb1548e956f95e1900b9481abf5134254419f1cd9edec95428c82d73",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/sources/slack.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "863a527d60e4e055e680834ef8098ea04273a1ae",
+        "sha256": "58fee61d024b3700b407e7acbed367944720ff05adfddb6954d36c88368f3ba7"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "863a527d60e4e055e680834ef8098ea04273a1ae",
+        "sha256": "58fee61d024b3700b407e7acbed367944720ff05adfddb6954d36c88368f3ba7"
+      },
+      "codex": {
+        "sha256": "58fee61d024b3700b407e7acbed367944720ff05adfddb6954d36c88368f3ba7",
+        "mode": "100644"
+      },
+      "claude_vs_original": "identical",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    },
+    {
+      "path": "skills/why/references/synthesizer-prompt.md",
+      "original": {
+        "mode": "100644",
+        "git_blob": "9707dfcc2fc57ea126484a433c5cd9ee4d400ef3",
+        "sha256": "733a3e9cf897b1aca56aaddeae01a3832e4bfed024c2f602db2d1bf807d7a73b"
+      },
+      "claude": {
+        "mode": "100644",
+        "git_blob": "246141dc9cd0fd2ab41e4876d71388f9f2aab1c0",
+        "sha256": "2ea4b8a86a382a6d5f64407d1d909c90f2e239900f22fb5e9de56abaee11dd8b"
+      },
+      "codex": {
+        "sha256": "2ea4b8a86a382a6d5f64407d1d909c90f2e239900f22fb5e9de56abaee11dd8b",
+        "mode": "100644"
+      },
+      "claude_vs_original": "changed",
+      "selected_source": "claude",
+      "codex_vs_selected": "identical"
+    }
+  ],
+  "local_only_excluded": {
+    "count": 1047,
+    "reason": "Local test dependencies under scripts/node_modules are not present in the delivered ZIP. Audit compares packaged paths, verifies their current source bytes against ZIP bytes, and retains all upstream paths to detect missing imports.",
+    "roots": [
+      "skills/poteto-mode/scripts/node_modules"
+    ]
+  },
+  "zip_source_byte_mismatches": [],
+  "additional_imports": [
+    {
+      "path": "CHANGES.md",
+      "source": "claude",
+      "source_path": "CHANGES.md",
+      "sha256": "e436af9f56c689f7d8b79c54f2a8b0e1751a276a5186253f1e98c28b9430df2b",
+      "codex_vs_import": "changed"
+    },
+    {
+      "path": "LICENSE-cursor-team-kit",
+      "source": "claude",
+      "source_path": "LICENSE-cursor-team-kit",
+      "sha256": "702f5f331b56aff0e33d8c7826df5202559f894145eb70355c6477b55b5bb8a0",
+      "codex_vs_import": "identical"
+    },
+    {
+      "path": "NOTICE-pstack-claude.md",
+      "source": "claude",
+      "source_path": "NOTICE.md",
+      "sha256": "f2482b91816e3c40b15ec0cda29e91357d2b570cac6afab9bb5c85cfb817782c",
+      "codex_vs_import": "identical"
+    },
+    {
+      "path": "NOTICE-skills.md",
+      "source": "claude",
+      "source_path": "NOTICE-skills.md",
+      "sha256": "97074e1c045b57c33139d2789f79563f5ac1185d18fa731ed6491ad6127308a9",
+      "codex_vs_import": "identical"
+    }
+  ],
+  "imports_summary": {
+    "total": 241,
+    "identical": 141,
+    "changed": 100,
+    "generated": 9
+  },
+  "helper_summary": {
+    "imported": 37,
+    "identical": 36,
+    "changed": [
+      "skills/reflect/scripts/find-transcript.mjs"
+    ]
+  },
+  "stale_prompt_wrappers": [
+    ".codex-plugin/prompts/architect.md",
+    ".codex-plugin/prompts/arena.md",
+    ".codex-plugin/prompts/automate-me.md",
+    ".codex-plugin/prompts/babysit.md",
+    ".codex-plugin/prompts/blast-radius.md",
+    ".codex-plugin/prompts/bro.md",
+    ".codex-plugin/prompts/create-verification-skill.md",
+    ".codex-plugin/prompts/deslop.md",
+    ".codex-plugin/prompts/figure-it-out.md",
+    ".codex-plugin/prompts/fix-ci.md",
+    ".codex-plugin/prompts/fix-merge-conflicts.md",
+    ".codex-plugin/prompts/get-pr-comments.md",
+    ".codex-plugin/prompts/how.md",
+    ".codex-plugin/prompts/interrogate.md",
+    ".codex-plugin/prompts/maintain-verification-skill.md",
+    ".codex-plugin/prompts/make-pr-easy-to-review.md",
+    ".codex-plugin/prompts/no-comments.md",
+    ".codex-plugin/prompts/poteto-mode.md",
+    ".codex-plugin/prompts/recall.md",
+    ".codex-plugin/prompts/reflect.md",
+    ".codex-plugin/prompts/setup-pstack.md",
+    ".codex-plugin/prompts/show-me-your-work.md",
+    ".codex-plugin/prompts/swarm.md",
+    ".codex-plugin/prompts/tdd.md",
+    ".codex-plugin/prompts/teach.md",
+    ".codex-plugin/prompts/technical-writing.md",
+    ".codex-plugin/prompts/thermo-nuclear-code-quality-review.md",
+    ".codex-plugin/prompts/typescript-best-practices.md",
+    ".codex-plugin/prompts/unslop.md",
+    ".codex-plugin/prompts/what-did-i-get-done.md",
+    ".codex-plugin/prompts/why.md"
+  ]
+}

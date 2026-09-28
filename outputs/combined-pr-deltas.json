@@ -1,0 +1,229 @@
+{
+  "date": "2026-09-28",
+  "prior_zip": "outputs/pstack-codex-0.3.1.zip",
+  "prior_zip_sha256": "2f672d33ac7221aff02f8758a0b82efb6e5e52d6a5b17c427f3920c917f86271",
+  "approval_record": "NATIVE-PORT-DECISIONS.md decision 12",
+  "files": {
+    ".codex-plugin/plugin.json": {
+      "before_sha256": "df7717190e6917dfc2148badd82ea397000436a63fd8600381736c96a0b9a0b0",
+      "after_sha256": "4b137767e6f0b75d60002d19d2c15bf91eb08f6eb8ca6eb4fb4633c6b1edea20",
+      "reason": "Version the approved combined PR source package as 0.4.0 and describe its extension.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 28,
+          "before": "  \"version\": \"0.3.1\",\n  \"description\": \"Faithful pstack workflows with pinned pstack-claude updates, native Codex instructions, and local worktrees.\",\n",
+          "after": "  \"version\": \"0.4.0\",\n  \"description\": \"Faithful pstack workflows with pinned pstack-claude updates, native Codex tools, local worktrees, and the approved combined visual PR review workflow.\",\n",
+          "reason": "Version the approved combined PR source package as 0.4.0 and describe its extension.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    ".codex-plugin/prompts/make-pr-easy-to-review.md": {
+      "before_sha256": "d677344407335554efe4eba15a010706a553efff4a00bd578fd6c87f5695a66b",
+      "after_sha256": "7b69f8e1b7323aa0d69b3a377d2b9986be3bec26a303a164f3cc7a7be9c86c94",
+      "reason": "Describe the combined PR entry point without changing the wrapper invocation policy.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 33,
+          "before": "description: clean noisy history and improve PR description before review\n",
+          "after": "description: prepare a PR with visual context, a change outline, and a linked evidence trail\n",
+          "reason": "Describe the combined PR entry point without changing the wrapper invocation policy.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "README.md": {
+      "before_sha256": "87ebaa2bd17a692257bdef4a630c2eed9f000d8e07d28623dac14aeb896bdae7",
+      "after_sha256": "56272dda1d319b1b0b31c61b7df9aba1aff2a6db211ce7c45fb9f8d15da9cfd7",
+      "reason": "Document the single combined PR entry point.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 11557,
+          "before": "",
+          "after": "| [`/make-pr-easy-to-review`](./skills/make-pr-easy-to-review/SKILL.md) | one PR entry point for visual context, a change outline, reading order, and a linked decision/verification appendix. combines HumanLayer show-me and visual-pr conventions with pstack's audited trail. |\n",
+          "reason": "Document the single combined PR entry point.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "docs/guide/06-verify-and-ship.md": {
+      "before_sha256": "7c883eea9d8234060b0945b0c72d711a5aeaa4587a69cd9f739003c7357e2fc5",
+      "after_sha256": "77022ae53894861b20b1fbfacca96578345f6900dcfae56daa984d512c691549",
+      "reason": "Explain visual context, evidence appendix, retrospective gaps and unchanged verification/merge requirements.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 4285,
+          "before": "",
+          "after": "The combined [`/make-pr-easy-to-review`](../../skills/make-pr-easy-to-review/SKILL.md) produces a short briefing with a compact visual outline and reading order, plus a linked appendix of decisions, verification evidence and attention flags. It keeps the canonical trail through show-me-your-work; the trail can still be used on its own for non-PR work. PR work starts logging early. An existing PR without prior records gets a clearly labeled reconstruction and evidence gaps, not invented history. Early PRs show pending checks, then refresh the same appendix after verification.\n\n```text\n/make-pr-easy-to-review explain this PR visually and show the evidence.\n```\n\nThis approved extension adapts HumanLayer show-me and visual-pr; their plugins need not be installed. It preserves pstack's verification, history-rewrite consent and merge rules.\n\n",
+          "reason": "Explain visual context, evidence appendix, retrospective gaps and unchanged verification/merge requirements.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "skills/make-pr-easy-to-review/SKILL.md": {
+      "before_sha256": "e8da0d4a85b7c04823698f539251617389f827fd9137100ef7eaea5dcc992fe7",
+      "after_sha256": "b362f2ae477f98b8c25d6ecae02ffa3639c681f662d3d9310904fb7b1593d16c",
+      "reason": "Combine visual context, structural outlines and pstack audited evidence in the existing PR entry point; preserve its history and behavior guardrails.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 33,
+          "before": "description: Prepare PRs for review by cleaning noisy history, improving PR descriptions, and adding reviewer guidance without changing code behavior. Use for \"make this easy to review\", \"tidy this PR\", \"clean up commits\", or \"annotate the diff\".\n",
+          "after": "description: Prepare or update a PR with concise context, a visual change outline, and a linked decision and verification trail. Use when opening a PR, preparing work for review, or asked to make a PR easy to understand, show its evidence, tidy its description, clean up commits, or annotate the diff.\n",
+          "reason": "Combine visual context, structural outlines and pstack audited evidence in the existing PR entry point; preserve its history and behavior guardrails.",
+          "approval": "combined-pr"
+        },
+        {
+          "start": 461,
+          "before": "",
+          "after": "This is the combined PR entry point: HumanLayer's **show-me** supplies visual conventions, **visual-pr** supplies the concise change outline, and pstack's **show-me-your-work** owns the evidence log and its review. Use the bundled references; those other plugins need not be installed.\n\n",
+          "reason": "Combine visual context, structural outlines and pstack audited evidence in the existing PR entry point; preserve its history and behavior guardrails.",
+          "approval": "combined-pr"
+        },
+        {
+          "start": 474,
+          "before": "1. Resolve the target PR from the user-provided URL or current branch.\n2. Inspect commits, diff size, changed paths, generated files, and PR description.\n3. Identify reviewability issues: noisy commits, stale description, unrelated changes, mixed mechanical and logic changes, missing tests, or unclear reviewer entry points.\n4. Propose a plan before rewriting history or force-pushing.\n5. Apply safe improvements, then verify the tree or diff still matches the intended code.\n",
+          "after": "1. **Keep the trail as work happens.** When a task is expected to produce a PR, start or reuse the canonical trail through [show-me-your-work](../show-me-your-work/SKILL.md). Follow its run ownership and append-only rules. If invoked after implementation, log the current review work and label earlier facts as recovered; do not invent historical decisions, timestamps, or reasons. Starting the trail does not open a PR early or change the caller's execution stages.\n2. **Resolve the review target.** Use the explicit PR or current branch, its actual base (the parent branch for a stack child), and exact base/head revisions. Keep the caller's resolved forge. For a direct invocation, use the forge selection in [Opening a PR](../poteto-mode/playbooks/opening-a-pr.md). Inspect dirty work, commits, the complete diff and enough surrounding source to establish behavior and ownership; read the task intent, relevant artifacts, current description and existing review notes.\n3. **Prepare the briefing.** Identify noisy history, unrelated or mixed mechanical/logic changes, missing tests and unclear reviewer entry points. Read [Visual outlines](references/visual-outline.md) and [Review packet](references/review-packet.md). Write the existing Why / Scope / Tradeoffs / Blast Radius / Verification sections, dropping empty ones. Within Scope, give the reviewer a reading order and the smallest useful visual. Keep the body around 40 lines; put detailed decisions, evidence and review flags in the linked appendix. Preserve useful human-authored context.\n4. **Check the evidence.** Follow show-me-your-work's transcript audit and different-model trail review before final handoff. State missing evidence and pending review explicitly. Reuse a completed review only for the same trail and evidence scope; review new or superseding rows before claiming completion. The trail review does not replace code review, tests, live proof, swarm verdicts, or any existing shipping gate.\n5. **Publish or return prepared files.** Save the body, appendix and publication identity locally as described in Review packet. When called to prepare a PR, return these files to the caller, which owns commit/push/create; after creation, publish the appendix and refresh the body's link. When invoked directly for an existing PR, update it within the user's request. If creation is requested and no PR exists, apply Opening a PR's worktree, cleanup, writing, title, commit, forge, base and readiness requirements once, then create and attach the PR and publish this packet. Do not dispatch back into this skill from that playbook: these steps already perform its review-packet work. A request to draft text or prepare locally remains local. Do not infer permission to commit or push merely from a request to explain an existing change.\n6. **Refresh at the handoff.** Early ready PRs may have pending tests and trail review. Update the same packet after verification, after relevant code/base changes, and before final review or an already-authorized merge. Recheck base/head, evidence applicability, links and the published text. Do not label results from an old revision as current. Preserve all existing readiness, babysit and merge boundaries.\n\nReturn the PR URL and appendix link, a short reading order, verification outcome and unresolved gaps. For local preparation, return the saved files and say they were not published. End with the Attention report required by show-me-your-work; pending or unavailable review is not \"No flags\". Never invent a reviewer identity or receipt.\n",
+          "reason": "Combine visual context, structural outlines and pstack audited evidence in the existing PR entry point; preserve its history and behavior guardrails.",
+          "approval": "combined-pr"
+        },
+        {
+          "start": 2275,
+          "before": "",
+          "after": "\nVisuals explain structure; screenshots, logs and test receipts prove observed behavior. Do not present one as the other. Combining the skills does not authorize unrelated code changes, a history rewrite, force-push, or a merge.\n",
+          "reason": "Combine visual context, structural outlines and pstack audited evidence in the existing PR entry point; preserve its history and behavior guardrails.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "skills/poteto-mode/SKILL.md": {
+      "before_sha256": "a751dc62458a04084e74ea076aa584581a6bee8d951ae0591b05738b36842675",
+      "after_sha256": "90fbf6f0754d13bc7e0f59be47dc91d7bd9df052c46714e43e28121898382181",
+      "reason": "Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 3233,
+          "before": "",
+          "after": "- Work expected to produce a PR \u2192 start the decision trail through **make-pr-easy-to-review** before implementation, then use it for the visual briefing and linked evidence appendix at PR creation and final handoff. If work already happened, label recovered facts and historical gaps. This does not open a PR before its playbook calls for one.\n",
+          "reason": "Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "skills/poteto-mode/playbooks/autopilot-full.md": {
+      "before_sha256": "105ebbc5ade987ad4abd412e995b08d61e2c768c6c06cfe3485a76a9e78dff03",
+      "after_sha256": "00e573e171734fb2728e21ea298de26500ad98bc38afe03a946aa53694a26920",
+      "reason": "Publish an honest pending packet at early PR creation and refresh before final handoff or the authorized merge; preserve raw-log and merge rules.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 1057,
+          "before": "2. **Spawn one owner per PR with the full lifecycle and an early trail.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One background subagent per PR, in its own worktree, owns build, the first push, a ready PR, self-proof on the real artifact (the **prove-it-works** principle skill), skeptical review-bot triage per `../references/bugbot-triage.md`, a slop-strip (the **deslop** skill, `/deslop`), `/no-comments` (the **no-comments** skill), a rebase onto current trunk, the babysit loop to green (`playbooks/babysit.md`), and the merge itself. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Open the PR before self-proof so the URL, decisions, and checks form a durable trail. Keep `decisions.tsv` uncommitted and return it with the reports. As soon as a subagent starts, the owner adds its ID, expected runtime (at least the longest past run of that kind), and state to a `children.tsv` kept the same way. The owner does the first rebase before the code-ready report and babysit, whether or not trunk has drifted. In fix rounds, the owner keeps that merge base. The owner rebases again only at merge prep (step 5), on a `git merge-tree` conflict with trunk, or on a CI failure that comes from a change on trunk. When the shipped code is final, after the slop-strip and `/no-comments`, it reports the code-ready head SHA. It also reports the SHA of each later push that changes the patch. Self-proof, CI, and babysit then run in parallel with the swarm. The owner reports merge-ready with the head SHA when self-proof, CI, and babysit finish. Before a push that starts a round, run the pre-review checks that the repo's AGENTS.md files and rules name for the touched paths. Run them on the committed head. A hook pass is not proof. To publish each rebase, push the owner's own branch with `git push --force-with-lease` after an `ls-remote` check. Never force-push a shared branch. The merge is the one step an owner may not take alone. Step 4 gates it.\n",
+          "after": "2. **Spawn one owner per PR with the full lifecycle and an early trail.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One background subagent per PR, in its own worktree, owns build, the first push, a ready PR, self-proof on the real artifact (the **prove-it-works** principle skill), skeptical review-bot triage per `../references/bugbot-triage.md`, a slop-strip (the **deslop** skill, `/deslop`), `/no-comments` (the **no-comments** skill), a rebase onto current trunk, the babysit loop to green (`playbooks/babysit.md`), and the merge itself. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Open the PR before self-proof so the URL, decisions, and checks form a durable trail. Keep `decisions.tsv` uncommitted and return it with the reports. Use **make-pr-easy-to-review** to prepare the visual briefing and publish its linked appendix when the early PR opens; mark self-proof, transcript audit and trail review pending until performed. Refresh that same packet after verification and any relevant patch/base change, before final handoff or an authorized merge. Do not delay the early ready PR for the end-of-run audit. As soon as a subagent starts, the owner adds its ID, expected runtime (at least the longest past run of that kind), and state to a `children.tsv` kept the same way. The owner does the first rebase before the code-ready report and babysit, whether or not trunk has drifted. In fix rounds, the owner keeps that merge base. The owner rebases again only at merge prep (step 5), on a `git merge-tree` conflict with trunk, or on a CI failure that comes from a change on trunk. When the shipped code is final, after the slop-strip and `/no-comments`, it reports the code-ready head SHA. It also reports the SHA of each later push that changes the patch. Self-proof, CI, and babysit then run in parallel with the swarm. The owner reports merge-ready with the head SHA when self-proof, CI, and babysit finish. Before a push that starts a round, run the pre-review checks that the repo's AGENTS.md files and rules name for the touched paths. Run them on the committed head. A hook pass is not proof. To publish each rebase, push the owner's own branch with `git push --force-with-lease` after an `ls-remote` check. Never force-push a shared branch. The merge is the one step an owner may not take alone. Step 4 gates it.\n",
+          "reason": "Publish an honest pending packet at early PR creation and refresh before final handoff or the authorized merge; preserve raw-log and merge rules.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "skills/poteto-mode/playbooks/autopilot-stack.md": {
+      "before_sha256": "724c14e7df8f9115bae7ec691bf73ddbe26aaf0409507db8179372c1966ed54d",
+      "after_sha256": "ac55261640b9e14b802c763088f1cd72f747e78698cd66e0a4241229969a7ab5",
+      "reason": "Publish the combined packet early and refresh at final parent/head without changing operator landing authority.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 218,
+          "before": "1. **Run the owner loop unchanged.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One background subagent per PR, in its own worktree, owns its change end to end: build, first push, a ready PR opened before self-proof, self-proof (gates, CI, receipts), skeptical review-bot triage per `../references/bugbot-triage.md`, a slop-strip (the **deslop** skill, `/deslop`), `/no-comments` (the **no-comments** skill), and babysit to green per `playbooks/babysit.md`. Owners parallelize when the work is self-contained. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Keep the trail uncommitted and return it in the report. Owners also keep the `children.tsv` of Autopilot-full step 2.\n",
+          "after": "1. **Run the owner loop unchanged.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One background subagent per PR, in its own worktree, owns its change end to end: build, first push, a ready PR opened before self-proof, self-proof (gates, CI, receipts), skeptical review-bot triage per `../references/bugbot-triage.md`, a slop-strip (the **deslop** skill, `/deslop`), `/no-comments` (the **no-comments** skill), and babysit to green per `playbooks/babysit.md`. Owners parallelize when the work is self-contained. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Keep the trail uncommitted and return it in the report. Use **make-pr-easy-to-review** to prepare the visual briefing and publish its linked appendix when the early PR opens; mark self-proof, transcript audit and trail review pending until performed. Refresh that same packet after verification and any relevant patch/base change, before final handoff or an authorized merge. Do not delay the early ready PR for the end-of-run audit. Owners also keep the `children.tsv` of Autopilot-full step 2.\n",
+          "reason": "Publish the combined packet early and refresh at final parent/head without changing operator landing authority.",
+          "approval": "combined-pr"
+        },
+        {
+          "start": 5135,
+          "before": "8. **Deliver the chain.** The deliverable is one linear chain of verified PRs, reviewable bottom-up in the resolved forge, every link carrying its verifier verdict in the PR body or a comment. The operator reviews and lands it, with their own clicks or by arming merge-when-ready.\n",
+          "after": "8. **Deliver the chain.** Refresh each PR's **make-pr-easy-to-review** packet against its final parent/head, preserving the tested revision on each receipt and disclosing remaining evidence gaps. The deliverable is one linear chain of verified PRs, reviewable bottom-up in the resolved forge, every link carrying its verifier verdict in the PR body or a comment. The operator reviews and lands it, with their own clicks or by arming merge-when-ready.\n",
+          "reason": "Publish the combined packet early and refresh at final parent/head without changing operator landing authority.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "skills/poteto-mode/playbooks/multi-phase-plan.md": {
+      "before_sha256": "d70fe6a89ae065205b28218bc8f4e5dc39a7693110a19abc9a89297ae2d0009c",
+      "after_sha256": "2d9e741484667acb8b76eceff79118588b9e4a40b265121c37b98dbaff0b4d14",
+      "reason": "Include early logging and combined PR preparation/refresh in the existing checklist.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 7864,
+          "before": "",
+          "after": "- [ ] Start the trail when PR work starts. Use `skills/make-pr-easy-to-review/SKILL.md` to prepare the visual briefing and linked appendix at creation, with unfinished proof marked pending. Refresh the same packet after verification and relevant code/base changes before final handoff or an authorized merge.\n",
+          "reason": "Include early logging and combined PR preparation/refresh in the existing checklist.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "skills/poteto-mode/playbooks/opening-a-pr.md": {
+      "before_sha256": "25b68b7e9ed34260917e934826e0b05821591ceaeb2bd2a36f6afaba13bab208",
+      "after_sha256": "2def5076acb57688fbbf703b260fdc84dea22f6f6cbbe27c8fa2f9783e8dd2e2",
+      "reason": "Prepare and publish the combined review packet without recursive dispatch or changes to forge, readiness, stack or babysit rules.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 1382,
+          "before": "",
+          "after": "\n**Visual context and evidence.** Use the **make-pr-easy-to-review** skill to prepare the body and review appendix from the complete diff, surrounding source and actual evidence. It combines a compact visual outline with the **show-me-your-work** trail and audit; retain the description rules below. This playbook owns commit/push/create. After creation, publish the appendix once and link it from the body, then read back both. If entered from that skill, continue its prepared packet instead of invoking it again. Early PRs label unfinished checks and review pending; refresh the same packet at final handoff and after relevant code or base changes. A locally prepared description is not a published PR.\n",
+          "reason": "Prepare and publish the combined review packet without recursive dispatch or changes to forge, readiness, stack or babysit rules.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "skills/poteto-mode/playbooks/shipping.md": {
+      "before_sha256": "2756355c9ddaecabb871b002afca96b91235d659d0450f5bc41156014f63c964",
+      "after_sha256": "23e4644a555a57867c8a34903d4e61b0500137fdf42e24b7702edfd35c52bc30",
+      "reason": "Refresh visual context and actual receipt applicability after shipping preparation without replacing verification or merge gates.",
+      "approval": "combined-pr",
+      "edits": [
+        {
+          "start": 2765,
+          "before": "6. **Reassess the evidence.** Any changed head or destination invalidates the old readiness observation. Compare the current diff and context with the recorded verdict. When the two patches differ only in tests, docs, or lint config, build what each lane ran. Build it twice at the verdict SHA and once at the current head. A difference is noise if the two builds at the verdict SHA also show it, or if it is an embedded commit SHA. Judge each difference, not each file, and report each kind of noise with its files. If only noise differs, that lane's result stays valid, and checks and a review of the change run fresh. Do not reuse a lane result from a dev server or from anything else with no build output. Rerun that lane. A matching patch-id may preserve substantive code review after a history rewrite, but does not prove the review applies to a different destination or changed dependencies. Re-verify changed behavior or uncertain applicability. Always rerun current checks and mergeability after a rewrite or retarget. Capture the exact head and destination now approved to land.\n",
+          "after": "6. **Reassess the evidence.** Any changed head or destination invalidates the old readiness observation. Compare the current diff and context with the recorded verdict. When the two patches differ only in tests, docs, or lint config, build what each lane ran. Build it twice at the verdict SHA and once at the current head. A difference is noise if the two builds at the verdict SHA also show it, or if it is an embedded commit SHA. Judge each difference, not each file, and report each kind of noise with its files. If only noise differs, that lane's result stays valid, and checks and a review of the change run fresh. Do not reuse a lane result from a dev server or from anything else with no build output. Rerun that lane. A matching patch-id may preserve substantive code review after a history rewrite, but does not prove the review applies to a different destination or changed dependencies. Re-verify changed behavior or uncertain applicability. Always rerun current checks and mergeability after a rewrite or retarget. Capture the exact head and destination now approved to land. Refresh the **make-pr-easy-to-review** body and linked appendix for this compared base/head and the applicable receipts; preserve their actual tested revisions and any review flags. This presentation step does not replace the independent verdict or change merge authority.\n",
+          "reason": "Refresh visual context and actual receipt applicability after shipping preparation without replacing verification or merge gates.",
+          "approval": "combined-pr"
+        }
+      ]
+    },
+    "skills/make-pr-easy-to-review/references/visual-outline.md": {
+      "before_sha256": null,
+      "after_sha256": "b971fa9ef2efbf402353d7cd80ac13bbbdaf8ddc482521394f9ce2ea1b8f479d",
+      "reason": "Adapt HumanLayer show-me visual conventions for source-grounded Codex PR explanations and remote artifact constraints.",
+      "approval": "combined-pr",
+      "added": true
+    },
+    "THIRD_PARTY_LICENSES/HumanLayer.txt": {
+      "before_sha256": null,
+      "after_sha256": "5f13c18ea00ea5c1384f41745feeca774079164f7f59a92e4ac0899ad217b26f",
+      "reason": "Preserve HumanLayer MIT license verbatim for approved adaptations.",
+      "approval": "combined-pr",
+      "added": true
+    },
+    "skills/make-pr-easy-to-review/references/review-packet.md": {
+      "before_sha256": null,
+      "after_sha256": "e0793de8f0ecd3c325b57e1f0446dced323f5f67f8e65d3b3a084dae4ba9cb7d",
+      "reason": "Define the approved compact body, readable evidence appendix, truthful revision-bound claims and idempotent publication procedure.",
+      "approval": "combined-pr",
+      "added": true
+    },
+    "skills/make-pr-easy-to-review/references/source-notice.md": {
+      "before_sha256": null,
+      "after_sha256": "695d9e482e3e8cafaa5679dfb7a23af0e9efc0978853bde7e3269aa13e439ad2",
+      "reason": "Attribute pinned HumanLayer contributions and distinguish approved adaptations from preserved pstack requirements.",
+      "approval": "combined-pr",
+      "added": true
+    }
+  }
+}

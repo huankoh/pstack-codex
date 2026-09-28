@@ -1,0 +1,5 @@
+interface:
+  display_name: "Setup Benny"
+  short_description: "Set up upstream issue triage and repair automations"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,19 @@
+test_changed_value_persists (test_cache.CacheTest) ... ok
+test_identical_value_skips_storage (test_cache.CacheTest) ... FAIL
+test_missing_none_is_persisted (test_cache.CacheTest) ... ok
+
+======================================================================
+FAIL: test_identical_value_skips_storage (test_cache.CacheTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<fixture>/test_cache.py", line 13, in test_identical_value_skips_storage
+    self.assertEqual(save(cache, "doc", "same", lambda *x: writes.append(x)), "unchanged")
+AssertionError: 'written' != 'unchanged'
+- written
++ unchanged
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)

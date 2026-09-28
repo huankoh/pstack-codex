@@ -1,0 +1,5 @@
+interface:
+  display_name: "Triage Issue Reports"
+  short_description: "Triage issue reports for the upstream Benny workflow"
+policy:
+  allow_implicit_invocation: false

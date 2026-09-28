@@ -1,0 +1,46 @@
+{
+  "tiers": {
+    "default": "gpt-6-sol",
+    "strongest": "gpt-6-astra",
+    "panel": [
+      "gpt-6-astra",
+      "gpt-6-sol",
+      "gpt-6-luna"
+    ]
+  },
+  "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+  ],
+  "defaultEffort": "session",
+  "available": [
+    "gpt-6-astra",
+    "gpt-6-sol",
+    "gpt-6-luna"
+  ],
+  "roles": [
+    {"role": "feature, refactoring", "models": "default", "skill": "poteto-mode"},
+    {"role": "bug-fix", "models": "strongest", "skill": "poteto-mode"},
+    {"role": "perf-issue", "models": "strongest", "skill": "poteto-mode"},
+    {"role": "hillclimb", "models": "strongest", "skill": "poteto-mode"},
+    {"role": "judgment and prose", "models": "default", "skill": "poteto-mode"},
+    {"role": "strongest judgment", "models": "strongest", "skill": "poteto-mode"},
+    {"role": "how explorer", "models": "gpt-6-luna", "skill": "how", "effort": "max"},
+    {"role": "how explainer", "models": "default", "skill": "how"},
+    {"role": "why investigators", "models": "default", "skill": "why"},
+    {"role": "why synthesizer", "models": "default", "skill": "why"},
+    {"role": "reflect tooling", "models": "default", "skill": "reflect"},
+    {"role": "reflect judgment, divergent, synthesizer", "models": "default", "skill": "reflect"},
+    {"role": "arena runners", "models": "panel", "skill": "arena"},
+    {"role": "arena cross-judge pool", "models": "panel", "skill": "arena"},
+    {"role": "swarm workers", "models": "default", "skill": "swarm"},
+    {"role": "architect runners", "models": "panel", "skill": "architect"},
+    {"role": "interrogate reviewers", "models": "panel", "skill": "interrogate"}
+  ],
+  "modelEfforts": {
+    "gpt-6-luna": "max"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": "0.4.0",
+  "date": "2026-09-28",
+  "repository": "huankoh/pstack-codex",
+  "visibility": "public",
+  "package_files": 254,
+  "zip_sha256": "24eb8faf906df077d2311452728f7b52f6c9b0edeffdeaa7f6a736ff0c2b7894",
+  "validation": {
+    "fidelity": "passed",
+    "official_plugin_schema": "passed",
+    "python_tests": 21,
+    "source_reconstruction": "passed; byte-identical ZIP",
+    "publication_delta": "three manifest URLs only; all workflows unchanged",
+    "public_docs": "portable local links; selected evidence only",
+    "secrets_review": "no confirmed credentials in selected files"
+  },
+  "runtime_limits": [
+    "Not installed in Codex",
+    "No live PR publishing exercise of the combined skill",
+    "Model availability and host-specific capabilities remain installation prerequisites"
+  ]
+}
