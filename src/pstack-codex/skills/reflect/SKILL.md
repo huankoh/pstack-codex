@@ -67,9 +67,9 @@ Short list, no preamble:
 
 Role defaults come from this plugin's `models.json`. A matching role line in the `pstack-models.md` override sheet overrides each at runtime; `/setup-pstack` writes it and lists its path per runtime.
 
-- reflect tooling: `gpt-6-sol`
-- reflect judgment, divergent, synthesizer: `gpt-6-sol`
+- reflect tooling: `gpt-6.1-sol`
+- reflect judgment, divergent, synthesizer: `gpt-6.1-sol`
 
 ## Reasoning effort
 
-A role value in the override sheet may name a reasoning effort after its model, as in `gpt-6-sol @xhigh`. A value without `@` takes the sheet's `default effort` line, a level or `session`; absent that line, retain session effort. `auto` and `inherit-parent` omit the model argument. Pass an explicit effort as `spawn_agent.reasoning_effort`. Every Luna dispatch requests `max`, including one selected by an override sheet. If the host rejects the requested model or effort, pause that affected dispatch and ask the user for a replacement.
+A role value in the override sheet may name a reasoning effort after its model, as in `gpt-6.1-sol @xhigh`. A value without `@` takes the sheet's `default effort` line, a level or `session`; absent that line, retain session effort. `auto` and `inherit-parent` omit the model argument. Pass an explicit effort as `spawn_agent.reasoning_effort`. Every Luna dispatch requests `max`, including one selected by an override sheet. If the host rejects the requested model or effort, pause that affected dispatch and ask the user for a replacement.

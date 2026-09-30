@@ -75,9 +75,9 @@ One synthesized artifact. One short synthesis note alongside, naming the base, t
 
 Role defaults come from this plugin's `models.json`. A matching role line in the Codex `pstack-models.md` override sheet takes precedence; `setup-pstack` records that sheet's location. Preserve aliases: `auto` and `inherit-parent` omit `model` so the parent model is inherited. If a requested model or effort is unavailable on this host, report the limitation and ask the user to choose a replacement before continuing that step. Do not silently substitute or lower effort.
 
-- arena runners: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`
-- arena cross-judge pool: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`
+- arena runners: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`
+- arena cross-judge pool: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`
 
 ## Reasoning effort
 
-A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.
+A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.

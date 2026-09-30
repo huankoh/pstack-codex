@@ -1544,16 +1544,16 @@
   },
   "compatibility": {
     ".codex-plugin/plugin.json": {
-      "reason": "Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-      "sha256": "0d250832b5f92a98aab4d756d9e3851d9b1f899c41eea92cd0a443ffa98b3997"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "b7e09b562a9060abe4a43803c2896ed73ef240a780896ed4fed77fe4e2ae11e4"
     },
     "CHANGES.md": {
       "reason": "Required native Codex metadata, namespace, prompt-reference or path compatibility; preserve unrelated upstream content.",
       "sha256": "3f611e92cc28ab93465a6d0fbbac0ca354d7d6f01bc487a369d2cd9f63b350c3"
     },
     "README.md": {
-      "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-      "sha256": "56272dda1d319b1b0b31c61b7df9aba1aff2a6db211ce7c45fb9f8d15da9cfd7"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "918cc3b13ecaae93257ecc85b32c1936f900e06235d7b23542b4e4e8013c60bf"
     },
     "agents/comment-sicko.md": {
       "reason": "Keep persona instructions as native spawn briefs and express effort through Codex arguments rather than a registered Claude agent type.",
@@ -1672,20 +1672,20 @@
       "sha256": "2d1d778fffeb17135101c770c1168b06d758ee9bb671aaaeb874643550f3105b"
     },
     "models.json": {
-      "reason": "Retain 17-role vocabulary with approved native model defaults and Luna max; remove the cross-platform model mapping.",
-      "sha256": "f2964628f97c3fe4cfd01e49b2ca0a8e49c22f99a772e6da68a0106d8bd0a8f2"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "f102c4581659a3bc99164da2ccef442876cc80ddfe0c982fe8e34ccc7a9de9d4"
     },
     "skills/architect/SKILL.md": {
-      "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-      "sha256": "a78fbf8f9dc7a67c7d2c373aa511b0ff45163f68abd5fe7ad5a10c8f5d5728c7"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "9c17d1d5ef5e71b40faa0066fb9201c4fd97cca2fc848e6b93ec6fc925ec42d7"
     },
     "skills/architect/references/runner-prompt.md": {
       "reason": "Required native Codex metadata, namespace, prompt-reference or path compatibility; preserve unrelated upstream content.",
       "sha256": "7da10a53ee7aa0673506ca87d520ca147b92907cc51988ad43e25fee24aa142f"
     },
     "skills/arena/SKILL.md": {
-      "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-      "sha256": "28f42d7f9b8949bab9f5f09dac59e16b04aca236bd5486d07d28877bd1ba8920"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "950f21fadc7652acd1ac33533950c23d5477ea822247acee8fa8de417b1b59bb"
     },
     "skills/automate-me/SKILL.md": {
       "reason": "Retain prior declared native translations; Translate the authoring dependency to skill-creator without losing the subjective evaluation and conditional trigger-optimization contracts. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
@@ -1704,16 +1704,16 @@
       "sha256": "2104495f9d11e95813588d60bbf67a698b2c730b92d18dd5a62de95efd7b6e6c"
     },
     "skills/how/SKILL.md": {
-      "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-      "sha256": "fd5b04ccc13c86130966edbde4995aa6191f744c32e483edfde692f286ce00df"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "57a5183fdf16f8d3ef27652b3d77a2bcb48dd02ee18d38294095237af6c650f8"
     },
     "skills/how/references/explainer-prompt.md": {
       "reason": "Required native Codex metadata, namespace, prompt-reference or path compatibility; preserve unrelated upstream content.",
       "sha256": "f0442967cc1e9d14dacffbeb88b2dcbfca51c7110f037e0af9a696314cce2f1e"
     },
     "skills/interrogate/SKILL.md": {
-      "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-      "sha256": "75bd8e15330e3a21350d253a5f765c2056841a2f8ce6f9acb79b3e4804318197"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "9141e37ebfbbb31abe3b3b79a0226d577256e5fc35e057ccacd53a99838932e3"
     },
     "skills/maintain-verification-skill/SKILL.md": {
       "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
@@ -1728,8 +1728,8 @@
       "sha256": "1fb6cdbd7ba4340cf4eaa6c09c65f3a519c5d00b6b4b862773b06b8ccc319780"
     },
     "skills/poteto-mode/SKILL.md": {
-      "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-      "sha256": "90fbf6f0754d13bc7e0f59be47dc91d7bd9df052c46714e43e28121898382181"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "543acb6e11a2864ca3d15c0ec014e50f6576830f3e83f13b3419d52edd8570c5"
     },
     "skills/poteto-mode/playbooks/authoring-a-skill.md": {
       "reason": "Direct native delegation, worktree, scheduling or evidence operation at its existing playbook step; preserve the procedure and verification requirements.",
@@ -1900,8 +1900,8 @@
       "sha256": "88000678c080df98a03925fe87b4fcd12f15f6bfab7ac8f605cb7b46b374e373"
     },
     "skills/reflect/SKILL.md": {
-      "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-      "sha256": "c28979751a03faca604d2e9faeb9c348f1ada9f6e7bd87408fc80c71c9e68a9f"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "c1f71fa6cd32469846d762617e3b3d0ba7b85c786966266a81863260d3f4b475"
     },
     "skills/reflect/references/divergent-reviewer.md": {
       "reason": "Required native Codex metadata, namespace, prompt-reference or path compatibility; preserve unrelated upstream content.",
@@ -1920,16 +1920,16 @@
       "sha256": "4738290534a4544a7b36851f6c2bec05cf64f8c37204eb2e51ca29d0465cd79c"
     },
     "skills/setup-pstack/SKILL.md": {
-      "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-      "sha256": "a0b6c8833354ffaa34cf64eda7a473de35e106530965c63b191f22602e6dc71d"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "a725e558e819712912e73901c0077a26f25cb6faa4b3156f24d3d76d5f4cd164"
     },
     "skills/show-me-your-work/SKILL.md": {
       "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
       "sha256": "00b9e30f4901aa3b85a1cff717cc1224b6cc57aeec72e0485c11b75b23af3895"
     },
     "skills/swarm/SKILL.md": {
-      "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-      "sha256": "acba2e8a93d0c6a3049bb38e8c2b7c658f5f813084c2970ef7e14de0f44b91f2"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "9b0dd3f74733308136abf3427241ba2f148aa030b271f7ac70915bd4e37c15ef"
     },
     "skills/teach/SKILL.md": {
       "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
@@ -1940,8 +1940,8 @@
       "sha256": "3e79bf7a43ed0c307848e65ff1aa79b8e094a528fc293c8daa779b60047364f0"
     },
     "skills/why/SKILL.md": {
-      "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-      "sha256": "a0d15f81fd814718bfb8d07cc3811fa412ca3d858444740b0366697d5ed6084d"
+      "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+      "sha256": "56b5d2c186c5f8e724b5e47f6910cdeaae26b5a67280c7c4e4fb255d2930eb1e"
     },
     ".codex-plugin/prompts/architect.md": {
       "reason": "Retain prior declared native translations; Remove the obsolete platform-mapping detour while retaining the native skill invocation. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
@@ -2148,72 +2148,73 @@
     "audit-corrections": "NATIVE-PORT-DECISIONS.md decision 10, 2026-09-28: explicit approval of five audit corrections",
     "original-merge-authority": "NATIVE-PORT-DECISIONS.md decision 11, 2026-09-28: restore original Autopilot-full merge authority while retaining shipping and operator gates",
     "combined-pr": "NATIVE-PORT-DECISIONS.md decision 12, 2026-09-28: explicit request to combine show-me, show-me-your-work and visual-pr in the PR skill",
-    "publication": "NATIVE-PORT-DECISIONS.md decision 13, 2026-09-28: publish new public GitHub repository/package"
+    "publication": "NATIVE-PORT-DECISIONS.md decision 13, 2026-09-28: publish new public GitHub repository/package",
+    "sol-6.1": "NATIVE-PORT-DECISIONS.md decision 14, 2026-09-30: user-directed Sol 6.1 migration preserving Astra and Luna roles"
   },
   "native_translations": {
     ".codex-plugin/plugin.json": [
       {
         "start": 2,
         "before": "  \"name\": \"pstack\",\n  \"version\": \"0.9.45\",\n  \"description\": \"if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence. Codex port of the Claude Code plugin; skills are shared, tool names resolve via skills/poteto-mode/references/codex-tools.md. Original pstack by Lauren Tan (poteto).\",\n",
-        "after": "  \"name\": \"pstack-codex\",\n  \"version\": \"0.4.0\",\n  \"description\": \"Faithful pstack workflows with pinned pstack-claude updates, native Codex tools, local worktrees, and the approved combined visual PR review workflow.\",\n",
-        "reason": "Retain prior approved metadata translations. Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-        "approval": "publication"
+        "after": "  \"name\": \"pstack-codex\",\n  \"version\": \"0.4.1\",\n  \"description\": \"Faithful pstack workflows with pinned pstack-claude updates, native Codex tools, local worktrees, and the approved combined visual PR review workflow.\",\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 400,
         "before": "    \"name\": \"Michael Denyer\",\n    \"email\": \"mdenyer@gmail.com\",\n    \"url\": \"https://github.com/michael-denyer\"\n",
         "after": "    \"name\": \"pstack-codex contributors\"\n",
-        "reason": "Retain prior approved metadata translations. Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-        "approval": "publication"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 516,
         "before": "  \"homepage\": \"https://github.com/michael-denyer/pstack-claude\",\n  \"repository\": \"https://github.com/michael-denyer/pstack-claude\",\n",
         "after": "  \"homepage\": \"https://github.com/huankoh/pstack-codex\",\n  \"repository\": \"https://github.com/huankoh/pstack-codex\",\n",
-        "reason": "Retain prior approved metadata translations. Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-        "approval": "publication"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 801,
         "before": "    \"claude-code\",\n",
         "after": "",
-        "reason": "Retain prior approved metadata translations. Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-        "approval": "publication"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 887,
         "before": "    \"codex\",\n    \"opencode\",\n    \"gemini-cli\",\n    \"prime-agent\"\n",
         "after": "    \"codex\"\n",
-        "reason": "Retain prior approved metadata translations. Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-        "approval": "publication"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 982,
         "before": "  \"hooks\": \"./hooks/hooks.json\",\n",
         "after": "",
-        "reason": "Retain prior approved metadata translations. Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-        "approval": "publication"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1032,
         "before": "    \"displayName\": \"pstack\",\n",
         "after": "    \"displayName\": \"pstack-codex\",\n",
-        "reason": "Retain prior approved metadata translations. Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-        "approval": "publication"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1175,
         "before": "    \"longDescription\": \"pstack guides agent work through poteto-mode's principles, parallel design exploration (architect/arena), adversarial multi-model review (interrogate), root-cause debugging, prose deslopping, and verified delivery. Skills are shared with the Claude Code build; on Codex, tool names resolve via the codex-tools mapping.\",\n    \"developerName\": \"Michael Denyer (port of Lauren Tan's pstack)\",\n",
         "after": "    \"longDescription\": \"Preserves upstream procedures, roles, design and review panels, and all playbooks. Skills directly use Codex tools, configured native models, scoped transcript evidence, and isolated local worktrees.\",\n    \"developerName\": \"pstack-codex adaptation of Lauren Tan and Michael Denyer\\u2019s work\",\n",
-        "reason": "Retain prior approved metadata translations. Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-        "approval": "publication"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1822,
         "before": "    \"websiteURL\": \"https://github.com/michael-denyer/pstack-claude\",\n",
         "after": "    \"websiteURL\": \"https://github.com/huankoh/pstack-codex\",\n",
-        "reason": "Retain prior approved metadata translations. Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
-        "approval": "publication"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "CHANGES.md": [
@@ -2230,106 +2231,106 @@
         "start": 0,
         "before": "# pstack\n",
         "after": "# pstack-codex\n\nThis is the Codex port of poteto's pstack, with the pinned pstack-claude updates. The first-person introduction below is preserved from poteto's upstream README; it is attribution, not a claim by the port maintainer. This source checkout does not install or activate the plugin by itself.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1304,
         "before": "```bash\n/add-plugin pstack\n```\n",
         "after": "This repository contains the plugin source. To try it without installation, ask Codex to read [`skills/poteto-mode/SKILL.md`](./skills/poteto-mode/SKILL.md) from this checkout and apply it to a task. For installed use, use a Codex plugin installation flow verified on your host and confirm the skills appear; then check whether the host supports and trusts the bundled session hook. Do not assume a checkout activates a hook.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1746,
         "before": "that's it. the other skills are situational; the mode skill uses them for you as needed. out of the box the mode splits work by model strength: code delegates (feature, refactoring, bug fix, perf, hillclimb) go to grok, while the hardest changes, prose, and judgment go to opus 5.5. the default panel is opus 5.5 / sol / grok. [`/setup-pstack`](./skills/setup-pstack/SKILL.md) changes any of it.\n",
-        "after": "that's it. the other skills are situational; the mode skill uses them for you as needed. out of the box, ordinary feature and refactoring work, prose, and conclusions use `gpt-6-sol`; bug fixes, perf issues, hillclimb, and strongest judgment use `gpt-6-astra`. existing explicit panels use `gpt-6-astra`, `gpt-6-sol`, and `gpt-6-luna`. scoped retrieval assignments use Luna at `max`, while Sol inspects the decisive sources and draws conclusions. every Luna panel member also requests `max`. [`/setup-pstack`](./skills/setup-pstack/SKILL.md) changes any of it.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "after": "that's it. the other skills are situational; the mode skill uses them for you as needed. out of the box, ordinary feature and refactoring work, prose, and conclusions use `gpt-6.1-sol`; bug fixes, perf issues, hillclimb, and strongest judgment use `gpt-6-astra`. existing explicit panels use `gpt-6-astra`, `gpt-6.1-sol`, and `gpt-6-luna`. scoped retrieval assignments use Luna at `max`, while Sol inspects the decisive sources and draws conclusions. every Luna panel member also requests `max`. [`/setup-pstack`](./skills/setup-pstack/SKILL.md) changes any of it.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5172,
         "before": "| [autopilot-full](./skills/poteto-mode/playbooks/autopilot-full.md) | run independent prs to merged with one owner per pr and a root swarm verdict on each round, from the code-ready head on. |\n",
         "after": "| [autopilot-full](./skills/poteto-mode/playbooks/autopilot-full.md) | build and merge independent prs under a full-autonomy grant, with one owner per pr and a root swarm verdict on each round. operator-named items and explicit operator review gates still wait for the operator. |\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5893,
         "before": "| [worktree cleanup](./skills/poteto-mode/playbooks/worktree-cleanup.md) | reclaim disk by pruning merged or abandoned worktrees and stale ios simulators, safety-gated. |\n",
         "after": "| [worktree cleanup](./skills/poteto-mode/playbooks/worktree-cleanup.md) | reclaim disk by archiving eligible unused worktrees and pruning stale ios simulators, safety-gated. |\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 6683,
         "before": "[`/poteto-mode`](./skills/poteto-mode/SKILL.md) is also a sticky mode: once entered it stays on across turns, applying itself when a playbook matches or the task needs rigor and staying out of the way otherwise. opt out any time by saying so.\n",
         "after": "`poteto-mode` remains active across turns after invocation until you opt out. A supported, installed, trusted session hook can also route startup and resumed sessions into the mode. Without that hook, invoke the skill explicitly or add a standing instruction in `AGENTS.md`.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 6927,
         "before": "[`/poteto-mode`](./skills/poteto-mode/SKILL.md) works extremely well with cursor's `/loop` command. you can make cursor work for many hours without sacrificing rigor.\n",
         "after": "long-running playbooks use Codex's actual scheduling or heartbeat capability where the host provides it. a current-turn watcher does not promise to keep working after the turn ends. see the [overnight guide](./docs/guide/07-overnight.md).\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 10504,
         "before": "",
         "after": "| [`/make-pr-easy-to-review`](./skills/make-pr-easy-to-review/SKILL.md) | one PR entry point for visual context, a change outline, reading order, and a linked decision/verification appendix. combines HumanLayer show-me and visual-pr conventions with pstack's audited trail. |\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 14110,
         "before": "pstack also ships a subagent that runs my style end to end. spawn it from a parent agent via [`subagent_type: \"poteto-agent\"`](./agents/poteto-agent.md). it reads `poteto-mode` in full, including its inline principles index, before doing any work. substituting `generalPurpose` skips that read and drifts.\n",
         "after": "pstack ships the [poteto-agent](./agents/poteto-agent.md) persona. A Codex parent dispatches `spawn_agent` with a brief pointing to that prompt and the full [`poteto-mode` skill](./skills/poteto-mode/SKILL.md). The persona file is a prompt, not a registered `agent_type`.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 14417,
         "before": "[`/poteto-mode`](./skills/poteto-mode/SKILL.md) and [`subagent_type: \"poteto-agent\"`](./agents/poteto-agent.md) route through the same wrapper.\n\npstack also ships [Comment Sicko](./agents/comment-sicko.md), a read-only comment reviewer available as `subagent_type: \"Comment Sicko\"`. usually invoke it through [`/no-comments`](./skills/no-comments/SKILL.md), not directly.\n",
         "after": "pstack also ships [Comment Sicko](./agents/comment-sicko.md). [`/no-comments`](./skills/no-comments/SKILL.md) dispatches a read-only reviewer with a brief pointing to that prompt. Read-only is a brief instruction unless the host enforces it.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 20711,
         "before": "a few things `poteto-mode` references but doesn't bundle:\n\n- `/deslop` and the `deslop` skill ship in the `cursor-team-kit` plugin.\n- `control-cli` (for CLIs and TUIs) and `control-ui` (for browser, Electron, web) ship in `cursor-team-kit` too.\n- `/create-skill` is a cursor built-in. cursor also ships a built-in `/babysit`; inside `poteto-mode`, the [babysit playbook](./skills/poteto-mode/playbooks/babysit.md) supersedes it for pr-status requests.\n\ninstall `cursor-team-kit` alongside pstack if you want the full set.\n",
         "after": "some workflow dependencies are separate from this source package. Use Codex's `skill-creator` for authoring skills, an available CLI or UI driver for live verification, and the [Babysit playbook](./skills/poteto-mode/playbooks/babysit.md) for PR status. `deslop` and the standalone `babysit` skill are bundled from the selected pstack-claude baseline; the Babysit playbook retains precedence inside poteto-mode. The Grok Bot UI and Benny webhook automation retain their original prerequisites; this port does not supply equivalent Codex services.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 21272,
         "before": "cursor already has a great plan mode which works great with pstack. but personally, i don't believe in planning. the best spec is code. if you do want to make a plan, [`/poteto-mode`](./skills/poteto-mode/SKILL.md) covers it, but it's not a default. \n",
         "after": "codex has a plan mode that can work with pstack. but personally, i don't believe in planning. the best spec is code. if you do want to make a plan, [`/poteto-mode`](./skills/poteto-mode/SKILL.md) covers it, but it's not a default.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 21887,
         "before": "models are configurable too. type [`/setup-pstack`](./skills/setup-pstack/SKILL.md). it detects the models you have access to and writes a small always-applied rule mapping each role (code, judgment, the review panels) to a model. every skill reads it and falls back to sensible defaults when the rule is absent, so you override only what you want.\n",
         "after": "models are configurable too. type [`/setup-pstack`](./skills/setup-pstack/SKILL.md). it confirms available models and writes `${CODEX_HOME:-$HOME/.codex}/pstack-models.md` with role overrides. the model rows and default effort load through the Codex-home `AGENTS.md`; the session hook reads its own setting from the sheet. a missing role line keeps the skill default.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 22237,
         "before": "a rule written before 0.15.3 pins the old default models. delete those role lines, or delete the file, then run `/setup-pstack` again. a rerun keeps any role whose model differs from the default.\n",
         "after": "older model sheets may pin defaults from an earlier port. check the current role values before updating them; `setup-pstack` preserves confirmed overrides and the current role list.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 22671,
         "before": "to set it up, point cursor at [`FOR_AGENTS.md`](./automations/benny/FOR_AGENTS.md). setup copies the pack into the target repository at `.cursor/automations/benny/`, enables pstack there for shared skills, and keeps user configuration outside the copied pack.\n",
         "after": "the pack remains preserved at [`FOR_AGENTS.md`](./automations/benny/FOR_AGENTS.md). it depends on webhook and secret-handoff capabilities that this Codex port has not replaced or validated. do not treat a scheduled Codex task as an equivalent webhook.\n",
-        "reason": "Retain prior approved translations; Document the single combined PR entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "agents/comment-sicko.md": [
@@ -2757,17 +2758,38 @@
     "models.json": [
       {
         "start": 15,
-        "before": "    \"default\": \"opus\",\n    \"strongest\": \"fable\",\n    \"panel\": [\"opus\", \"fable\", \"sonnet\"]\n  },\n  \"efforts\": [\"low\", \"medium\", \"high\", \"xhigh\", \"max\"],\n  \"defaultEffort\": \"session\",\n  \"available\": [\"opus\", \"fable\", \"sonnet\", \"haiku\"],\n  \"roles\": [\n    { \"role\": \"feature, refactoring\", \"models\": \"default\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"bug-fix\", \"models\": \"strongest\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"perf-issue\", \"models\": \"strongest\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"hillclimb\", \"models\": \"strongest\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"judgment and prose\", \"models\": \"default\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"strongest judgment\", \"models\": \"strongest\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"how explorer\", \"models\": \"default\", \"skill\": \"how\" },\n    { \"role\": \"how explainer\", \"models\": \"default\", \"skill\": \"how\" },\n    { \"role\": \"why investigators\", \"models\": \"default\", \"skill\": \"why\" },\n    { \"role\": \"why synthesizer\", \"models\": \"default\", \"skill\": \"why\" },\n    { \"role\": \"reflect tooling\", \"models\": \"default\", \"skill\": \"reflect\" },\n    { \"role\": \"reflect judgment, divergent, synthesizer\", \"models\": \"default\", \"skill\": \"reflect\" },\n    { \"role\": \"arena runners\", \"models\": \"panel\", \"skill\": \"arena\" },\n    { \"role\": \"arena cross-judge pool\", \"models\": \"panel\", \"skill\": \"arena\" },\n    { \"role\": \"swarm workers\", \"models\": \"default\", \"skill\": \"swarm\" },\n    { \"role\": \"architect runners\", \"models\": \"panel\", \"skill\": \"architect\" },\n    { \"role\": \"interrogate reviewers\", \"models\": \"panel\", \"skill\": \"interrogate\" }\n  ],\n  \"codex\": {\n",
-        "after": "",
-        "reason": "Retain 17-role vocabulary with approved native model defaults and Luna max; remove the cross-platform model mapping.",
-        "approval": "models"
+        "before": "    \"default\": \"opus\",\n    \"strongest\": \"fable\",\n    \"panel\": [\"opus\", \"fable\", \"sonnet\"]\n",
+        "after": "    \"default\": \"gpt-6.1-sol\",\n    \"strongest\": \"gpt-6-astra\",\n    \"panel\": [\n      \"gpt-6-astra\",\n      \"gpt-6.1-sol\",\n      \"gpt-6-luna\"\n    ]\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
-        "start": 1664,
-        "before": "    \"panel\": [\"gpt-6-astra\", \"gpt-6-sol\", \"gpt-6-luna\"]\n",
-        "after": "    \"panel\": [\n      \"gpt-6-astra\",\n      \"gpt-6-sol\",\n      \"gpt-6-luna\"\n    ]\n  },\n  \"efforts\": [\n    \"low\",\n    \"medium\",\n    \"high\",\n    \"xhigh\",\n    \"max\"\n  ],\n  \"defaultEffort\": \"session\",\n  \"available\": [\n    \"gpt-6-astra\",\n    \"gpt-6-sol\",\n    \"gpt-6-luna\"\n  ],\n  \"roles\": [\n    {\"role\": \"feature, refactoring\", \"models\": \"default\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"bug-fix\", \"models\": \"strongest\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"perf-issue\", \"models\": \"strongest\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"hillclimb\", \"models\": \"strongest\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"judgment and prose\", \"models\": \"default\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"strongest judgment\", \"models\": \"strongest\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"how explorer\", \"models\": \"gpt-6-luna\", \"skill\": \"how\", \"effort\": \"max\"},\n    {\"role\": \"how explainer\", \"models\": \"default\", \"skill\": \"how\"},\n    {\"role\": \"why investigators\", \"models\": \"default\", \"skill\": \"why\"},\n    {\"role\": \"why synthesizer\", \"models\": \"default\", \"skill\": \"why\"},\n    {\"role\": \"reflect tooling\", \"models\": \"default\", \"skill\": \"reflect\"},\n    {\"role\": \"reflect judgment, divergent, synthesizer\", \"models\": \"default\", \"skill\": \"reflect\"},\n    {\"role\": \"arena runners\", \"models\": \"panel\", \"skill\": \"arena\"},\n    {\"role\": \"arena cross-judge pool\", \"models\": \"panel\", \"skill\": \"arena\"},\n    {\"role\": \"swarm workers\", \"models\": \"default\", \"skill\": \"swarm\"},\n    {\"role\": \"architect runners\", \"models\": \"panel\", \"skill\": \"architect\"},\n    {\"role\": \"interrogate reviewers\", \"models\": \"panel\", \"skill\": \"interrogate\"}\n  ],\n  \"modelEfforts\": {\n    \"gpt-6-luna\": \"max\"\n",
-        "reason": "Retain 17-role vocabulary with approved native model defaults and Luna max; remove the cross-platform model mapping.",
-        "approval": "models"
+        "start": 110,
+        "before": "  \"efforts\": [\"low\", \"medium\", \"high\", \"xhigh\", \"max\"],\n",
+        "after": "  \"efforts\": [\n    \"low\",\n    \"medium\",\n    \"high\",\n    \"xhigh\",\n    \"max\"\n  ],\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
+      },
+      {
+        "start": 196,
+        "before": "  \"available\": [\"opus\", \"fable\", \"sonnet\", \"haiku\"],\n",
+        "after": "  \"available\": [\n    \"gpt-6-astra\",\n    \"gpt-6.1-sol\",\n    \"gpt-6-luna\"\n  ],\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
+      },
+      {
+        "start": 262,
+        "before": "    { \"role\": \"feature, refactoring\", \"models\": \"default\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"bug-fix\", \"models\": \"strongest\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"perf-issue\", \"models\": \"strongest\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"hillclimb\", \"models\": \"strongest\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"judgment and prose\", \"models\": \"default\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"strongest judgment\", \"models\": \"strongest\", \"skill\": \"poteto-mode\" },\n    { \"role\": \"how explorer\", \"models\": \"default\", \"skill\": \"how\" },\n    { \"role\": \"how explainer\", \"models\": \"default\", \"skill\": \"how\" },\n    { \"role\": \"why investigators\", \"models\": \"default\", \"skill\": \"why\" },\n    { \"role\": \"why synthesizer\", \"models\": \"default\", \"skill\": \"why\" },\n    { \"role\": \"reflect tooling\", \"models\": \"default\", \"skill\": \"reflect\" },\n    { \"role\": \"reflect judgment, divergent, synthesizer\", \"models\": \"default\", \"skill\": \"reflect\" },\n    { \"role\": \"arena runners\", \"models\": \"panel\", \"skill\": \"arena\" },\n    { \"role\": \"arena cross-judge pool\", \"models\": \"panel\", \"skill\": \"arena\" },\n    { \"role\": \"swarm workers\", \"models\": \"default\", \"skill\": \"swarm\" },\n    { \"role\": \"architect runners\", \"models\": \"panel\", \"skill\": \"architect\" },\n    { \"role\": \"interrogate reviewers\", \"models\": \"panel\", \"skill\": \"interrogate\" }\n",
+        "after": "    {\"role\": \"feature, refactoring\", \"models\": \"default\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"bug-fix\", \"models\": \"strongest\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"perf-issue\", \"models\": \"strongest\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"hillclimb\", \"models\": \"strongest\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"judgment and prose\", \"models\": \"default\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"strongest judgment\", \"models\": \"strongest\", \"skill\": \"poteto-mode\"},\n    {\"role\": \"how explorer\", \"models\": \"gpt-6-luna\", \"skill\": \"how\", \"effort\": \"max\"},\n    {\"role\": \"how explainer\", \"models\": \"default\", \"skill\": \"how\"},\n    {\"role\": \"why investigators\", \"models\": \"default\", \"skill\": \"why\"},\n    {\"role\": \"why synthesizer\", \"models\": \"default\", \"skill\": \"why\"},\n    {\"role\": \"reflect tooling\", \"models\": \"default\", \"skill\": \"reflect\"},\n    {\"role\": \"reflect judgment, divergent, synthesizer\", \"models\": \"default\", \"skill\": \"reflect\"},\n    {\"role\": \"arena runners\", \"models\": \"panel\", \"skill\": \"arena\"},\n    {\"role\": \"arena cross-judge pool\", \"models\": \"panel\", \"skill\": \"arena\"},\n    {\"role\": \"swarm workers\", \"models\": \"default\", \"skill\": \"swarm\"},\n    {\"role\": \"architect runners\", \"models\": \"panel\", \"skill\": \"architect\"},\n    {\"role\": \"interrogate reviewers\", \"models\": \"panel\", \"skill\": \"interrogate\"}\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
+      },
+      {
+        "start": 1591,
+        "before": "  \"codex\": {\n    \"default\": \"gpt-6-sol\",\n    \"strongest\": \"gpt-6-astra\",\n    \"panel\": [\"gpt-6-astra\", \"gpt-6-sol\", \"gpt-6-luna\"]\n",
+        "after": "  \"modelEfforts\": {\n    \"gpt-6-luna\": \"max\"\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "skills/architect/SKILL.md": [
@@ -2775,36 +2797,36 @@
         "start": 292,
         "before": "On Codex, read the [platform mapping](../poteto-mode/references/codex-tools.md), including its per-skill notes, before following this skill.\n\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 752,
         "before": "Open a todolist with one entry per phase before starting.\n",
         "after": "Track a checklist with one entry per phase before starting; use the Codex host's plan tool when available.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 6620,
         "before": "Role defaults, stamped from `plugins/pstack/models.json` (edit there, rerun `tools/generate.mjs`). A matching role line in the `pstack-models.md` override sheet overrides each at runtime; `/setup-pstack` writes it and lists its path per runtime.\n",
         "after": "Role defaults come from this plugin's `models.json`. A matching role line in the Codex `pstack-models.md` override sheet takes precedence; `setup-pstack` records that sheet's location. Preserve aliases: `auto` and `inherit-parent` omit `model` so the parent model is inherited. If a requested model or effort is unavailable on this host, report the limitation and ask the user to choose a replacement before continuing that step. Do not silently substitute or lower effort.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 6867,
         "before": "- architect runners: `opus`, `fable`, `sonnet`\n",
-        "after": "- architect runners: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "models"
+        "after": "- architect runners: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 6936,
         "before": "A role value in the override sheet may name a reasoning effort after its model, as in `opus @xhigh`. Levels on Claude Code: `low`, `medium`, `high`, `xhigh`, `max`. Which ones apply depends on the model. A value without `@` takes the sheet's `default effort` line, a level or `session`, and `session` when the sheet has no such line. `session` sets no effort, so the dispatch is the usual one. Strip the suffix before reading the model: `inherit-parent` or `auto` still omits `model` at every level, and a model name is passed as `model`. On Claude Code, a level picks the effort agent from the `subagent_type` you would otherwise use. `pstack:poteto-agent` becomes `subagent_type: \"pstack:poteto-agent-<level>\"`. `general-purpose`, or no `subagent_type`, becomes `subagent_type: \"pstack:effort-<level>\"`. The effort agents set only `effort`, so the model you pass still decides the model. On Codex, pass the level as `spawn_agent`'s `reasoning_effort` and keep the usual instructions.\n",
-        "after": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "skills/architect/references/runner-prompt.md": [
@@ -2821,64 +2843,64 @@
         "start": 285,
         "before": "On Codex, read the [platform mapping](../poteto-mode/references/codex-tools.md), including its per-skill notes, before following this skill.\n\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 626,
         "before": "Open a todolist with one entry per phase before launching anything.\n",
         "after": "Track a checklist with one entry per phase before launching anything; use the Codex host's plan tool when available.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1101,
         "before": "3. Pick the runners. Use the `arena runners` line in `pstack-models.md`. If the sheet or that line is missing, run one each on the defaults in [Models](#models). An `auto` or `inherit-parent` entry in this line or the cross-judge line means the parent model, so omit `model` for it. If the `Agent` tool rejects a configured entry, run that seat on its family's default and say so. Families go by model name, such as Opus, Fable, or Sonnet. With no family match, use the single-role default in [Models](#models). If it rejects a default, use the closest valid slug of the same family from its error message. Spawn more when the arena covers multiple design directions. Same model N times when the work is generation-bound rather than judgment-sensitive.\n4. Assign output paths. Each candidate writes to its own location (a git worktree where possible, otherwise `/tmp/arena-<slug>/candidate-<n>/`), per the **separate-before-serializing-shared-state** principle skill.\n",
         "after": "3. Pick the runners. Use the `arena runners` line in `pstack-models.md`. If the sheet or that line is missing, run one each on the defaults in [Models](#models). An `auto` or `inherit-parent` entry in this line or the cross-judge line means the parent model, so omit `model` for it. If a requested model or effort is unavailable on this host, report it and ask the user to choose a replacement before that seat runs. Spawn more when the arena covers multiple design directions. Same model N times when the work is generation-bound rather than judgment-sensitive.\n4. Assign output paths. Each candidate that edits repository files gets a separate physical checkout, using [local worktrees](../poteto-mode/references/local-worktrees.md), plus an absolute output path. Candidates producing only separate standalone artifacts may use `/tmp/arena-<slug>/candidate-<n>/`. A branch name or output subdirectory alone does not isolate edits to a shared checkout. This follows the **separate-before-serializing-shared-state** principle skill.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2091,
         "before": "Spawn all N subagents in one message with `run_in_background: true`, each with the task, the path to the shared grounding, its own output path, and instructions to produce both the artifact and a short rationale.\n",
         "after": "Launch all N `spawn_agent` calls in parallel, each with a distinct `task_name`, the task, the path to shared grounding, its own absolute output path and, for repository writers, its checkout and expected starting revision, and instructions to produce both the artifact and a short rationale. Use `message` for that brief; Codex has no `cwd` or `run_in_background` spawn field. Ask each writer to verify its checkout and revision before editing.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2520,
         "before": "After all Phase B candidates complete, choose one model from the `arena cross-judge pool` line in `pstack-models.md`. If the sheet or that line is missing, choose from the runner defaults in [Models](#models). Prefer a different model family from the parent's. Spawn one readonly judge subagent on that model. It sees the rubric and the candidates by path label, scores each criterion, and recommends a base with rationale. It runs in parallel with the parent's reading in Phase D, not with the candidates themselves. Don't spawn the judge while candidates are still writing.\n",
         "after": "After all Phase B candidates complete, choose one model from the `arena cross-judge pool` line in `pstack-models.md`. If the sheet or that line is missing, choose from the runner defaults in [Models](#models). Prefer a different model from the parent's. Spawn one judge with `spawn_agent` on that model, `fork_turns: \"none\"` where supported, and an explicit no-write instruction (Codex has no `readonly` spawn field). It sees the rubric and the candidates by path label, scores each criterion, and recommends a base with rationale. It runs in parallel with the parent's reading in Phase D, not with the candidates themselves. Don't spawn the judge while candidates are still writing.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 4826,
         "before": "",
         "after": "When the judge and candidate reports are captured, stop completed child agents with `interrupt_agent` where available.\n\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5031,
         "before": "Role defaults, stamped from `plugins/pstack/models.json` (edit there, rerun `tools/generate.mjs`). A matching role line in the `pstack-models.md` override sheet overrides each at runtime; `/setup-pstack` writes it and lists its path per runtime.\n",
         "after": "Role defaults come from this plugin's `models.json`. A matching role line in the Codex `pstack-models.md` override sheet takes precedence; `setup-pstack` records that sheet's location. Preserve aliases: `auto` and `inherit-parent` omit `model` so the parent model is inherited. If a requested model or effort is unavailable on this host, report the limitation and ask the user to choose a replacement before continuing that step. Do not silently substitute or lower effort.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5278,
         "before": "- arena runners: `opus`, `fable`, `sonnet`\n- arena cross-judge pool: `opus`, `fable`, `sonnet`\n",
-        "after": "- arena runners: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`\n- arena cross-judge pool: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "models"
+        "after": "- arena runners: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`\n- arena cross-judge pool: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5395,
         "before": "A role value in the override sheet may name a reasoning effort after its model, as in `opus @xhigh`. Levels on Claude Code: `low`, `medium`, `high`, `xhigh`, `max`. Which ones apply depends on the model. A value without `@` takes the sheet's `default effort` line, a level or `session`, and `session` when the sheet has no such line. `session` sets no effort, so the dispatch is the usual one. Strip the suffix before reading the model: `inherit-parent` or `auto` still omits `model` at every level, and a model name is passed as `model`. On Claude Code, a level picks the effort agent from the `subagent_type` you would otherwise use. `pstack:poteto-agent` becomes `subagent_type: \"pstack:poteto-agent-<level>\"`. `general-purpose`, or no `subagent_type`, becomes `subagent_type: \"pstack:effort-<level>\"`. The effort agents set only `effort`, so the model you pass still decides the model. On Codex, pass the level as `spawn_agent`'s `reasoning_effort` and keep the usual instructions.\n",
-        "after": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "skills/automate-me/SKILL.md": [
@@ -3076,106 +3098,106 @@
         "start": 347,
         "before": "On Codex, read the [platform mapping](../poteto-mode/references/codex-tools.md), including its per-skill notes, before following this skill.\n\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 743,
         "before": "Each spawn below names a role line in `pstack-models.md` and a default in [Models](#models). Set `model` to that line's value, or to the default if the sheet or the line is missing. Leave `model` unset when the value is `auto` or `inherit-parent`. If the `Agent` tool rejects a slug, use the default and say so. If it rejects the default, use the closest valid slug of the same family from its error message.\n",
         "after": "Each spawn uses `spawn_agent` with the role line in `pstack-models.md`, or [Models](#models) when the sheet or line is absent. Use `task_name`, `message`, and `model`; `auto` and `inherit-parent` omit `model`. Give an independent brief with `fork_turns: \"none\"` where supported. Tell read-only explorers and explainers not to edit; Codex does not provide a `readonly` spawn field. If the requested model or effort is unavailable, report it and ask for a replacement before that step.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1881,
         "before": "- `subagent_type`: `general-purpose`\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1983,
         "before": "- `readonly`: `true`\n",
         "after": "- `reasoning_effort`: `max` for Luna\n- `message`: the filled explorer prompt and a read-only instruction\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2163,
         "before": "Spawn one Task subagent that explores and explains in one pass:\n",
         "after": "Spawn one `spawn_agent` subagent that explores and explains in one pass:\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2228,
         "before": "- `subagent_type`: `general-purpose`\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2331,
         "before": "- `readonly`: `true`\n",
         "after": "- `message`: the filled explainer prompt and a read-only instruction\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2510,
         "before": "Once all explorers have returned, spawn one Task subagent to synthesize their findings into one explanation:\n",
         "after": "Once all explorers have returned, spawn one `spawn_agent` subagent to synthesize their findings into one explanation:\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2620,
         "before": "- `subagent_type`: `general-purpose`\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2723,
         "before": "- `readonly`: `true`\n",
         "after": "- `message`: the filled explainer prompt and a read-only instruction\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2745,
         "before": "Build its prompt from `references/explainer-prompt.md` with every explorer's findings filled in.\n",
         "after": "Build its prompt from `references/explainer-prompt.md` with every explorer's findings filled in. The Sol explainer inspects decisive source files itself and determines conclusions; explorer summaries are leads, not substitute evidence.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3007,
         "before": "",
         "after": "\nAfter capturing each completed child result, stop that child with `interrupt_agent` where available.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3215,
         "before": "Role defaults, stamped from `plugins/pstack/models.json` (edit there, rerun `tools/generate.mjs`). A matching role line in the `pstack-models.md` override sheet overrides each at runtime; `/setup-pstack` writes it and lists its path per runtime.\n",
         "after": "Role defaults come from this plugin's `models.json`. A matching role line in the Codex `pstack-models.md` override sheet takes precedence; `setup-pstack` records that sheet's location. Preserve aliases: `auto` and `inherit-parent` omit `model` so the parent model is inherited. If a requested model or effort is unavailable on this host, report the limitation and ask the user to choose a replacement before continuing that step. Do not silently substitute or lower effort.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3462,
         "before": "- how explorer: `opus`\n- how explainer: `opus`\n",
-        "after": "- how explorer: `gpt-6-luna`\n- how explainer: `gpt-6-sol`\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "luna-retrieval"
+        "after": "- how explorer: `gpt-6-luna`\n- how explainer: `gpt-6.1-sol`\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3531,
         "before": "A role value in the override sheet may name a reasoning effort after its model, as in `opus @xhigh`. Levels on Claude Code: `low`, `medium`, `high`, `xhigh`, `max`. Which ones apply depends on the model. A value without `@` takes the sheet's `default effort` line, a level or `session`, and `session` when the sheet has no such line. `session` sets no effort, so the dispatch is the usual one. Strip the suffix before reading the model: `inherit-parent` or `auto` still omits `model` at every level, and a model name is passed as `model`. On Claude Code, a level picks the effort agent from the `subagent_type` you would otherwise use. `pstack:poteto-agent` becomes `subagent_type: \"pstack:poteto-agent-<level>\"`. `general-purpose`, or no `subagent_type`, becomes `subagent_type: \"pstack:effort-<level>\"`. The effort agents set only `effort`, so the model you pass still decides the model. On Codex, pass the level as `spawn_agent`'s `reasoning_effort` and keep the usual instructions.\n",
-        "after": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "luna-retrieval"
+        "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "skills/how/references/explainer-prompt.md": [
@@ -3199,57 +3221,57 @@
         "start": 288,
         "before": "\nOn Codex, read the [platform mapping](../poteto-mode/references/codex-tools.md), including its per-skill notes, before following this skill.\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1439,
         "before": "Launch all reviewers in a single message using the `Agent` tool. Use the `interrogate reviewers` line in the `pstack-models.md` override sheet (`/setup-pstack` lists its path per runtime), one reviewer per entry, extending or shrinking the Reviewer A/B/C labels below to the configured entry count. If the sheet or that line is missing, use the table defaults.\n",
         "after": "Launch all reviewers with `spawn_agent` calls in parallel. Use the `interrogate reviewers` line in the `pstack-models.md` override sheet (`/setup-pstack` lists its path per runtime), one reviewer per entry, extending or shrinking the Reviewer A/B/C labels below to the configured entry count. If the sheet or that line is missing, use the table defaults.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1859,
         "before": "| Reviewer A | `opus` |\n| Reviewer B | `fable` |\n| Reviewer C | `sonnet` |\n",
-        "after": "| Reviewer A | `gpt-6-astra` |\n| Reviewer B | `gpt-6-sol` |\n| Reviewer C | `gpt-6-luna` |\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "models"
+        "after": "| Reviewer A | `gpt-6-astra` |\n| Reviewer B | `gpt-6.1-sol` |\n| Reviewer C | `gpt-6-luna` |\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1954,
         "before": "- `subagent_type`: `general-purpose`\n",
         "after": "- `task_name`: a distinct reviewer label\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2191,
         "before": "- `readonly`: `true`\n",
         "after": "- `message`: the same filled review template plus a no-write instruction\n- `fork_turns`: `\"none\"` where supported, so each starts independently. Codex has no `readonly` spawn field.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2213,
         "before": "If the Agent tool rejects a configured entry, run that reviewer on the table default of its family and say so. Families go by model name, such as Opus, Fable, or Sonnet. With no family match, use Reviewer A's default. If it rejects a table default, check the valid slugs in the Agent tool's error message, pick the closest equivalent (prefer the highest-reasoning tier of the same family), spawn with it, and open a separate PR to update the default table. Do not block the review on the slug issue. Never treat an alias entry as a rejected slug or apply either fallback to it.\n",
         "after": "If any requested model or effort is unavailable, report the limitation and ask the user to choose a replacement before that reviewer runs. Preserve the configured reviewer count. Alias entries inherit the parent model and are not rejected slugs.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 4520,
         "before": "",
         "after": "After capturing all reviewer results, stop completed child agents with `interrupt_agent` where available.\n\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5204,
         "before": "A role value in the override sheet may name a reasoning effort after its model, as in `opus @xhigh`. Levels on Claude Code: `low`, `medium`, `high`, `xhigh`, `max`. Which ones apply depends on the model. A value without `@` takes the sheet's `default effort` line, a level or `session`, and `session` when the sheet has no such line. `session` sets no effort, so the dispatch is the usual one. Strip the suffix before reading the model: `inherit-parent` or `auto` still omits `model` at every level, and a model name is passed as `model`. On Claude Code, a level picks the effort agent from the `subagent_type` you would otherwise use. `pstack:poteto-agent` becomes `subagent_type: \"pstack:poteto-agent-<level>\"`. `general-purpose`, or no `subagent_type`, becomes `subagent_type: \"pstack:effort-<level>\"`. The effort agents set only `effort`, so the model you pass still decides the model. On Codex, pass the level as `spawn_agent`'s `reasoning_effort` and keep the usual instructions.\n",
-        "after": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "skills/maintain-verification-skill/SKILL.md": [
@@ -3326,106 +3348,106 @@
         "start": 245,
         "before": "## Platform Adaptation\n",
         "after": "## Codex runtime\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 269,
         "before": "These skills use Claude Code tool names (the `Skill` tool, the `Agent` tool, `AskUserQuestion`) and the Claude model names the `Agent` tool accepts, as each Models section lists them. On Claude Code they work as written. On Codex, read [`references/codex-tools.md`](references/codex-tools.md) for the Codex equivalent of a Claude tool, model, or skill named by these workflows. Other runtimes can discover the same Agent Skills tree, but they must use their own tool, model, and configuration equivalents. `codex-tools.md` is not a cross-runtime map.\n",
         "after": "Read each invoked skill's `SKILL.md` using Codex skill discovery, including project skills under `.agents/skills/`. Use the exact tool schemas exposed by the current Codex host. For subagent and worktree mechanics, use [Codex delegation](references/delegation.md) and [Local worktrees](references/local-worktrees.md) when those operations arise. Host capabilities vary across desktop, CLI, and cloud; report a missing capability at the affected step.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 821,
         "before": "Use the session's task-tracking tools for the todolist. On Claude Code these are `TaskCreate` and `TaskUpdate`, or `TodoWrite` when configured. Availability depends on the model; `CLAUDE_CODE_ENABLE_TODO_TOOLS=1` enables them through the environment or a project's `.claude/settings.local.json` `env` block. See the [task-tool documentation](https://code.claude.com/docs/en/tools-reference#task-tool-availability). If no task-tracking tool is available, keep an uncommitted `todo.md` Markdown checklist in the work dir, next to the decision trail, with the playbook steps verbatim and each `skip: <reason>` line.\n",
         "after": "Use an available Codex task-tracking tool for the todolist. If none is available, keep an uncommitted `todo.md` Markdown checklist in the work dir, next to the decision trail, with the playbook steps verbatim and each `skip: <reason>` line.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1770,
         "before": "- About to `AskUserQuestion` on a \"which approach\", \"how should I\", or \"what should this do\" fork \u2192 classify it before you ask. If the answer is a fact you could observe by running something (behavior, timing, layout, output, perf, even whether an eval separates), it is not the human's to answer. Sketch it via the Prototype playbook (`playbooks/prototype.md`) and let the result decide. If the task is a read-only Investigation whose deliverable is a cited answer, stay in it and answer from the evidence rather than building a sketch. Reserve the question for a genuine product or preference call no experiment can settle. Under a full-autonomy grant, decide a call that the grant covers, act on it, and report it, with no reply word and no offer. Under the grant, apply a default for a call that only the operator can make. Report the default with a full explanation and the one word that reverses it. Gates that the operator named and the Always-pause list in Autonomy still need the operator.\n",
         "after": "- About to ask the user on a \"which approach\", \"how should I\", or \"what should this do\" fork \u2192 classify it before you ask. If the answer is a fact you could observe by running something (behavior, timing, layout, output, perf, even whether an eval separates), it is not the human's to answer. Sketch it via the Prototype playbook (`playbooks/prototype.md`) and let the result decide. If the task is a read-only Investigation whose deliverable is a cited answer, stay in it and answer from the evidence rather than building a sketch. Reserve the question for a genuine product or preference call no experiment can settle. Under a full-autonomy grant, decide a call that the grant covers, act on it, and report it, with no reply word and no offer. Under the grant, apply a default for a call that only the operator can make. Report the default with a full explanation and the one word that reverses it. Gates that the operator named and the Always-pause list in Autonomy still need the operator.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3345,
         "before": "- Any prose surface \u2192 the **unslop** skill. Your reply is a prose surface. Write it per **Writing the reply**. Agent-facing prose also follows the **plugin-dev:skill-development** skill (Claude Code's authoring guidance for SKILL.md files).\n",
         "after": "- Any prose surface \u2192 the **unslop** skill. Your reply is a prose surface. Write it per **Writing the reply**. Agent-facing prose also follows the Codex **skill-creator** skill for SKILL.md files.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3760,
         "before": "",
         "after": "- Work expected to produce a PR \u2192 start the decision trail through **make-pr-easy-to-review** before implementation, then use it for the visual briefing and linked evidence appendix at PR creation and final handoff. If work already happened, label recovered facts and historical gaps. This does not open a PR before its playbook calls for one.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3874,
         "before": "- Shipping UI / IDE / CLI \u2192 the driver skill. `run` ships with Claude Code and the model can invoke it for CLIs, TUIs, servers, and browser or Electron apps. The bundled `verify` runs only when the user types `/verify`, so for UIs use the project `verify` skill at `.claude/skills/verify/` (generate it with `/create-verification-skill`) and fall back to `run` when the repo has none. For bug fixes, reproduce first on the same surface yourself. Hand to the user only under the narrow Bug fix step 1 exception.\n",
         "after": "- Shipping UI / IDE / CLI \u2192 the available app driver. Run CLIs or TUIs and observe their real output; drive browser, desktop, or Electron surfaces with available Codex UI tools. For UIs use the project `verify` skill at `.agents/skills/verify/` (generate it with `create-verification-skill`) and, when the repo has none, drive the app directly. For bug fixes, reproduce first on the same surface yourself. Hand to the user only under the narrow Bug fix step 1 exception.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 11351,
         "before": "**Just do it.** Use any MCP tool. Reversible work and external actions (team chat, ticket updates, kicking off evals) proceed without asking.\n",
         "after": "**Just do it.** Use available tools for authorized work. Reversible work, including ticket updates and kicking off evals, proceeds within the user's instructions and host authorization. Send team-chat or other external messages when the user's instructions or an explicitly invoked workflow permitted by the host already authorize them; reuse that authorization. Otherwise draft the message and ask before sending.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 12047,
         "before": "**Use `subagent_type: \"pstack:poteto-agent\"` for any subagent you spawn inside a playbook step** (code-writing delegates, ad-hoc helpers). Plugin agents register under the plugin namespace. The bare name `poteto-agent` errors. `/poteto-mode` and `poteto-agent` route through the same wrapper. Routed workflow skills (`how`, `why`, `interrogate`, `reflect`, `swarm`) set their own `subagent_type` for diverse-model review. Respect what the skill prescribes, don't override to `poteto-agent`.\n",
         "after": "**Use `spawn_agent` for any subagent you dispatch inside a playbook step** (code-writing delegates, ad-hoc helpers). Tell poteto-mode delegates to read this skill in full before work. For a routed workflow (`how`, `why`, `interrogate`, `reflect`, `swarm`), retain its own role prompt and panel. Read [Codex delegation](references/delegation.md) when dispatching.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 12539,
         "before": "**Defaults for every `Agent` call.** `run_in_background: true`, full tool access (do not pick a subagent_type that strips MCP), file pointers not inlined context, explicit model per role (configurable via `/setup-pstack`. Role defaults in [Models](#models), with \"judgment and prose\" covering prose and judgment). Code delegates tier by difficulty. The hardest changes (cross-cutting design, gnarly concurrency, subtle algorithms) go to your strongest-judgment model (default in [Models](#models)), whether the task needs judgment on vague intent or is a precisely specified sequence of steps to execute to the letter. Trivial mechanical edits go to your fast code model. Everything else uses the single-role default. Multi-model panels run the configured panel for diversity, with defaults enumerated in each panel skill's Models section (`arena`, `architect`, `interrogate`). Per-role `/setup-pstack` lines override these defaults and the model choices in the routed skills (`how`, `why`, `arena`, `swarm`, `architect`, `interrogate`, `reflect`). A role with no line keeps its default, and a role line of `inherit-parent` or `auto` runs that role on the parent session's model (omit `model` on the `Agent` call).\n",
         "after": "**Defaults for every `spawn_agent` call.** Dispatch concurrently with full available tools, file pointers rather than inlined context, and the configured model per role (see [Models](#models)). Code delegates tier by difficulty. The hardest changes (cross-cutting design, gnarly concurrency, subtle algorithms) use strongest judgment, whether the task needs judgment on vague intent or is a precisely specified sequence to execute to the letter. Trivial mechanical edits use the fast code model. Everything else uses the single-role default. Preserve each panel skill's configured models and counts. Per-role `setup-pstack` lines override defaults. A role line of `inherit-parent` or `auto` omits `model`. Use [Codex delegation](references/delegation.md) for effort, lifecycle, and isolation.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 13755,
         "before": "You own every subagent's work. Review the diff and write your own summary, don't pass through what it said. Interrupt-chained resumes silently drop directives, so fire a fresh subagent with consolidated scope rather than trusting a \"done\" summary. **Stop the abandoned agent first, and confirm it stopped.** In the agent listing `completed` means the completion was *notified*, not that the process exited: an agent with live background children reports completed and then resumes. Only an explicit stop ends it, and the stop tool may be deferred, so load it before you need it. The tell that one is still running is a claim about the working tree that `git status` contradicts. A second opinion is the same prompt against a different model. Agreement is high-signal.\n",
         "after": "You own every subagent's work. Review the diff and write your own summary, don't pass through what it said. Resumed agents can lose directives, so fire a fresh subagent with consolidated scope rather than trusting a \"done\" summary. **Stop the abandoned agent first, and confirm it stopped.** In the agent listing `completed` means the completion was *notified*, not that the process exited: an agent with live background children reports completed and then resumes. Only an explicit stop ends it; discover the host's agent lifecycle tool before you need it. The tell that one is still running is a claim about the working tree that `git status` contradicts. A second opinion is the same prompt against a different model. Agreement is high-signal.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 20175,
         "before": "- **Autopilot-full.** A queue of independent PRs driven to merge-ready with full autonomy. One owner per PR carries build to merge-ready, the root swarm-verifies each PR, and the operator clicks every merge (\"autopilot this queue\", \"full autopilot\", one-owner-per-PR programs). `playbooks/autopilot-full.md`.\n",
         "after": "- **Autopilot-full.** A queue of independent PRs built and merged under the operator's full-autonomy grant. One owner per PR carries build through merge after the root's clean swarm verdict; operator-named items and explicit operator review gates still stop at merge-ready (\"autopilot this queue\", \"full autopilot\", one-owner-per-PR programs). `playbooks/autopilot-full.md`.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 21647,
         "before": "Role defaults, stamped from `plugins/pstack/models.json` (edit there, rerun `tools/generate.mjs`). A matching role line in the `pstack-models.md` override sheet overrides each at runtime; `/setup-pstack` writes it and lists its path per runtime.\n",
         "after": "Role defaults come from this package's `models.json`. A matching role line in `${CODEX_HOME:-$HOME/.codex}/pstack-models.md` overrides each at runtime; `setup-pstack` writes the sheet.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 21894,
         "before": "- feature, refactoring: `opus`\n- bug-fix: `fable`\n- perf-issue: `fable`\n- hillclimb: `fable`\n- judgment and prose: `opus`\n- strongest judgment: `fable`\n",
-        "after": "- feature, refactoring: `gpt-6-sol`\n- bug-fix: `gpt-6-astra`\n- perf-issue: `gpt-6-astra`\n- hillclimb: `gpt-6-astra`\n- judgment and prose: `gpt-6-sol`\n- strongest judgment: `gpt-6-astra`\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "after": "- feature, refactoring: `gpt-6.1-sol`\n- bug-fix: `gpt-6-astra`\n- perf-issue: `gpt-6-astra`\n- hillclimb: `gpt-6-astra`\n- judgment and prose: `gpt-6.1-sol`\n- strongest judgment: `gpt-6-astra`\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 22068,
         "before": "A role value in the override sheet may name a reasoning effort after its model, as in `opus @xhigh`. Levels on Claude Code: `low`, `medium`, `high`, `xhigh`, `max`. Which ones apply depends on the model. A value without `@` takes the sheet's `default effort` line, a level or `session`, and `session` when the sheet has no such line. `session` sets no effort, so the dispatch is the usual one. Strip the suffix before reading the model: `inherit-parent` or `auto` still omits `model` at every level, and a model name is passed as `model`. On Claude Code, a level picks the effort agent from the `subagent_type` you would otherwise use. `pstack:poteto-agent` becomes `subagent_type: \"pstack:poteto-agent-<level>\"`. `general-purpose`, or no `subagent_type`, becomes `subagent_type: \"pstack:effort-<level>\"`. The effort agents set only `effort`, so the model you pass still decides the model. On Codex, pass the level as `spawn_agent`'s `reasoning_effort` and keep the usual instructions.\n",
-        "after": "A role value in the override sheet may name effort after its model, as in `gpt-6-sol @xhigh`. The supported levels depend on the selected model and host. A value without `@` takes the sheet's `default effort` line, a level or `session`; an absent line means `session`. `session` omits `reasoning_effort`. Strip the suffix before reading the model; `inherit-parent` or `auto` omits `model`. Pass a supported level through `spawn_agent`'s `reasoning_effort`. Every Luna dispatch requests `max`, including a panel member; Luna does not support `ultra`. If the selected model or effort is unavailable, report the limitation and ask the user to choose a replacement before this step continues. Do not silently substitute or lower effort.\n",
-        "reason": "Retain prior approved translations; Start canonical decision logging when PR-bound work starts and route presentation through the combined entry point. Decision 12; exact 0.3.1-to-0.4.0 delta is separately recorded.",
-        "approval": "combined-pr"
+        "after": "A role value in the override sheet may name effort after its model, as in `gpt-6.1-sol @xhigh`. The supported levels depend on the selected model and host. A value without `@` takes the sheet's `default effort` line, a level or `session`; an absent line means `session`. `session` omits `reasoning_effort`. Strip the suffix before reading the model; `inherit-parent` or `auto` omits `model`. Pass a supported level through `spawn_agent`'s `reasoning_effort`. Every Luna dispatch requests `max`, including a panel member; Luna does not support `ultra`. If the selected model or effort is unavailable, report the limitation and ask the user to choose a replacement before this step continues. Do not silently substitute or lower effort.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "skills/poteto-mode/playbooks/authoring-a-skill.md": [
@@ -3951,78 +3973,78 @@
         "start": 219,
         "before": "\nOn Codex, read the [platform mapping](../poteto-mode/references/codex-tools.md), including its per-skill notes, before following this skill.\n",
         "after": "",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 719,
         "before": "The parent finds its own transcript file before fanning out. The system prompt names Claude Code's per-project transcripts directory at `~/.claude/projects/<encoded-cwd>/`. Use that path. Do not glob across `~/.claude/projects/`. That crosses workspace boundaries and reads private chats from unrelated projects.\n\nRun the finder at `skills/reflect/scripts/find-transcript.mjs` under the installed plugin with the projects directory and a fragment of the conversation's opening user prompt:\n\n```bash\nnode <plugin>/skills/reflect/scripts/find-transcript.mjs ~/.claude/projects/<encoded-cwd> \"<opening prompt fragment>\"\n```\n\nIt covers the three layouts (flat `<id>.jsonl`, nested `<id>/<id>.jsonl`, subagent `<parent>/subagents/<child>.jsonl`), newest first, and prints the first path whose opening `user` record carries the fragment. Do not reimplement the scan by hand: the first line of a transcript is session metadata, not a message, and files run to several megabytes, so the finder streams each candidate and stops at its first `user` record. If it exits 1, write a tight digest of the session and pass that instead.\n",
         "after": "The parent identifies the active Codex chat and exact workspace before fanning out. Follow [Codex transcript evidence](references/codex-transcripts.md): use the active thread id when available and a distinctive opening prompt fragment, inspect only the matched workspace's rollout, and read the full relevant records for exact claims. Do not content-scan unrelated chats. If the rollout is unavailable or ambiguous, write a tight digest of the session and pass that instead; label the digest and its evidence limit.\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1883,
         "before": "One message, three `Agent` calls, `subagent_type: \"general-purpose\"`, with `model` set as below. Reviewers need MCP access for context lookups (tickets, chat threads, observability traces referenced in the transcript). Pick a subagent_type that retains MCP access. The prompt forbids file writes. The parent applies edits.\n",
         "after": "Three parallel `spawn_agent` calls with `agent_type: \"default\"`, with `model` set as below. Reviewers need MCP access for context lookups (tickets, chat threads, observability traces referenced in the transcript). Use available context lookup tools. The prompt forbids file writes. The parent applies edits.\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2207,
         "before": "Each reviewer and the synthesizer name a role line in `pstack-models.md` and a default in [Models](#models). Set `model` to that line's value, or to the default if the sheet or the line is missing. Leave `model` unset when the value is `auto` or `inherit-parent`. If the `Agent` tool rejects a slug, use the default and say so. If it rejects the default, use the closest valid slug of the same family from its error message.\n",
         "after": "Each reviewer and the synthesizer name a role line in `pstack-models.md` and a default in [Models](#models). Set `model` to that line's value, or to the default if the sheet or line is missing. Leave `model` unset for `auto` or `inherit-parent`. Request any configured effort via `reasoning_effort`; otherwise retain session effort. If the requested model or effort is unavailable, report it and ask for a replacement before that step.\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2944,
         "before": "Pass each template verbatim, substituting the transcript path or digest where marked. Reviewers return findings in the `Agent` response body.\n",
         "after": "Pass each template verbatim, substituting the transcript path or digest where marked. Use `fork_turns: \"none\"` when the host supports it, with a complete brief. The reviewers must have available context lookup tools and must not write files; a prompt restriction alone is not an enforced read-only sandbox. Reviewers return findings to the parent. Interrupt completed children.\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3106,
         "before": "One `Agent` call, `subagent_type: \"general-purpose\"`, with `model` from the `reflect judgment, divergent, synthesizer` line (default in [Models](#models)). Pick a subagent_type that retains MCP access. The synthesizer's quality check includes spot-verifying citations, which can require MCP access. Use `references/synthesizer.md` verbatim, with each reviewer's full output inlined where marked. The synthesizer returns a structured Accepted / Rejected / Backlog list.\n",
         "after": "One `spawn_agent` call with `agent_type: \"default\"` and `model` from the `reflect judgment, divergent, synthesizer` line (default in [Models](#models)). Use available context lookup tools. The synthesizer's quality check includes spot-verifying citations, which can require MCP access. Use `references/synthesizer.md` verbatim, with each reviewer's full output inlined where marked. The synthesizer returns a structured Accepted / Rejected / Backlog list.\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 4280,
         "before": "For each approved Accepted item, follow the Routing field exactly:\n",
         "after": "For each approved Accepted item, follow the Routing field exactly. Use the available Codex `skill-creator`; if it is unavailable, report the affected authoring step as unavailable and ask for a replacement:\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 4467,
         "before": "- Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to the **plugin-dev:skill-development** skill and run its draft / test / iterate loop.\n- `tune description: <skill path>` (the skill exists but didn't trigger when it should have): hand to `plugin-dev:skill-development` and run its description-optimization loop.\n- `new skill via plugin-dev:skill-development: <kebab-name>`: hand creation to `plugin-dev:skill-development`. Do not invent the shape ad hoc.\n",
         "after": "- Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to the **skill-creator** skill to draft, validate, test the relevant behavior, and iterate on observed failures.\n- `tune description: <skill path>` (the skill exists but didn't trigger when it should have): use `skill-creator` to refine the description, test representative requests that should and should not trigger it, and iterate on observed misrouting.\n- `new skill via skill-creator: <kebab-name>`: hand creation to `skill-creator`. Do not invent the shape ad hoc.\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5448,
         "before": "Role defaults, stamped from `plugins/pstack/models.json` (edit there, rerun `tools/generate.mjs`). A matching role line in the `pstack-models.md` override sheet overrides each at runtime; `/setup-pstack` writes it and lists its path per runtime.\n",
         "after": "Role defaults come from this plugin's `models.json`. A matching role line in the `pstack-models.md` override sheet overrides each at runtime; `/setup-pstack` writes it and lists its path per runtime.\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5695,
         "before": "- reflect tooling: `opus`\n- reflect judgment, divergent, synthesizer: `opus`\n",
-        "after": "- reflect tooling: `gpt-6-sol`\n- reflect judgment, divergent, synthesizer: `gpt-6-sol`\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "after": "- reflect tooling: `gpt-6.1-sol`\n- reflect judgment, divergent, synthesizer: `gpt-6.1-sol`\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5794,
         "before": "A role value in the override sheet may name a reasoning effort after its model, as in `opus @xhigh`. Levels on Claude Code: `low`, `medium`, `high`, `xhigh`, `max`. Which ones apply depends on the model. A value without `@` takes the sheet's `default effort` line, a level or `session`, and `session` when the sheet has no such line. `session` sets no effort, so the dispatch is the usual one. Strip the suffix before reading the model: `inherit-parent` or `auto` still omits `model` at every level, and a model name is passed as `model`. On Claude Code, a level picks the effort agent from the `subagent_type` you would otherwise use. `pstack:poteto-agent` becomes `subagent_type: \"pstack:poteto-agent-<level>\"`. `general-purpose`, or no `subagent_type`, becomes `subagent_type: \"pstack:effort-<level>\"`. The effort agents set only `effort`, so the model you pass still decides the model. On Codex, pass the level as `spawn_agent`'s `reasoning_effort` and keep the usual instructions.\n",
-        "after": "A role value in the override sheet may name a reasoning effort after its model, as in `gpt-6-sol @xhigh`. A value without `@` takes the sheet's `default effort` line, a level or `session`; absent that line, retain session effort. `auto` and `inherit-parent` omit the model argument. Pass an explicit effort as `spawn_agent.reasoning_effort`. Every Luna dispatch requests `max`, including one selected by an override sheet. If the host rejects the requested model or effort, pause that affected dispatch and ask the user for a replacement.\n",
-        "reason": "Retain prior declared native translations; Use skill-creator with the existing approval, draft/validate/test/iterate and description-optimization requirements. See decisions 10-11 and the exact 0.3.0-to-0.3.1 audit correction delta.",
-        "approval": "audit-corrections"
+        "after": "A role value in the override sheet may name a reasoning effort after its model, as in `gpt-6.1-sol @xhigh`. A value without `@` takes the sheet's `default effort` line, a level or `session`; absent that line, retain session effort. `auto` and `inherit-parent` omit the model argument. Pass an explicit effort as `spawn_agent.reasoning_effort`. Every Luna dispatch requests `max`, including one selected by an override sheet. If the host rejects the requested model or effort, pause that affected dispatch and ask the user for a replacement.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "skills/reflect/references/divergent-reviewer.md": [
@@ -4192,120 +4214,120 @@
         "start": 23,
         "before": "description: Configure which models pstack uses per role. Detects available models and writes the current runtime's override sheet. Use for /setup-pstack, \"configure pstack models\", changing pstack's model choices, or turning the SessionStart hook on or off.\n",
         "after": "description: Configure which models pstack uses per role. Detects available Codex models and writes the model override sheet. Use for /setup-pstack, \"configure pstack models\", changing pstack's model choices, or turning the SessionStart hook on or off.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 303,
         "before": "On Codex, read the [platform mapping](../poteto-mode/references/codex-tools.md), including its per-skill notes, before following this skill.\n",
         "after": "Write Codex's per-role model override sheet at `<codex-home>/pstack-models.md`, where `<codex-home>` is `$CODEX_HOME` when set and `~/.codex` otherwise. Each pstack skill names a default model inline; the override sheet records the user's choices from the models available on this host. Preserve the existing 17 roles and default panel counts; an explicitly configured panel list still determines its count.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 445,
         "before": "On another runtime, read [Other runtimes](#other-runtimes) below for where the sheet lives and how it loads; the steps are the same.\n",
         "after": "The sheet and hook setting are shared across projects. Choosing project scope below changes where the rows load, not where the sheet is stored or whether it is project-specific. Explain this scope before confirmation.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 579,
         "before": "Write the current runtime's per-role model override sheet, using the path in [Other runtimes](#other-runtimes). Each pstack skill names a default model inline; the override sheet adapts those defaults to the models you actually have access to.\n\nClaude Code has no auto-applied \"rules\" mechanism like Cursor's `.mdc`. The Claude Code config directory is `$CLAUDE_CONFIG_DIR` when that variable is set and `~/.claude` otherwise. This skill calls it `<config>`. Inclusion is explicit: the user adds a line to `<config>/CLAUDE.md` (or their project `CLAUDE.md`) such as:\n\n```text\n@<config>/pstack-models.md\n```\n\nwith `<config>` written as the resolved path, so the file is loaded as context for every session.\n",
         "after": "The model rows and default effort load through `<codex-home>/AGENTS.md`, or the project's `AGENTS.md` when the user chooses project scope. Codex does not use Claude-style `@` file includes. The session hook reads its setting directly from the sheet.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1328,
         "before": "Enumerate the model names the `Agent` tool's `model` parameter accepts in this session. That is the dependable source. On Claude Code they are the family names listed in [Models](#models) below, each running that family's current model, and a full model ID is rejected. The default panel is listed there too. The panel is chosen for cross-family diversity. Ask the user to confirm or paste any additional slugs they want available. Never write a real slug you have not confirmed is available. The aliases `inherit-parent` and `auto` are always valid even though they are not detected slugs. Both mean the role runs on the parent session's model, which the `Agent` call expresses by omitting `model`.\n",
         "after": "Inspect the exposed subagent tool's accepted `model` and `reasoning_effort` values and the host's model listing. Use only confirmed model IDs. Do not infer subagent choices from a root-model picker or assume desktop, CLI, and cloud expose identical controls. Ask the user to confirm or supply additional model IDs they want checked. Never write an unverified real model ID as available. The aliases `inherit-parent` and `auto` remain valid choices: both omit `model` from the subagent call. If the host cannot honor a requested model or effort, report the limitation and ask for a replacement before continuing that step.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2056,
         "before": "The default role-to-model mapping is the rule shape shown in the Write the override sheet step below. If the current runtime's sheet already exists, read it and treat its values as the current choices. Otherwise start from those defaults. A line whose role is not in that shape, such as `how critics`, is from a retired role. Drop it. An older sheet may name full model IDs that start with `claude-`, which the `Agent` tool rejects. Replace each with its family name, the word after `claude-`.\n",
         "after": "The default role-to-model mapping is the sheet below. If the sheet exists, read it and treat its values as the current choices. Otherwise start from the defaults. A line whose role is not in that shape, such as `how critics`, is from a retired role. Drop it. Mark legacy Claude or other unavailable model names as needing a user choice; do not silently substitute a Codex model.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 2575,
         "before": "Show every role with its current model, marking any real slug not in the detected set as needing a choice. Also list each line step 2 dropped or rewrote. Ask whether to accept as-is or change specific roles, offering the detected models plus `inherit-parent` and `auto` as the options. Prefer `AskUserQuestion` over free text. For panel roles (arena runners, architect runners, interrogate reviewers) the value is a list, and one subagent runs per entry, alias entries included, so the list length sets the count. `arena cross-judge pool` is also a list, but Arena selects one value from it whose model family differs from the parent's when possible. `swarm workers` is the default model for every worker unless a race or comparison assigns another model per arm.\n",
         "after": "Show every role with its current model, marking any real ID not in the detected set as needing a choice. List each line step 2 dropped or flagged. Ask whether to accept as-is or change specific roles, offering detected models plus `inherit-parent` and `auto`. Prefer the host's structured question tool when its supported mode and permitted question types fit; otherwise ask in text and await the answer.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3340,
         "before": "Then ask for the default reasoning effort, the `default effort` line. It is `session`, which keeps the parent session's effort, or one of the levels in [Models](#models). Start from the default listed there. Every role value without a suffix runs at it. Then ask whether any role should run at another level. On Claude Code a role value may carry one after its slug, as in `<slug> @xhigh`; panel entries take their own, as in `<slug> @xhigh, <slug> @max`. Each level dispatches through the plugin's effort agent of that level, so the choice holds without changing the session. Leave the suffix off for the default effort.\n",
-        "after": "For panel roles (arena runners, architect runners, interrogate reviewers), the value is a list and one subagent runs per entry, aliases included; list length sets the count. `arena cross-judge pool` is also a list, but Arena selects one judge whose model differs from the parent's when possible. Different Astra, Sol, and Luna models provide the configured model diversity; do not claim they are separate providers. `swarm workers` supplies the default for each worker unless a race or comparison assigns a model per arm.\n\nThen ask for the `default effort`: `session` keeps the configured/session effort, or choose a supported level. Ask whether any role should use a different supported level. A role value may carry `@<level>`, such as `gpt-6-sol @xhigh`; panel entries take their own suffix. Pass an explicit level through `reasoning_effort` when the exposed schema supports it; `session` omits that argument. Do not dispatch through unregistered effort-agent types. Luna assignments request `max`, including panel entries; Luna does not support `ultra`. Retain configured/session effort for Sol and Astra unless the user changes it. If the selected host cannot honor a choice, report it and ask; never silently lower the effort.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "models"
+        "after": "For panel roles (arena runners, architect runners, interrogate reviewers), the value is a list and one subagent runs per entry, aliases included; list length sets the count. `arena cross-judge pool` is also a list, but Arena selects one judge whose model differs from the parent's when possible. Different Astra, Sol, and Luna models provide the configured model diversity; do not claim they are separate providers. `swarm workers` supplies the default for each worker unless a race or comparison assigns a model per arm.\n\nThen ask for the `default effort`: `session` keeps the configured/session effort, or choose a supported level. Ask whether any role should use a different supported level. A role value may carry `@<level>`, such as `gpt-6.1-sol @xhigh`; panel entries take their own suffix. Pass an explicit level through `reasoning_effort` when the exposed schema supports it; `session` omits that argument. Do not dispatch through unregistered effort-agent types. Luna assignments request `max`, including panel entries; Luna does not support `ultra`. Retain configured/session effort for Sol and Astra unless the user changes it. If the selected host cannot honor a choice, report it and ask; never silently lower the effort.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 4016,
         "before": "On Claude Code and Codex, the plugin's `SessionStart` hook injects the poteto-mode mandate on startup, resume, clear, and compact. Codex asks the user to trust plugin hooks through `/hooks` before running them. Ask whether to keep the hook. The default is on. The answer is the `session hook` line in the current runtime's sheet: `on` or `off`. With no sheet or no line, the hook injects. The line is inert on other runtimes.\n",
         "after": "On a Codex host supporting plugin hooks, the plugin's `SessionStart` hook injects the poteto-mode mandate on startup, resume, clear, and compact. The host may require trust through `/hooks` before running it. Check actual support and trust state; do not claim an uninstalled or untrusted hook has run. Ask whether to keep the hook. The default is on. Write `session hook: on` or `session hook: off` in the sheet. No sheet or no line retains the upstream on default. Report an unsupported host rather than inventing another startup mechanism.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 4460,
         "before": "Every real slug written must be in the detected set. `inherit-parent` and `auto` always pass. Validate the slug without any `@<level>` suffix, and the level against the effort levels in [Models](#models). The `default effort` value is one of those levels or `session`. On Codex, the levels are the `reasoning_effort` values your Codex models accept instead. If a chosen real slug or level is not available, stop and ask again.\n",
         "after": "Every real model ID must be confirmed available for the intended subagent call; aliases remain valid. Validate the model without its `@<level>` suffix and each level against that model's accepted efforts on this host. `default effort` is a supported level or `session`. Validate Luna's effective effort as `max`. If a requested model, effort, or inheritance control cannot be honored, stop the affected step and ask for a replacement.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 4921,
         "before": "Write the current runtime's sheet with the shape below. Overwrite the whole file so re-runs stay idempotent.\n",
         "after": "Write `<codex-home>/pstack-models.md` with the shape below, using the confirmed choices. Overwrite the sheet so reruns stay idempotent.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5073,
         "before": "Per-role model overrides for pstack skills. Each pstack SKILL.md names its defaults in a Models section; the values here override those defaults. Delete a line to fall back to the skill default. A value of `inherit-parent` or `auto` runs that role on the parent session's model (the `Agent` call omits `model`); an alias entry in a panel list still counts toward that panel's fan-out. A model may carry a reasoning effort, as in `opus @xhigh` (levels: low, medium, high, xhigh, max); the role then runs through the pstack effort agent of that level, each entry of a panel list on its own. `default effort` sets the level for a value without one; `session` keeps the parent session's effort. `session hook: off` stops the Claude Code or Codex SessionStart hook from injecting the poteto-mode mandate; any other value, or no line, leaves it on.\n",
-        "after": "Per-role overrides for pstack-codex. Each skill names its defaults. Delete a role line to restore its skill default. `inherit-parent` and `auto` omit the subagent model argument; an alias in a panel still counts as one entry. A model may carry an effort suffix, such as `gpt-6-sol @xhigh`, dispatched through `reasoning_effort`. `default effort` governs entries without a suffix; `session` retains configured/session effort. All Luna assignments request `max`. If the host cannot honor a requested model or effort, report it and ask before continuing that step. `session hook: off` disables the supported plugin SessionStart hook; no line leaves it on.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "models"
+        "after": "Per-role overrides for pstack-codex. Each skill names its defaults. Delete a role line to restore its skill default. `inherit-parent` and `auto` omit the subagent model argument; an alias in a panel still counts as one entry. A model may carry an effort suffix, such as `gpt-6.1-sol @xhigh`, dispatched through `reasoning_effort`. `default effort` governs entries without a suffix; `session` retains configured/session effort. All Luna assignments request `max`. If the host cannot honor a requested model or effort, report it and ask before continuing that step. `session hook: off` disables the supported plugin SessionStart hook; no line leaves it on.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 5917,
         "before": "feature, refactoring: opus\nbug-fix: fable\nperf-issue: fable\nhillclimb: fable\njudgment and prose: opus\nstrongest judgment: fable\nhow explorer: opus\nhow explainer: opus\nwhy investigators: opus\nwhy synthesizer: opus\nreflect tooling: opus\nreflect judgment, divergent, synthesizer: opus\narena runners: opus, fable, sonnet\narena cross-judge pool: opus, fable, sonnet\nswarm workers: opus\narchitect runners: opus, fable, sonnet\ninterrogate reviewers: opus, fable, sonnet\n",
-        "after": "feature, refactoring: gpt-6-sol\nbug-fix: gpt-6-astra\nperf-issue: gpt-6-astra\nhillclimb: gpt-6-astra\njudgment and prose: gpt-6-sol\nstrongest judgment: gpt-6-astra\nhow explorer: gpt-6-luna @max\nhow explainer: gpt-6-sol\nwhy investigators: gpt-6-sol\nwhy synthesizer: gpt-6-sol\nreflect tooling: gpt-6-sol\nreflect judgment, divergent, synthesizer: gpt-6-sol\narena runners: gpt-6-astra, gpt-6-sol, gpt-6-luna @max\narena cross-judge pool: gpt-6-astra, gpt-6-sol, gpt-6-luna @max\nswarm workers: gpt-6-sol\narchitect runners: gpt-6-astra, gpt-6-sol, gpt-6-luna @max\ninterrogate reviewers: gpt-6-astra, gpt-6-sol, gpt-6-luna @max\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "models"
+        "after": "feature, refactoring: gpt-6.1-sol\nbug-fix: gpt-6-astra\nperf-issue: gpt-6-astra\nhillclimb: gpt-6-astra\njudgment and prose: gpt-6.1-sol\nstrongest judgment: gpt-6-astra\nhow explorer: gpt-6-luna @max\nhow explainer: gpt-6.1-sol\nwhy investigators: gpt-6.1-sol\nwhy synthesizer: gpt-6.1-sol\nreflect tooling: gpt-6.1-sol\nreflect judgment, divergent, synthesizer: gpt-6.1-sol\narena runners: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max\narena cross-judge pool: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max\nswarm workers: gpt-6.1-sol\narchitect runners: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max\ninterrogate reviewers: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 6446,
         "before": "On Claude Code, if `<config>/CLAUDE.md` does not already include `<config>/pstack-models.md`, append an `@` line naming the sheet's resolved path, such as `@~/.claude/pstack-models.md`, so the model rows load on every session. If the user prefers project scope, add the include to the project's `CLAUDE.md` instead.\n\nOn Codex, paste the model rows and the `default effort` line into `~/.codex/AGENTS.md`; Codex has no `@` include. Do not paste the `session hook` line there: the plugin hook reads it directly from `~/.codex/pstack-models.md`.\n",
         "after": "Copy or update the model rows and `default effort` in `<codex-home>/AGENTS.md`, preserving unrelated instructions. If the user chose project scope, use that project's `AGENTS.md` instead. Do not copy the `session hook` line there: the plugin hook reads it directly from `<codex-home>/pstack-models.md`. Do not add an `@` include. Keep the confirmed scope and avoid duplicate stale role blocks on reruns.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 7006,
         "before": "Tell the user where the override was written, how its model rows load, and whether the plugin hook is on. Re-running this skill updates the override sheet.\n\n## Other runtimes\n\nThe role lines are the same everywhere. What differs is the sheet path, how the runtime loads it, and how you list models. Detect models with the runtime's own tool and never write a slug you have not seen listed. A runtime whose subagent call has no model parameter still gets the sheet, as the record of the user's choice, and applies it where it can. The `session hook` line applies to the Claude Code and Codex plugins.\n\n| Runtime | Sheet | Load | List models | Status |\n| --- | --- | --- | --- | --- |\n| Claude Code | `<config>/pstack-models.md` | `@<config>/pstack-models.md` in `<config>/CLAUDE.md` | the `Agent` tool's model parameter | verified live |\n| Codex | `~/.codex/pstack-models.md` | model rows: paste into `~/.codex/AGENTS.md`; hook setting: read by the plugin | your configured Codex models, see [codex-tools.md](../poteto-mode/references/codex-tools.md#model-names) | hook contract tested; discovery verified |\n| opencode | `~/.config/opencode/pstack-models.md` | add the path to the `instructions` array in `opencode.json` | the `models` slash command in the session | from published docs, no live session |\n| Gemini CLI | `~/.gemini/pstack-models.md` | `@~/.gemini/pstack-models.md` in `~/.gemini/GEMINI.md` | the `model` slash command in the session | from published docs, no live session |\n| Prime Agent | no documented sheet path; Prime's configuration chooses models | | | no live session |\n",
         "after": "Tell the user where the sheet was written, how the model rows load, and whether the hook is configured on and actually supported/trusted. Re-running this skill updates the sheet. Disclose any capability that remains unavailable on this host.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 8611,
         "before": "Stamped from `plugins/pstack/models.json` (edit there, rerun `tools/generate.mjs`).\n",
         "after": "Defaults are recorded in the plugin's [models.json](../../models.json). Keep this sheet and the model-consuming skills consistent with that file when maintaining the package.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 8696,
         "before": "- Available Claude models: `opus`, `fable`, `sonnet`, `haiku`\n- Default panel: `opus`, `fable`, `sonnet`\n- Reasoning effort levels: `low`, `medium`, `high`, `xhigh`, `max`\n- Default reasoning effort: `session`\n- Single-role default: `opus`\n",
-        "after": "- Native model defaults: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`; availability must be checked on the current host.\n- Default panel: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna @max`.\n- Effort levels retained by the sheet: `low`, `medium`, `high`, `xhigh`, `max`, subject to the selected model and host.\n- Default reasoning effort: `session`; every Luna assignment requests `max`.\n- Single-role default: `gpt-6-sol`; strongest: `gpt-6-astra`.\n",
-        "reason": "Native Codex model detection, confirmed role sheet, effort arguments, instruction loading and hook support; preserve eight setup steps and shared sheet semantics.",
-        "approval": "models"
+        "after": "- Native model defaults: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`; availability must be checked on the current host.\n- Default panel: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna @max`.\n- Effort levels retained by the sheet: `low`, `medium`, `high`, `xhigh`, `max`, subject to the selected model and host.\n- Default reasoning effort: `session`; every Luna assignment requests `max`.\n- Single-role default: `gpt-6.1-sol`; strongest: `gpt-6-astra`.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "skills/show-me-your-work/SKILL.md": [
@@ -4329,57 +4351,57 @@
         "start": 195,
         "before": "On Codex, read the [platform mapping](../poteto-mode/references/codex-tools.md), including its per-skill notes, before following this skill.\n\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 496,
         "before": "Open a todolist with one entry per phase before launching anything.\n",
         "after": "Track a checklist with one entry per phase before launching anything; use the Codex host's plan tool when available.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 995,
         "before": "4. Pick the worker model from the `swarm workers` line in `pstack-models.md`. If the sheet or that line is missing, use the default in [Models](#models). For `auto` or `inherit-parent`, omit `model` so the workers run on the parent model. If the `Agent` tool rejects a slug, use the default and say so. If it rejects the default, use the closest valid slug of the same family from its error message. For a model race, name each arm's model up front.\n5. Give each worker its own writable output when it writes. When workers verify or measure commits, each brief names the exact SHAs. A measurement brief also names the method (sample count, what one sample is, order). The worker records both in its result.\n",
         "after": "4. Pick the worker model from the `swarm workers` line in `pstack-models.md`. If the sheet or that line is missing, use the default in [Models](#models). For `auto` or `inherit-parent`, omit `model` so the workers run on the parent model. If a requested model or effort is unavailable, report it and ask the user to choose a replacement before that worker runs. For a model race, name each arm's model up front.\n5. Give each writing worker a separate physical checkout through [local worktrees](../poteto-mode/references/local-worktrees.md), an absolute path, and its own writable output. A branch name or output subdirectory alone does not isolate writes to one checkout. When workers verify or measure commits, each brief names the exact SHAs. A measurement brief also names the method (sample count, what one sample is, order). The worker records both in its result.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 1724,
         "before": "Spawn all N workers in one message with `subagent_type: \"general-purpose\"`, `run_in_background: true`, and the step 4 model, left unset for `auto` or `inherit-parent`. Claude Code subagents all run on this machine, so isolation comes from the worktree or output directory assigned in Phase A, not from a remote environment.\n",
         "after": "Launch all N `spawn_agent` calls in parallel, each with a distinct `task_name`, independent `message`, and the step 4 `model`, omitted for `auto` or `inherit-parent`. Include the absolute checkout and expected revision in every writing brief; each worker verifies them before editing. Codex has no `cwd`, isolation, or `run_in_background` spawn field.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3006,
         "before": "",
         "after": "Stop completed workers with `interrupt_agent` where available after their reports are captured.\n\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3158,
         "before": "Role defaults, stamped from `plugins/pstack/models.json` (edit there, rerun `tools/generate.mjs`). A matching role line in the `pstack-models.md` override sheet overrides each at runtime; `/setup-pstack` writes it and lists its path per runtime.\n",
         "after": "Role defaults come from this plugin's `models.json`. A matching role line in the Codex `pstack-models.md` override sheet takes precedence; `setup-pstack` records that sheet's location. Preserve aliases: `auto` and `inherit-parent` omit `model` so the parent model is inherited. If a requested model or effort is unavailable on this host, report the limitation and ask the user to choose a replacement before continuing that step. Do not silently substitute or lower effort.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3405,
         "before": "- swarm workers: `opus`\n",
-        "after": "- swarm workers: `gpt-6-sol`\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "models"
+        "after": "- swarm workers: `gpt-6.1-sol`\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3451,
         "before": "A role value in the override sheet may name a reasoning effort after its model, as in `opus @xhigh`. Levels on Claude Code: `low`, `medium`, `high`, `xhigh`, `max`. Which ones apply depends on the model. A value without `@` takes the sheet's `default effort` line, a level or `session`, and `session` when the sheet has no such line. `session` sets no effort, so the dispatch is the usual one. Strip the suffix before reading the model: `inherit-parent` or `auto` still omits `model` at every level, and a model name is passed as `model`. On Claude Code, a level picks the effort agent from the `subagent_type` you would otherwise use. `pstack:poteto-agent` becomes `subagent_type: \"pstack:poteto-agent-<level>\"`. `general-purpose`, or no `subagent_type`, becomes `subagent_type: \"pstack:effort-<level>\"`. The effort agents set only `effort`, so the model you pass still decides the model. On Codex, pass the level as `spawn_agent`'s `reasoning_effort` and keep the usual instructions.\n",
-        "after": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     "skills/teach/SKILL.md": [
@@ -4405,78 +4427,78 @@
         "start": 463,
         "before": "On Codex, read the [platform mapping](../poteto-mode/references/codex-tools.md), including its per-skill notes, before following this skill.\n\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 783,
         "before": "Each spawn below names a role line in `pstack-models.md` and a default in [Models](#models). Set `model` to that line's value, or to the default if the sheet or the line is missing. Leave `model` unset when the value is `auto` or `inherit-parent`. If the `Agent` tool rejects a slug, use the default and say so. If it rejects the default, use the closest valid slug of the same family from its error message.\n",
         "after": "Each spawn uses `spawn_agent` with the role line in `pstack-models.md`, or [Models](#models) when the sheet or line is absent. Use `task_name`, `message`, and `model`; `auto` and `inherit-parent` omit `model`. Give each investigator an independent brief with `fork_turns: \"none\"` where supported. If the requested model or effort is unavailable, report it and ask for a replacement before that step.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 3222,
         "before": "Before spawning investigators, list the available MCPs in the Claude Code environment. Use the tool list at the top of the system prompt (every MCP appears as a tool with prefix `mcp__<server>__<name>`). Otherwise read `.mcp.json` in the plugin/project, or run `claude mcp list`.\n",
         "after": "Before spawning investigators, inspect the tools, apps, and resources actually available in this Codex host. MCP tools commonly appear with `mcp__` names; some app capabilities may be discoverable through a tool search. Use the available schemas and resource descriptors. Do not infer access from a project configuration file alone.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 4292,
         "before": "- `subagent_type`: `general-purpose`\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 4399,
         "before": "- `readonly`: `false` (agent mode). **Do not use readonly/Ask mode.** It strips MCP access, which disables MCP-backed investigators entirely. Investigators still shouldn't write anything.\n",
         "after": "- `message`: the filled prompt and an instruction not to write files or external state. Codex has no `readonly` spawn field; check that the selected host actually exposes each required source to the child.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 8216,
         "before": "- `subagent_type`: `general-purpose`\n",
         "after": "",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 8321,
         "before": "- `readonly`: `false` (agent mode). The synthesizer's quality check spot-verifies citations, which can require MCP access. Readonly/Ask mode strips MCPs and defeats that.\n",
         "after": "- `message`: the findings and synthesis prompt, with no-write instruction. Ensure it can access the sources needed for citation spot checks.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 9075,
         "before": "",
         "after": "\nAfter capturing each investigator and synthesizer result, stop that completed child with `interrupt_agent` where available.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "native-runtime"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 10572,
         "before": "Role defaults, stamped from `plugins/pstack/models.json` (edit there, rerun `tools/generate.mjs`). A matching role line in the `pstack-models.md` override sheet overrides each at runtime; `/setup-pstack` writes it and lists its path per runtime.\n",
         "after": "Role defaults come from this plugin's `models.json`. A matching role line in the Codex `pstack-models.md` override sheet takes precedence; `setup-pstack` records that sheet's location. Preserve aliases: `auto` and `inherit-parent` omit `model` so the parent model is inherited. If a requested model or effort is unavailable on this host, report the limitation and ask the user to choose a replacement before continuing that step. Do not silently substitute or lower effort.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 10819,
         "before": "- why investigators: `opus`\n- why synthesizer: `opus`\n",
-        "after": "- why investigators: `gpt-6-sol`\n- why synthesizer: `gpt-6-sol`\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "models"
+        "after": "- why investigators: `gpt-6.1-sol`\n- why synthesizer: `gpt-6.1-sol`\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       },
       {
         "start": 10895,
         "before": "A role value in the override sheet may name a reasoning effort after its model, as in `opus @xhigh`. Levels on Claude Code: `low`, `medium`, `high`, `xhigh`, `max`. Which ones apply depends on the model. A value without `@` takes the sheet's `default effort` line, a level or `session`, and `session` when the sheet has no such line. `session` sets no effort, so the dispatch is the usual one. Strip the suffix before reading the model: `inherit-parent` or `auto` still omits `model` at every level, and a model name is passed as `model`. On Claude Code, a level picks the effort agent from the `subagent_type` you would otherwise use. `pstack:poteto-agent` becomes `subagent_type: \"pstack:poteto-agent-<level>\"`. `general-purpose`, or no `subagent_type`, becomes `subagent_type: \"pstack:effort-<level>\"`. The effort agents set only `effort`, so the model you pass still decides the model. On Codex, pass the level as `spawn_agent`'s `reasoning_effort` and keep the usual instructions.\n",
-        "after": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
-        "reason": "Direct Codex tools, models, paths and approved runtime policies in the skill; preserve its upstream stages, roles, counts and outputs.",
-        "approval": "availability"
+        "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+        "reason": "Retain all previously approved Codex translations and apply user-approved decision 14: change Sol 6 model references to Sol 6.1 without changing roles, panels, efforts or workflow.",
+        "approval": "sol-6.1"
       }
     ],
     ".codex-plugin/prompts/architect.md": [
@@ -5861,6 +5883,266 @@
             "after": "    \"websiteURL\": \"https://github.com/huankoh/pstack-codex\",\n",
             "reason": "Point homepage, repository and interface website to the public huankoh/pstack-codex repository explicitly requested in decision 13; all workflow bytes remain unchanged.",
             "approval": "publication"
+          }
+        ]
+      }
+    }
+  },
+  "approved_sol_6_1": {
+    "date": "2026-09-30",
+    "approval_record": "NATIVE-PORT-DECISIONS.md decision 14",
+    "prior_commit": "bb08c500bdc8dae9addbecc8892d55edc8ad6701",
+    "files": {
+      "README.md": {
+        "before_sha256": "56272dda1d319b1b0b31c61b7df9aba1aff2a6db211ce7c45fb9f8d15da9cfd7",
+        "after_sha256": "918cc3b13ecaae93257ecc85b32c1936f900e06235d7b23542b4e4e8013c60bf",
+        "prior_translations_sha256": "f78c4e369130a873e8bf203350295f79cbec915662a8e51eb7bd6e1e78773464",
+        "new_translations_sha256": "3c0328dc7ae3704cbf374fbda537f60f40c103165f7798daf571ae07de81cf0d",
+        "sol_references_changed": 2,
+        "exact_edits": [
+          {
+            "start": 2437,
+            "before": "that's it. the other skills are situational; the mode skill uses them for you as needed. out of the box, ordinary feature and refactoring work, prose, and conclusions use `gpt-6-sol`; bug fixes, perf issues, hillclimb, and strongest judgment use `gpt-6-astra`. existing explicit panels use `gpt-6-astra`, `gpt-6-sol`, and `gpt-6-luna`. scoped retrieval assignments use Luna at `max`, while Sol inspects the decisive sources and draws conclusions. every Luna panel member also requests `max`. [`/setup-pstack`](./skills/setup-pstack/SKILL.md) changes any of it.\n",
+            "after": "that's it. the other skills are situational; the mode skill uses them for you as needed. out of the box, ordinary feature and refactoring work, prose, and conclusions use `gpt-6.1-sol`; bug fixes, perf issues, hillclimb, and strongest judgment use `gpt-6-astra`. existing explicit panels use `gpt-6-astra`, `gpt-6.1-sol`, and `gpt-6-luna`. scoped retrieval assignments use Luna at `max`, while Sol inspects the decisive sources and draws conclusions. every Luna panel member also requests `max`. [`/setup-pstack`](./skills/setup-pstack/SKILL.md) changes any of it.\n"
+          }
+        ]
+      },
+      "models.json": {
+        "before_sha256": "f2964628f97c3fe4cfd01e49b2ca0a8e49c22f99a772e6da68a0106d8bd0a8f2",
+        "after_sha256": "f102c4581659a3bc99164da2ccef442876cc80ddfe0c982fe8e34ccc7a9de9d4",
+        "prior_translations_sha256": "b62a7e74e8cf520c64a6c3b4673bfe5ce2e0dd8659dc473146e7865f55bca415",
+        "new_translations_sha256": "6ac88e0ad34b54d4d28d5852a9f1ccd4a643391a71d2a341644f5c9290cfd08c",
+        "sol_references_changed": 3,
+        "exact_edits": [
+          {
+            "start": 15,
+            "before": "    \"default\": \"gpt-6-sol\",\n",
+            "after": "    \"default\": \"gpt-6.1-sol\",\n"
+          },
+          {
+            "start": 111,
+            "before": "      \"gpt-6-sol\",\n",
+            "after": "      \"gpt-6.1-sol\",\n"
+          },
+          {
+            "start": 306,
+            "before": "    \"gpt-6-sol\",\n",
+            "after": "    \"gpt-6.1-sol\",\n"
+          }
+        ]
+      },
+      "skills/architect/SKILL.md": {
+        "before_sha256": "a78fbf8f9dc7a67c7d2c373aa511b0ff45163f68abd5fe7ad5a10c8f5d5728c7",
+        "after_sha256": "9c17d1d5ef5e71b40faa0066fb9201c4fd97cca2fc848e6b93ec6fc925ec42d7",
+        "prior_translations_sha256": "f2f12f6150f621debabd2f8d2afd74359dd57ef31b4cd6cad62da18af6456435",
+        "new_translations_sha256": "28834fd2382003a11d651aa39a9a34c23ac3d067bc8dc8909e08a22960c881ed",
+        "sol_references_changed": 2,
+        "exact_edits": [
+          {
+            "start": 7002,
+            "before": "- architect runners: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`\n",
+            "after": "- architect runners: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`\n"
+          },
+          {
+            "start": 7086,
+            "before": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+            "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n"
+          }
+        ]
+      },
+      "skills/arena/SKILL.md": {
+        "before_sha256": "28f42d7f9b8949bab9f5f09dac59e16b04aca236bd5486d07d28877bd1ba8920",
+        "after_sha256": "950f21fadc7652acd1ac33533950c23d5477ea822247acee8fa8de417b1b59bb",
+        "prior_translations_sha256": "1f971e6f311f562205f341f678e3044d778acf64b703b014920f3dad8732f8c2",
+        "new_translations_sha256": "cca14e32f86a1ba6295167e61a79d4620d22a55a10387e8bb850457d30bb2846",
+        "sol_references_changed": 3,
+        "exact_edits": [
+          {
+            "start": 5938,
+            "before": "- arena runners: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`\n- arena cross-judge pool: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`\n",
+            "after": "- arena runners: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`\n- arena cross-judge pool: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`\n"
+          },
+          {
+            "start": 6085,
+            "before": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+            "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n"
+          }
+        ]
+      },
+      "skills/how/SKILL.md": {
+        "before_sha256": "fd5b04ccc13c86130966edbde4995aa6191f744c32e483edfde692f286ce00df",
+        "after_sha256": "57a5183fdf16f8d3ef27652b3d77a2bcb48dd02ee18d38294095237af6c650f8",
+        "prior_translations_sha256": "f9109a1bd33d200465bc83b567ff60e4c171b97ac468ab54531d6d7ba6c1b05a",
+        "new_translations_sha256": "4baf9b0890e5458c57fe35910d1f9afb55748e2e4ea739adfacb6a6f49dab4aa",
+        "sol_references_changed": 2,
+        "exact_edits": [
+          {
+            "start": 3980,
+            "before": "- how explainer: `gpt-6-sol`\n",
+            "after": "- how explainer: `gpt-6.1-sol`\n"
+          },
+          {
+            "start": 4031,
+            "before": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+            "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n"
+          }
+        ]
+      },
+      "skills/interrogate/SKILL.md": {
+        "before_sha256": "75bd8e15330e3a21350d253a5f765c2056841a2f8ce6f9acb79b3e4804318197",
+        "after_sha256": "9141e37ebfbbb31abe3b3b79a0226d577256e5fc35e057ccacd53a99838932e3",
+        "prior_translations_sha256": "c700f0ab6afc9719774bfa6096d86f67a30c93e05b0f65120fa61e73e8137ca7",
+        "new_translations_sha256": "c1f3e47bb4d1521947a6d89c6e06678cbb5b182db086fa731b68ee5bb783836d",
+        "sol_references_changed": 2,
+        "exact_edits": [
+          {
+            "start": 1742,
+            "before": "| Reviewer B | `gpt-6-sol` |\n",
+            "after": "| Reviewer B | `gpt-6.1-sol` |\n"
+          },
+          {
+            "start": 5011,
+            "before": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+            "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n"
+          }
+        ]
+      },
+      "skills/poteto-mode/SKILL.md": {
+        "before_sha256": "90fbf6f0754d13bc7e0f59be47dc91d7bd9df052c46714e43e28121898382181",
+        "after_sha256": "543acb6e11a2864ca3d15c0ec014e50f6576830f3e83f13b3419d52edd8570c5",
+        "prior_translations_sha256": "e6bd6603b90a5437745589a485a734c7451b76dc09e8ac9ff87166db7b541535",
+        "new_translations_sha256": "5e8953fcb4f4aec185f34434d7b1c0ae7709cdf3ed112d2f80af6ff008a6a4dd",
+        "sol_references_changed": 3,
+        "exact_edits": [
+          {
+            "start": 21378,
+            "before": "- feature, refactoring: `gpt-6-sol`\n",
+            "after": "- feature, refactoring: `gpt-6.1-sol`\n"
+          },
+          {
+            "start": 21494,
+            "before": "- judgment and prose: `gpt-6-sol`\n",
+            "after": "- judgment and prose: `gpt-6.1-sol`\n"
+          },
+          {
+            "start": 21586,
+            "before": "A role value in the override sheet may name effort after its model, as in `gpt-6-sol @xhigh`. The supported levels depend on the selected model and host. A value without `@` takes the sheet's `default effort` line, a level or `session`; an absent line means `session`. `session` omits `reasoning_effort`. Strip the suffix before reading the model; `inherit-parent` or `auto` omits `model`. Pass a supported level through `spawn_agent`'s `reasoning_effort`. Every Luna dispatch requests `max`, including a panel member; Luna does not support `ultra`. If the selected model or effort is unavailable, report the limitation and ask the user to choose a replacement before this step continues. Do not silently substitute or lower effort.\n",
+            "after": "A role value in the override sheet may name effort after its model, as in `gpt-6.1-sol @xhigh`. The supported levels depend on the selected model and host. A value without `@` takes the sheet's `default effort` line, a level or `session`; an absent line means `session`. `session` omits `reasoning_effort`. Strip the suffix before reading the model; `inherit-parent` or `auto` omits `model`. Pass a supported level through `spawn_agent`'s `reasoning_effort`. Every Luna dispatch requests `max`, including a panel member; Luna does not support `ultra`. If the selected model or effort is unavailable, report the limitation and ask the user to choose a replacement before this step continues. Do not silently substitute or lower effort.\n"
+          }
+        ]
+      },
+      "skills/reflect/SKILL.md": {
+        "before_sha256": "c28979751a03faca604d2e9faeb9c348f1ada9f6e7bd87408fc80c71c9e68a9f",
+        "after_sha256": "c1f71fa6cd32469846d762617e3b3d0ba7b85c786966266a81863260d3f4b475",
+        "prior_translations_sha256": "69cfba1aaacbd387e543f95cb9d4f1cc3d3081a7f25bcdccda6fc567c26c0494",
+        "new_translations_sha256": "f601ce9e8c615ec1e7337152bbbd729cb7243a6b84e2e122732ffa5aed02303f",
+        "sol_references_changed": 3,
+        "exact_edits": [
+          {
+            "start": 5326,
+            "before": "- reflect tooling: `gpt-6-sol`\n- reflect judgment, divergent, synthesizer: `gpt-6-sol`\n",
+            "after": "- reflect tooling: `gpt-6.1-sol`\n- reflect judgment, divergent, synthesizer: `gpt-6.1-sol`\n"
+          },
+          {
+            "start": 5435,
+            "before": "A role value in the override sheet may name a reasoning effort after its model, as in `gpt-6-sol @xhigh`. A value without `@` takes the sheet's `default effort` line, a level or `session`; absent that line, retain session effort. `auto` and `inherit-parent` omit the model argument. Pass an explicit effort as `spawn_agent.reasoning_effort`. Every Luna dispatch requests `max`, including one selected by an override sheet. If the host rejects the requested model or effort, pause that affected dispatch and ask the user for a replacement.\n",
+            "after": "A role value in the override sheet may name a reasoning effort after its model, as in `gpt-6.1-sol @xhigh`. A value without `@` takes the sheet's `default effort` line, a level or `session`; absent that line, retain session effort. `auto` and `inherit-parent` omit the model argument. Pass an explicit effort as `spawn_agent.reasoning_effort`. Every Luna dispatch requests `max`, including one selected by an override sheet. If the host rejects the requested model or effort, pause that affected dispatch and ask the user for a replacement.\n"
+          }
+        ]
+      },
+      "skills/setup-pstack/SKILL.md": {
+        "before_sha256": "a0b6c8833354ffaa34cf64eda7a473de35e106530965c63b191f22602e6dc71d",
+        "after_sha256": "a725e558e819712912e73901c0077a26f25cb6faa4b3156f24d3d76d5f4cd164",
+        "prior_translations_sha256": "413ea4f116e1881844a1fbcf7254727fac7a6b61b82fe3a7171c719174d54b7c",
+        "new_translations_sha256": "e0b3b74c6a441a1bd6db3eca923bdd383f7a188a881dea89b6714bcd299b8f8f",
+        "sol_references_changed": 17,
+        "exact_edits": [
+          {
+            "start": 3201,
+            "before": "Then ask for the `default effort`: `session` keeps the configured/session effort, or choose a supported level. Ask whether any role should use a different supported level. A role value may carry `@<level>`, such as `gpt-6-sol @xhigh`; panel entries take their own suffix. Pass an explicit level through `reasoning_effort` when the exposed schema supports it; `session` omits that argument. Do not dispatch through unregistered effort-agent types. Luna assignments request `max`, including panel entries; Luna does not support `ultra`. Retain configured/session effort for Sol and Astra unless the user changes it. If the selected host cannot honor a choice, report it and ask; never silently lower the effort.\n",
+            "after": "Then ask for the `default effort`: `session` keeps the configured/session effort, or choose a supported level. Ask whether any role should use a different supported level. A role value may carry `@<level>`, such as `gpt-6.1-sol @xhigh`; panel entries take their own suffix. Pass an explicit level through `reasoning_effort` when the exposed schema supports it; `session` omits that argument. Do not dispatch through unregistered effort-agent types. Luna assignments request `max`, including panel entries; Luna does not support `ultra`. Retain configured/session effort for Sol and Astra unless the user changes it. If the selected host cannot honor a choice, report it and ask; never silently lower the effort.\n"
+          },
+          {
+            "start": 5173,
+            "before": "Per-role overrides for pstack-codex. Each skill names its defaults. Delete a role line to restore its skill default. `inherit-parent` and `auto` omit the subagent model argument; an alias in a panel still counts as one entry. A model may carry an effort suffix, such as `gpt-6-sol @xhigh`, dispatched through `reasoning_effort`. `default effort` governs entries without a suffix; `session` retains configured/session effort. All Luna assignments request `max`. If the host cannot honor a requested model or effort, report it and ask before continuing that step. `session hook: off` disables the supported plugin SessionStart hook; no line leaves it on.\n",
+            "after": "Per-role overrides for pstack-codex. Each skill names its defaults. Delete a role line to restore its skill default. `inherit-parent` and `auto` omit the subagent model argument; an alias in a panel still counts as one entry. A model may carry an effort suffix, such as `gpt-6.1-sol @xhigh`, dispatched through `reasoning_effort`. `default effort` governs entries without a suffix; `session` retains configured/session effort. All Luna assignments request `max`. If the host cannot honor a requested model or effort, report it and ask before continuing that step. `session hook: off` disables the supported plugin SessionStart hook; no line leaves it on.\n"
+          },
+          {
+            "start": 5827,
+            "before": "feature, refactoring: gpt-6-sol\n",
+            "after": "feature, refactoring: gpt-6.1-sol\n"
+          },
+          {
+            "start": 5927,
+            "before": "judgment and prose: gpt-6-sol\n",
+            "after": "judgment and prose: gpt-6.1-sol\n"
+          },
+          {
+            "start": 6019,
+            "before": "how explainer: gpt-6-sol\nwhy investigators: gpt-6-sol\nwhy synthesizer: gpt-6-sol\nreflect tooling: gpt-6-sol\nreflect judgment, divergent, synthesizer: gpt-6-sol\narena runners: gpt-6-astra, gpt-6-sol, gpt-6-luna @max\narena cross-judge pool: gpt-6-astra, gpt-6-sol, gpt-6-luna @max\nswarm workers: gpt-6-sol\narchitect runners: gpt-6-astra, gpt-6-sol, gpt-6-luna @max\ninterrogate reviewers: gpt-6-astra, gpt-6-sol, gpt-6-luna @max\n",
+            "after": "how explainer: gpt-6.1-sol\nwhy investigators: gpt-6.1-sol\nwhy synthesizer: gpt-6.1-sol\nreflect tooling: gpt-6.1-sol\nreflect judgment, divergent, synthesizer: gpt-6.1-sol\narena runners: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max\narena cross-judge pool: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max\nswarm workers: gpt-6.1-sol\narchitect runners: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max\ninterrogate reviewers: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max\n"
+          },
+          {
+            "start": 7362,
+            "before": "- Native model defaults: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`; availability must be checked on the current host.\n- Default panel: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna @max`.\n",
+            "after": "- Native model defaults: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`; availability must be checked on the current host.\n- Default panel: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna @max`.\n"
+          },
+          {
+            "start": 7740,
+            "before": "- Single-role default: `gpt-6-sol`; strongest: `gpt-6-astra`.\n",
+            "after": "- Single-role default: `gpt-6.1-sol`; strongest: `gpt-6-astra`.\n"
+          }
+        ]
+      },
+      "skills/swarm/SKILL.md": {
+        "before_sha256": "acba2e8a93d0c6a3049bb38e8c2b7c658f5f813084c2970ef7e14de0f44b91f2",
+        "after_sha256": "9b0dd3f74733308136abf3427241ba2f148aa030b271f7ac70915bd4e37c15ef",
+        "prior_translations_sha256": "30905cc54e1adb4e6ef676d533fc7f4e77a94991a737851ce6846d2b5314b67a",
+        "new_translations_sha256": "dff4d1948a3dddf8e7da54bb370acde83378c1b398ebe961869b8ce0c06525f1",
+        "sol_references_changed": 2,
+        "exact_edits": [
+          {
+            "start": 3828,
+            "before": "- swarm workers: `gpt-6-sol`\n",
+            "after": "- swarm workers: `gpt-6.1-sol`\n"
+          },
+          {
+            "start": 3879,
+            "before": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+            "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n"
+          }
+        ]
+      },
+      "skills/why/SKILL.md": {
+        "before_sha256": "a0d15f81fd814718bfb8d07cc3811fa412ca3d858444740b0366697d5ed6084d",
+        "after_sha256": "56b5d2c186c5f8e724b5e47f6910cdeaae26b5a67280c7c4e4fb255d2930eb1e",
+        "prior_translations_sha256": "e9d36ed4e34aed530c498fb6cc58029c557ea110e6421b28e6507a0101e8ed1b",
+        "new_translations_sha256": "1fbc9eb0859eec03cbc8aa2922abc4de6836268083edc8f8a48ee850d58c7ae5",
+        "sol_references_changed": 3,
+        "exact_edits": [
+          {
+            "start": 10988,
+            "before": "- why investigators: `gpt-6-sol`\n- why synthesizer: `gpt-6-sol`\n",
+            "after": "- why investigators: `gpt-6.1-sol`\n- why synthesizer: `gpt-6.1-sol`\n"
+          },
+          {
+            "start": 11074,
+            "before": "A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n",
+            "after": "A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.\n"
+          }
+        ]
+      },
+      ".codex-plugin/plugin.json": {
+        "before_sha256": "0d250832b5f92a98aab4d756d9e3851d9b1f899c41eea92cd0a443ffa98b3997",
+        "after_sha256": "b7e09b562a9060abe4a43803c2896ed73ef240a780896ed4fed77fe4e2ae11e4",
+        "prior_translations_sha256": "2449b5ff83762923acd1265b9a379c110cd334630423634bd47cfd00ad4d41e2",
+        "new_translations_sha256": "b09e2c41ddbe9303633fa0e9446cc673ebcf3dcc88999a8439fd786b80d78f92",
+        "sol_references_changed": 0,
+        "exact_edits": [
+          {
+            "start": 28,
+            "before": "  \"version\": \"0.4.0\",\n",
+            "after": "  \"version\": \"0.4.1\",\n"
           }
         ]
       }

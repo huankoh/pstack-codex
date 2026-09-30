@@ -16,7 +16,7 @@ EXCLUDED = {"node_modules", "__pycache__", ".DS_Store"}
 HASH = re.compile(r"[0-9a-f]{64}\Z")
 FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.S)
 PLAYBOOK_PREFIX = "skills/poteto-mode/playbooks/"
-NATIVE_APPROVALS = {"native-runtime", "models", "luna-retrieval", "transcripts", "archive", "availability", "messages", "audit-corrections", "original-merge-authority", "combined-pr", "publication"}
+NATIVE_APPROVALS = {"native-runtime", "models", "luna-retrieval", "transcripts", "archive", "availability", "messages", "audit-corrections", "original-merge-authority", "combined-pr", "publication", "sol-6.1"}
 
 
 def digest(data):

@@ -1,10 +1,10 @@
 {
   "tiers": {
-    "default": "gpt-6-sol",
+    "default": "gpt-6.1-sol",
     "strongest": "gpt-6-astra",
     "panel": [
       "gpt-6-astra",
-      "gpt-6-sol",
+      "gpt-6.1-sol",
       "gpt-6-luna"
     ]
   },
@@ -18,7 +18,7 @@
   "defaultEffort": "session",
   "available": [
     "gpt-6-astra",
-    "gpt-6-sol",
+    "gpt-6.1-sol",
     "gpt-6-luna"
   ],
   "roles": [

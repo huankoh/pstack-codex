@@ -150,13 +150,13 @@ A large or cross-cutting effort (a migration across many call sites, an ambitiou
 
 Role defaults come from this package's `models.json`. A matching role line in `${CODEX_HOME:-$HOME/.codex}/pstack-models.md` overrides each at runtime; `setup-pstack` writes the sheet.
 
-- feature, refactoring: `gpt-6-sol`
+- feature, refactoring: `gpt-6.1-sol`
 - bug-fix: `gpt-6-astra`
 - perf-issue: `gpt-6-astra`
 - hillclimb: `gpt-6-astra`
-- judgment and prose: `gpt-6-sol`
+- judgment and prose: `gpt-6.1-sol`
 - strongest judgment: `gpt-6-astra`
 
 ## Reasoning effort
 
-A role value in the override sheet may name effort after its model, as in `gpt-6-sol @xhigh`. The supported levels depend on the selected model and host. A value without `@` takes the sheet's `default effort` line, a level or `session`; an absent line means `session`. `session` omits `reasoning_effort`. Strip the suffix before reading the model; `inherit-parent` or `auto` omits `model`. Pass a supported level through `spawn_agent`'s `reasoning_effort`. Every Luna dispatch requests `max`, including a panel member; Luna does not support `ultra`. If the selected model or effort is unavailable, report the limitation and ask the user to choose a replacement before this step continues. Do not silently substitute or lower effort.
+A role value in the override sheet may name effort after its model, as in `gpt-6.1-sol @xhigh`. The supported levels depend on the selected model and host. A value without `@` takes the sheet's `default effort` line, a level or `session`; an absent line means `session`. `session` omits `reasoning_effort`. Strip the suffix before reading the model; `inherit-parent` or `auto` omits `model`. Pass a supported level through `spawn_agent`'s `reasoning_effort`. Every Luna dispatch requests `max`, including a panel member; Luna does not support `ultra`. If the selected model or effort is unavailable, report the limitation and ask the user to choose a replacement before this step continues. Do not silently substitute or lower effort.

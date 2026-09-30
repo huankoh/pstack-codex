@@ -27,7 +27,7 @@ two steps:
 
 new here? the [pstack guide](./docs/guide/README.md) walks you through a first real task, from setup and prompting through verification and overnight runs.
 
-that's it. the other skills are situational; the mode skill uses them for you as needed. out of the box, ordinary feature and refactoring work, prose, and conclusions use `gpt-6-sol`; bug fixes, perf issues, hillclimb, and strongest judgment use `gpt-6-astra`. existing explicit panels use `gpt-6-astra`, `gpt-6-sol`, and `gpt-6-luna`. scoped retrieval assignments use Luna at `max`, while Sol inspects the decisive sources and draws conclusions. every Luna panel member also requests `max`. [`/setup-pstack`](./skills/setup-pstack/SKILL.md) changes any of it.
+that's it. the other skills are situational; the mode skill uses them for you as needed. out of the box, ordinary feature and refactoring work, prose, and conclusions use `gpt-6.1-sol`; bug fixes, perf issues, hillclimb, and strongest judgment use `gpt-6-astra`. existing explicit panels use `gpt-6-astra`, `gpt-6.1-sol`, and `gpt-6-luna`. scoped retrieval assignments use Luna at `max`, while Sol inspects the decisive sources and draws conclusions. every Luna panel member also requests `max`. [`/setup-pstack`](./skills/setup-pstack/SKILL.md) changes any of it.
 
 ## usage
 

@@ -37,7 +37,7 @@ Launch all reviewers with `spawn_agent` calls in parallel. Use the `interrogate 
 | Subagent | Default model |
 |----------|---------------|
 | Reviewer A | `gpt-6-astra` |
-| Reviewer B | `gpt-6-sol` |
+| Reviewer B | `gpt-6.1-sol` |
 | Reviewer C | `gpt-6-luna` |
 
 For each reviewer:
@@ -113,4 +113,4 @@ Present the verdict in this structure:
 
 ## Reasoning effort
 
-A role value may name effort after the model, for example `gpt-6-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.
+A role value may name effort after the model, for example `gpt-6.1-sol @xhigh`. Without `@`, use the sheet's `default effort` (`session` if absent); `session` omits `reasoning_effort`. Pass an explicit level through `spawn_agent.reasoning_effort` where supported. Every `gpt-6-luna` dispatch requests `max`, including configured panel seats. If that effort is unavailable, apply the model/effort limitation rule above.

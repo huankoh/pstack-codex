@@ -170,3 +170,16 @@ evidence. Start the public repository with a clean source snapshot; keep local
 research, private runtime state and abandoned development history out of it.
 No skill procedure, model choice, invocation policy or shipping gate changes.
 This approval authorizes publication, not installation on the user's machine.
+
+## Sol 6.1 model migration — 2026-09-30
+
+Decision 14. The user requested: "update pstack-codex to use 6.1 rather than 6
+for all cases" and clarified: "Upgrade Sol everywhere; keep Astra and Luna
+roles". Replace active `gpt-6-sol` defaults, panel seats, setup examples and
+model declarations with `gpt-6.1-sol`. Retain the existing Astra and Luna
+assignments, panel sizes, reasoning efforts, explicit override semantics and
+all workflow procedures. Do not alter pinned upstream sources or historical
+change notes. Release the scoped migration as 0.4.1.
+
+Rationale: use the requested Sol 6.1 model wherever the approved package
+previously selected Sol 6, while preserving the established role design.

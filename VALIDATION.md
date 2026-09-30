@@ -1,4 +1,27 @@
-# Current validation — pstack-codex 0.4.0 combined PR extension
+# Current validation — pstack-codex 0.4.1 Sol migration
+
+Decision 14 upgrades all 42 active `gpt-6-sol` references to `gpt-6.1-sol`.
+Astra and Luna assignments, panel sizes, reasoning efforts, override behavior,
+playbooks and helpers are unchanged. Historical records retain their original
+model names.
+
+| Check | Result |
+| --- | --- |
+| Exact package delta | 12 files; only the 42 model replacements and manifest version bump |
+| Fidelity, metadata, references and inventory | Passed; 109 identical imports, 134 declared adaptations, 11 generated files |
+| Python fidelity/package tests | 21 passed |
+| Official skill and plugin schemas | All 9 edited skills and the plugin passed |
+| Pinned reconstruction | Passed; independently reconstructed ZIP matches source ZIP byte for byte |
+
+No helper code changed, so the prior helper-suite results below remain historical
+evidence rather than newly run tests. Runtime model and subagent availability
+must still be checked on each host; the configured model ID alone does not prove
+that the host advertises it.
+
+Artifact: [pstack-codex-0.4.1.zip](https://github.com/huankoh/pstack-codex/releases/download/v0.4.1/pstack-codex-0.4.1.zip).
+SHA-256: `f3a3f46d2c5f634370a1f5728a60335d7259ff0407eb1bda29bd58a18daeb3a1`.
+
+## Previous validation — pstack-codex 0.4.0 combined PR extension
 
 Decision 13 updates only the three manifest repository URLs for public release.
 The prior unpublished 0.4.0 ZIP is retained locally; [publication deltas](outputs/publication-deltas.json) record its hash and exact changes.

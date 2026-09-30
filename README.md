@@ -29,7 +29,7 @@ Paste this into a Codex chat with access to your local files and terminal:
 
 ```text
 Install https://github.com/huankoh/pstack-codex as a Codex plugin on this machine.
-Use a Git checkout of tag v0.4.0. Read its README and use the built-in
+Use a Git checkout of tag v0.4.1. Read its README and use the built-in
 plugin-creator skill if available, checking the installation commands supported
 by my Codex host.
 
@@ -74,7 +74,7 @@ reasoning effort and the session-hook setting. The model sheet is shared across
 projects; setup explains where its instructions will load before you confirm.
 
 Prefer to download the files yourself? Get the
-[v0.4.0 ZIP and checksum](https://github.com/huankoh/pstack-codex/releases/tag/v0.4.0).
+[v0.4.1 ZIP and checksum](https://github.com/huankoh/pstack-codex/releases/tag/v0.4.1).
 The extracted plugin folder is `pstack-codex/`. From a repository clone, it is
 `src/pstack-codex/`.
 
@@ -205,7 +205,7 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
 bun test ./tests/*.test.mjs ./tests/*.test.ts \
   ./src/pstack-codex/skills/poteto-mode/scripts/watch-pr \
   ./src/pstack-codex/skills/poteto-mode/scripts/orch
-python3 tools/build.py --output dist/pstack-codex-0.4.0.zip
+python3 tools/build.py --output dist/pstack-codex-0.4.1.zip
 ```
 
 For independent reconstruction, place the pinned repositories at

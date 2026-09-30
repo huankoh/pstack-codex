@@ -27,7 +27,7 @@ Show every role with its current model, marking any real ID not in the detected 
 
 For panel roles (arena runners, architect runners, interrogate reviewers), the value is a list and one subagent runs per entry, aliases included; list length sets the count. `arena cross-judge pool` is also a list, but Arena selects one judge whose model differs from the parent's when possible. Different Astra, Sol, and Luna models provide the configured model diversity; do not claim they are separate providers. `swarm workers` supplies the default for each worker unless a race or comparison assigns a model per arm.
 
-Then ask for the `default effort`: `session` keeps the configured/session effort, or choose a supported level. Ask whether any role should use a different supported level. A role value may carry `@<level>`, such as `gpt-6-sol @xhigh`; panel entries take their own suffix. Pass an explicit level through `reasoning_effort` when the exposed schema supports it; `session` omits that argument. Do not dispatch through unregistered effort-agent types. Luna assignments request `max`, including panel entries; Luna does not support `ultra`. Retain configured/session effort for Sol and Astra unless the user changes it. If the selected host cannot honor a choice, report it and ask; never silently lower the effort.
+Then ask for the `default effort`: `session` keeps the configured/session effort, or choose a supported level. Ask whether any role should use a different supported level. A role value may carry `@<level>`, such as `gpt-6.1-sol @xhigh`; panel entries take their own suffix. Pass an explicit level through `reasoning_effort` when the exposed schema supports it; `session` omits that argument. Do not dispatch through unregistered effort-agent types. Luna assignments request `max`, including panel entries; Luna does not support `ultra`. Retain configured/session effort for Sol and Astra unless the user changes it. If the selected host cannot honor a choice, report it and ask; never silently lower the effort.
 
 ### 4. Choose whether the session hook routes tasks
 
@@ -44,25 +44,25 @@ Write `<codex-home>/pstack-models.md` with the shape below, using the confirmed 
 ```markdown
 # pstack model configuration
 
-Per-role overrides for pstack-codex. Each skill names its defaults. Delete a role line to restore its skill default. `inherit-parent` and `auto` omit the subagent model argument; an alias in a panel still counts as one entry. A model may carry an effort suffix, such as `gpt-6-sol @xhigh`, dispatched through `reasoning_effort`. `default effort` governs entries without a suffix; `session` retains configured/session effort. All Luna assignments request `max`. If the host cannot honor a requested model or effort, report it and ask before continuing that step. `session hook: off` disables the supported plugin SessionStart hook; no line leaves it on.
+Per-role overrides for pstack-codex. Each skill names its defaults. Delete a role line to restore its skill default. `inherit-parent` and `auto` omit the subagent model argument; an alias in a panel still counts as one entry. A model may carry an effort suffix, such as `gpt-6.1-sol @xhigh`, dispatched through `reasoning_effort`. `default effort` governs entries without a suffix; `session` retains configured/session effort. All Luna assignments request `max`. If the host cannot honor a requested model or effort, report it and ask before continuing that step. `session hook: off` disables the supported plugin SessionStart hook; no line leaves it on.
 
-feature, refactoring: gpt-6-sol
+feature, refactoring: gpt-6.1-sol
 bug-fix: gpt-6-astra
 perf-issue: gpt-6-astra
 hillclimb: gpt-6-astra
-judgment and prose: gpt-6-sol
+judgment and prose: gpt-6.1-sol
 strongest judgment: gpt-6-astra
 how explorer: gpt-6-luna @max
-how explainer: gpt-6-sol
-why investigators: gpt-6-sol
-why synthesizer: gpt-6-sol
-reflect tooling: gpt-6-sol
-reflect judgment, divergent, synthesizer: gpt-6-sol
-arena runners: gpt-6-astra, gpt-6-sol, gpt-6-luna @max
-arena cross-judge pool: gpt-6-astra, gpt-6-sol, gpt-6-luna @max
-swarm workers: gpt-6-sol
-architect runners: gpt-6-astra, gpt-6-sol, gpt-6-luna @max
-interrogate reviewers: gpt-6-astra, gpt-6-sol, gpt-6-luna @max
+how explainer: gpt-6.1-sol
+why investigators: gpt-6.1-sol
+why synthesizer: gpt-6.1-sol
+reflect tooling: gpt-6.1-sol
+reflect judgment, divergent, synthesizer: gpt-6.1-sol
+arena runners: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max
+arena cross-judge pool: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max
+swarm workers: gpt-6.1-sol
+architect runners: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max
+interrogate reviewers: gpt-6-astra, gpt-6.1-sol, gpt-6-luna @max
 
 default effort: session
 session hook: on
@@ -80,8 +80,8 @@ Tell the user where the sheet was written, how the model rows load, and whether 
 
 Defaults are recorded in the plugin's [models.json](../../models.json). Keep this sheet and the model-consuming skills consistent with that file when maintaining the package.
 
-- Native model defaults: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna`; availability must be checked on the current host.
-- Default panel: `gpt-6-astra`, `gpt-6-sol`, `gpt-6-luna @max`.
+- Native model defaults: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna`; availability must be checked on the current host.
+- Default panel: `gpt-6-astra`, `gpt-6.1-sol`, `gpt-6-luna @max`.
 - Effort levels retained by the sheet: `low`, `medium`, `high`, `xhigh`, `max`, subject to the selected model and host.
 - Default reasoning effort: `session`; every Luna assignment requests `max`.
-- Single-role default: `gpt-6-sol`; strongest: `gpt-6-astra`.
+- Single-role default: `gpt-6.1-sol`; strongest: `gpt-6-astra`.
